@@ -2839,7 +2839,7 @@
 <instance part="C16" gate="G$1" x="187.5" y="3.5" rot="R270"/>
 <instance part="C17" gate="G$1" x="200" y="3.5" rot="R270"/>
 <instance part="C18" gate="G$1" x="212" y="3.5" rot="R270"/>
-<instance part="C19" gate="G$1" x="150" y="-18.5" rot="R270"/>
+<instance part="C19" gate="G$1" x="150" y="-17.5" rot="R90"/>
 <instance part="C20" gate="G$1" x="162.5" y="-18.5" rot="R270"/>
 <instance part="C21" gate="G$1" x="174.5" y="-18.5" rot="R270"/>
 <instance part="C22" gate="G$1" x="187.5" y="-18.5" rot="R270"/>
@@ -2949,8 +2949,6 @@
 <label x="187.5" y="-4" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="P$2"/>
-<wire x1="150" y1="-21.96" x2="150" y2="-26" width="0.1524" layer="91"/>
 <wire x1="150" y1="-26" x2="162.5" y2="-26" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="P$2"/>
 <wire x1="162.5" y1="-26" x2="162.5" y2="-21.96" width="0.1524" layer="91"/>
@@ -2959,6 +2957,8 @@
 <pinref part="C21" gate="G$1" pin="P$2"/>
 <wire x1="174.5" y1="-21.96" x2="174.5" y2="-26" width="0.1524" layer="91"/>
 <label x="150" y="-26" size="1.778" layer="95" rot="R180"/>
+<pinref part="C19" gate="G$1" pin="P$1"/>
+<wire x1="150" y1="-20.96" x2="150" y2="-26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="P$2"/>
@@ -3143,8 +3143,6 @@
 <label x="187.5" y="11" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="P$1"/>
-<wire x1="150" y1="-15.04" x2="150" y2="-11" width="0.1524" layer="91"/>
 <wire x1="150" y1="-11" x2="162.5" y2="-11" width="0.1524" layer="91"/>
 <wire x1="162.5" y1="-11" x2="174.5" y2="-11" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="P$1"/>
@@ -3153,6 +3151,8 @@
 <wire x1="162.5" y1="-15.04" x2="162.5" y2="-11" width="0.1524" layer="91"/>
 <junction x="162.5" y="-11"/>
 <label x="150" y="-11" size="1.778" layer="95" rot="R180"/>
+<pinref part="C19" gate="G$1" pin="P$2"/>
+<wire x1="150" y1="-14.04" x2="150" y2="-11" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="P$1"/>
@@ -4018,7 +4018,7 @@
 <instance part="R9" gate="G$1" x="122" y="-16" rot="R90"/>
 <instance part="R13" gate="G$1" x="61" y="1" rot="R90"/>
 <instance part="R4" gate="G$1" x="127" y="11.5" rot="R90"/>
-<instance part="R18" gate="G$1" x="127" y="-7.5" rot="R90"/>
+<instance part="R18" gate="G$1" x="127" y="-6.5" rot="R270"/>
 <instance part="U3" gate="G$1" x="-1" y="-52"/>
 <instance part="R27" gate="G$1" x="21" y="-67" rot="R90"/>
 <instance part="R29" gate="G$1" x="-40" y="-50" rot="R90"/>
@@ -4045,9 +4045,9 @@
 <pinref part="U2" gate="G$1" pin="SMDATA"/>
 <wire x1="117" y1="-1" x2="127" y2="-1" width="0.1524" layer="91"/>
 <label x="131" y="-1" size="1.778" layer="95"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="127" y1="-1" x2="131" y2="-1" width="0.1524" layer="91"/>
-<wire x1="127" y1="-3.04" x2="127" y2="-1" width="0.1524" layer="91"/>
+<wire x1="127" y1="-2.04" x2="127" y2="-1" width="0.1524" layer="91"/>
 <junction x="127" y="-1"/>
 </segment>
 <segment>
@@ -4066,9 +4066,7 @@
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="122" y1="-20.46" x2="122" y2="-22.5" width="0.1524" layer="91"/>
 <label x="122" y="-25" size="1.778" layer="95"/>
-<pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="122" y1="-22.5" x2="122" y2="-25" width="0.1524" layer="91"/>
-<wire x1="127" y1="-11.96" x2="127" y2="-22.5" width="0.1524" layer="91"/>
 <wire x1="127" y1="-22.5" x2="122" y2="-22.5" width="0.1524" layer="91"/>
 <junction x="122" y="-22.5"/>
 </segment>
@@ -4248,6 +4246,13 @@
 <wire x1="-31" y1="6.54" x2="-31" y2="3" width="0.1524" layer="91"/>
 <wire x1="-31" y1="3" x2="-17" y2="3" width="0.1524" layer="91"/>
 <label x="-22" y="3" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="127" y1="-10.96" x2="127" y2="-22" width="0.1524" layer="91"/>
+<wire x1="127" y1="-23" x2="127" y2="-22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
