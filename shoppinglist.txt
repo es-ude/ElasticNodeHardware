@@ -1,0 +1,65 @@
+Capacitor:
+
+4.7uF	0805	15	x
+.47uF	0402	10
+10n		0805	2	x
+.1uF	0805	2	x
+10uF	0805	1	x
+22u		0805	2	x
+
+Headers:
+
+3x2		smt		1	x
+2x2		smt		1
+2x1		smt		2
+5x2		smt		2
+
+Usb:
+
+micro_b	smt		1	x
+
+Ferrite bead:
+
+40 1.5A	0805	1	x
+
+Inductor:
+
+3.3uH	0805	2	x
+
+LED:
+
+green	0805	4	x
+red		0805	5	x
+orange	0805	1	x
+
+Resistor:
+
+2.4k	0805	5	x
+550		0805	4	x
+15k		0805	2	x
+750		0805	4	x
+0.8		0805	4	x
+0.16	0805	1	x
+100		0805	1	x
+300		0805	1	x
+2k		0805	1	x
+1.5k	0805	7	x
+6k8		0805	1	x
+270		0805	1	x
+
+Button:
+
+SPST	smt		2	x
+DIP2	smt		1	x
+
+IC:
+
+atmega64aqfn	1	x	
+s6-lx9-tqg144	1	x
+sst26vf032b		2	x
+pac1720			3	x
+ft232r			1	x
+ltc3419dfn		1	x
+12MHz	3.2x2.5	1	x
+32MHz	3.2x2.5	1	x
+50MHz	3.2x2.5	1	x

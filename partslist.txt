@@ -1,0 +1,111 @@
+Partlist
+
+Exported from elasticNode.brd at 28.06.17 9:47 AM
+
+EAGLE Version 8.2.2 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value               Package        Library    Position (mm)         Orientation
+
+C1       4.7uF               0805           passive    (9.5 28.25)           R270
+C2       4.7uF               0805           passive    (17.36 11.25)         R0
+C3       4.7uF               0805           passive    (19.5 42.25)          R0
+C4       4.7uF               0805           passive    (23.25 11)            R180
+C5       4.7uF               0805           passive    (7.25 28.25)          R270
+C6       4.7uF               0805           passive    (17.36 13.46)         R0
+C7       .47uF               0402           passive    (19.5 44.5)           R0
+C8       .47uF               0402           passive    (21.25 11.5)          R90
+C9       4.7uF               0805           passive    (5 28.25)             R270
+C10      4.7uF               0805           passive    (27.75 48)            R0
+C11      .47uF               0402           passive    (19.5 46.75)          R0
+C12      .47uF               0402           passive    (20.5 8.75)           R180
+C13      0.47uF              0402           passive    (2.75 28.25)          R270
+C14      4.7uF               0805           passive    (27.75 45.75)         R0
+C15      4.7uF               0805           passive    (43.25 27.5)          R90
+C16      4.7uF               0805           passive    (7.25 25)             R270
+C17      4.7uF               0805           passive    (27.75 43.5)          R0
+C18      .47uF               0402           passive    (41 27.5)             R90
+C19      .47uF               0402           passive    (5 25)                R270
+C20      4.7uF               0805           passive    (27.75 41.25)         R0
+C21      .47uF               0402           passive    (38.75 27.5)          R90
+C22      .47uF               0402           passive    (2.75 25)             R270
+C23      4.7uF               0805           passive    (43.25 24.75)         R270
+C24      .47uF               0805           passive    (41 24.75)            R270
+C25      10n                 0805           passive    (78.75 21)            R180
+C26      100n                0805           passive    (78.75 25.5)          R180
+C27      4.7u                0805           passive    (78.75 27.75)         R180
+C28      100n                0805           passive    (74.15 16.95)         R270
+C29      22u                 0805           passive    (63.5 35.5)           R0
+C30      10u                 0805           passive    (67.8 26.3)           R180
+C31      22u                 0805           passive    (70.25 35.5)          R180
+J1       ISP_CONN_6PIN       3X2_HEADER_SMT connectors (57.5 17)             R90
+J2       FEMALE_HEADER_2X2   2X2_HEADER     connectors (64.25 48.5)          R180
+J3       FEMALE_HEADER_2X1   2X1_HEADER     connectors (16.25 49.75)         R180
+J4       FEMALE_HEADER_2X1   2X1_HEADER     connectors (23 49.75)            R180
+J5       FEMALE_HEADER_5X2   5X2_HEADER     connectors (3.75 36.75)          R270
+J6       FEMALE_HEADER_5X2   5X2_HEADER     connectors (4.5 16.9)            R90
+J7       JTAG_CONN_6PINTHT   6X1_HEADER     connectors (38.5 44.25)          R270
+J8       USB_CONN            USB_MICRO_B    connectors (79.75 13.5)          R90
+L1       40Ohm 1.5A          0805           passive    (78.75 23.25)         R180
+L2       3.3uH               0805           passive    (62.25 29.75)         R270
+L3       3.3uH               0805           passive    (71.25 29.75)         R90
+LED0     GREEN 2.2V          0805           opto       (68 45.25)            R90
+LED1     GREEN 2.2V          0805           opto       (70.25 45.25)         R90
+LED2     GREEN 2.2V          0805           opto       (72.5 45.25)          R90
+LED3     GREEN 2.2V          0805           opto       (74.75 45.25)         R90
+LED4     RED 1.8V 2mA        0805           opto       (10 45)               R90
+LED5     RED                 0805           opto       (12.25 45)            R90
+LED6     RED                 0805           opto       (14.5 45)             R90
+LED7     RED                 0805           opto       (16.75 45)            R90
+PWR      RED                 0805           opto       (69.75 12.25)         R90
+R1       2.4k                0805           passive    (54.6 35)             R135
+R2       2.4k                0805           passive    (53.5 19.75)          MR315
+R3       550                 0805           passive    (68 42.25)            R90
+R4       550                 0805           passive    (70.25 42.25)         R90
+R5       550                 0805           passive    (72.5 42.25)          R90
+R6       550                 0805           passive    (74.75 42.25)         R90
+R7       15k                 0805           passive    (52 18.75)            R90
+R8       750                 0805           passive    (10 42.25)            R90
+R9       750                 0805           passive    (12.25 42.25)         R90
+R10      750                 0805           passive    (14.5 42.25)          R90
+R11      750                 0805           passive    (16.75 42.25)         R90
+R12      2.4k                0805           passive    (34.25 16.5)          R270
+R13      2.4k                0805           passive    (36.5 16.5)           R270
+R14      2.4k                0805           passive    (17.5 8.75)           R270
+R15      15k                 0805           passive    (15.25 9.5)           R0
+R16      0.8                 0805           passive    (73.75 36.5)          R270
+R17      .8                  0805           passive    (30.5 48.75)          R0
+R18      0.16                0805           passive    (78.75 30)            R180
+R19      .8                  0805           passive    (30.5 51)             R0
+R20      100                 0805           passive    (73.5 33.5)           R270
+R21      300                 0805           passive    (30.75 42.25)         R0
+R22      .8                  0805           passive    (47.5 18.75)          R270
+R23      2000                0805           passive    (44.5 22)             R180
+R24      1.5k                0805           passive    (48.5 10.5)           MR180
+R25      1.5k                0805           passive    (54 14)               MR180
+R26      1.5k                0805           passive    (65.25 15.75)         R270
+R27      1.5k                0805           passive    (67.5 15.75)          R270
+R28      6k8                 0805           passive    (63.25 33.1)          R0
+R29      1k5                 0805           passive    (65.5 31.6)           R0
+R30      1k5                 0805           passive    (67.5 33.1)           R0
+R31      1k5                 0805           passive    (70.25 33.1)          R0
+R32      270                 0805           passive    (69.75 15.75)         R270
+RX       ORANGE              0805           opto       (67.5 12.25)          R90
+S1       SPST_BUTTON2PIN_SMT SPST_2PIN_SMT  connectors (57.5 9.25)           R180
+S2       SPST_BUTTON2PIN_SMT SPST_2PIN_SMT  connectors (21.75 4.5)           R180
+S3       SPST_DIP_2SMT       SPST_DIP2_SMT  connectors (37.5 9.75)           R0
+TX       ORANGE 2V           0805           opto       (65.25 12.25)         R90
+U1       ATMEGA64AQFN        QFN64          ic         (47.06 26.59)         MR0
+U2       SST26VF032B         SOIC8          ic         (57.78 22.15)         MR90
+U3       MRF24J40MA          MRF24J40MA     wireless   (50.75 44.5)          R0
+U4       SPARTAN6-LX9        TQG144         fpga       (23.56 28.48)         R0
+U5       SST26VF032B         SOIC8          ic         (29.63 11.41)         R180
+U6       PAC1720             VDFN10         sensors    (77 33.5)             R270
+U7       PAC1720             VDFN10         sensors    (32.5 45.5)           R270
+U8       PAC1720             VDFN10         sensors    (40.75 18)            R180
+U9       FT232R              QFN32          ic         (71.25 21)            R0
+U10      LTC3419DFN          DFN8           power      (66.5 29.25)          R270
+X1       12MHz               3.2X2.5_OSC    passive    (49.25 14)            MR0
+X2       50MHz               3.2X2.5_OSC    passive    (22.75 15)            R180
+X3       32MHz               3.2X2.5_OSC    passive    (40.25 32.75)         R270
