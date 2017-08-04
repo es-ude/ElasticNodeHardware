@@ -4255,15 +4255,6 @@
 <label x="73" y="-1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="SENSE2+"/>
-<wire x1="-17" y1="0" x2="-34" y2="0" width="0.1524" layer="91"/>
-<wire x1="-34" y1="0" x2="-34" y2="8" width="0.1524" layer="91"/>
-<wire x1="-34" y1="8" x2="-39" y2="8" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="-39" y1="8" x2="-39" y2="6.46" width="0.1524" layer="91"/>
-<label x="-27" y="0" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="127" y1="15.96" x2="127" y2="21" width="0.1524" layer="91"/>
 <wire x1="127" y1="21" x2="127.5" y2="21" width="0.1524" layer="91"/>
@@ -4274,6 +4265,15 @@
 <wire x1="127" y1="-10.96" x2="127" y2="-22" width="0.1524" layer="91"/>
 <wire x1="127" y1="-23" x2="127" y2="-22" width="0.1524" layer="91"/>
 <label x="127" y="-23" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="SENSE1+"/>
+<wire x1="-17" y1="6" x2="-18" y2="6" width="0.1524" layer="91"/>
+<wire x1="-18" y1="6" x2="-18" y2="17" width="0.1524" layer="91"/>
+<wire x1="-18" y1="17" x2="-31" y2="17" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="-31" y1="17" x2="-31" y2="15.46" width="0.1524" layer="91"/>
+<label x="-18" y="17" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -4353,13 +4353,13 @@
 </net>
 <net name="1V2" class="1">
 <segment>
-<pinref part="U7" gate="G$1" pin="SENSE1+"/>
-<wire x1="-17" y1="6" x2="-18" y2="6" width="0.1524" layer="91"/>
-<wire x1="-18" y1="6" x2="-18" y2="17" width="0.1524" layer="91"/>
-<wire x1="-18" y1="17" x2="-31" y2="17" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="-31" y1="17" x2="-31" y2="15.46" width="0.1524" layer="91"/>
-<label x="-18" y="17" size="1.778" layer="95" rot="R90"/>
+<pinref part="U7" gate="G$1" pin="SENSE2+"/>
+<wire x1="-17" y1="0" x2="-34" y2="0" width="0.1524" layer="91"/>
+<wire x1="-34" y1="0" x2="-34" y2="8" width="0.1524" layer="91"/>
+<wire x1="-34" y1="8" x2="-39" y2="8" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="-39" y1="8" x2="-39" y2="6.46" width="0.1524" layer="91"/>
+<label x="-27" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FPGA_VCCAUX" class="0">
