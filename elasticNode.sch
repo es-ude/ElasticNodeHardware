@@ -4528,21 +4528,6 @@
 </net>
 <net name="3V3" class="1">
 <segment>
-<pinref part="U7" gate="G$1" pin="VDD"/>
-<wire x1="17" y1="6" x2="31" y2="6" width="0.1524" layer="91"/>
-<label x="31" y="6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U8" gate="G$1" pin="VDD"/>
-<wire x1="16" y1="-101" x2="30" y2="-101" width="0.1524" layer="91"/>
-<label x="30" y="-101" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="VDD"/>
-<wire x1="16" y1="-46" x2="30" y2="-46" width="0.1524" layer="91"/>
-<label x="30" y="-46" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U6" gate="G$1" pin="SENSE2+"/>
 <wire x1="-18" y1="-52" x2="-35" y2="-52" width="0.1524" layer="91"/>
 <wire x1="-35" y1="-52" x2="-35" y2="-44" width="0.1524" layer="91"/>
@@ -4812,6 +4797,21 @@
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="-40" y1="-55" x2="-40" y2="-54.46" width="0.1524" layer="91"/>
 <label x="-31" y="-55" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="VDD"/>
+<wire x1="17" y1="6" x2="31" y2="6" width="0.1524" layer="91"/>
+<label x="31" y="6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="VDD"/>
+<wire x1="16" y1="-46" x2="30" y2="-46" width="0.1524" layer="91"/>
+<label x="30" y="-46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="VDD"/>
+<wire x1="16" y1="-101" x2="30" y2="-101" width="0.1524" layer="91"/>
+<label x="30" y="-101" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MON_XTAL1" class="0">
