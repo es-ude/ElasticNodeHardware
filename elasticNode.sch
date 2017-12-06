@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="63" fill="1" visible="no" active="no"/>
@@ -228,7 +228,7 @@
 <wire x1="10" y1="10" x2="10" y2="9.5" width="0.127" layer="21"/>
 <wire x1="-10" y1="9.5" x2="-10" y2="10" width="0.127" layer="21"/>
 <wire x1="-10" y1="10" x2="-9.5" y2="10" width="0.127" layer="21"/>
-<text x="-10.25" y="-10.25" size="1.27" layer="21" font="vector" align="top-right">&gt;NAME</text>
+<text x="-11.52" y="11.34" size="1.27" layer="21" font="vector" align="bottom-right">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1651,6 +1651,19 @@
 <text x="-2" y="0" size="0.4064" layer="21" rot="R90" align="bottom-center">&gt;NAME</text>
 <circle x="-1.5" y="-2.5" radius="0.1" width="0.127" layer="21"/>
 </package>
+<package name="POWERPAK1212-8">
+<smd name="1" x="-0.99" y="-1.435" dx="0.99" dy="0.405" layer="1" rot="R90"/>
+<smd name="2" x="-0.33" y="-1.435" dx="0.99" dy="0.405" layer="1" rot="R90"/>
+<smd name="3" x="0.33" y="-1.435" dx="0.99" dy="0.405" layer="1" rot="R90"/>
+<smd name="4" x="0.99" y="-1.435" dx="0.99" dy="0.405" layer="1" rot="R90"/>
+<smd name="5" x="0.99" y="1.435" dx="0.99" dy="0.405" layer="1" rot="R270"/>
+<smd name="6" x="0.33" y="1.435" dx="0.99" dy="0.405" layer="1" rot="R270"/>
+<smd name="7" x="-0.33" y="1.435" dx="0.99" dy="0.405" layer="1" rot="R270"/>
+<smd name="8" x="-0.99" y="1.435" dx="0.99" dy="0.405" layer="1" rot="R270"/>
+<rectangle x1="-1.1175" y1="-0.5925" x2="1.1175" y2="0.5925" layer="1"/>
+<rectangle x1="-1.27" y1="-0.6858" x2="1.27" y2="0.6858" layer="29"/>
+<rectangle x1="-1.1175" y1="-0.5925" x2="1.1175" y2="0.5925" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="VOLTAGE_REG_DUAL">
@@ -1668,6 +1681,16 @@
 <wire x1="-10" y1="-8" x2="-10" y2="8" width="0.254" layer="94"/>
 <text x="0" y="9" size="1.778" layer="96" align="bottom-center">&gt;NAME</text>
 <pin name="VIN" x="15" y="6" length="middle" rot="R180"/>
+</symbol>
+<symbol name="P_MOSFET">
+<pin name="G" x="-8" y="0" length="middle"/>
+<pin name="D" x="-8" y="3" length="middle"/>
+<pin name="S" x="-8" y="-3" length="middle"/>
+<wire x1="-3" y1="5" x2="-3" y2="-5" width="0.254" layer="94"/>
+<wire x1="-3" y1="-5" x2="3" y2="-5" width="0.254" layer="94"/>
+<wire x1="3" y1="-5" x2="3" y2="5" width="0.254" layer="94"/>
+<wire x1="3" y1="5" x2="-3" y2="5" width="0.254" layer="94"/>
+<text x="0" y="6" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1703,6 +1726,23 @@
 <connect gate="G$1" pin="VFB1" pad="1"/>
 <connect gate="G$1" pin="VFB2" pad="8"/>
 <connect gate="G$1" pin="VIN" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SISS23DN" prefix="M">
+<gates>
+<gate name="G$1" symbol="P_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWERPAK1212-8">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1850,11 +1890,15 @@
 <wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
 <smd name="4" x="0" y="2.5" dx="2" dy="3" layer="1"/>
-<smd name="3" x="0" y="-2.5" dx="2" dy="3" layer="1"/>
+<smd name="3" x="0" y="-2.58" dx="2" dy="3" layer="1"/>
 <smd name="6" x="2.54" y="2.5" dx="2" dy="3" layer="1"/>
 <smd name="2" x="-2.54" y="2.5" dx="2" dy="3" layer="1"/>
 <smd name="1" x="-2.54" y="-2.58" dx="2" dy="3" layer="1"/>
 <smd name="5" x="2.54" y="-2.58" dx="2" dy="3" layer="1"/>
+<wire x1="-0.5" y1="-4.5" x2="0.5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-4.5" x2="0.5" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-5.5" x2="-0.5" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-5.5" x2="-0.5" y2="-4.5" width="0.127" layer="21"/>
 </package>
 <package name="2X1_HEADER">
 <pad name="3" x="0" y="-1.27" drill="1" diameter="1.6764" rot="R90"/>
@@ -1901,7 +1945,7 @@
 <wire x1="-2.5" y1="-12.85" x2="-2.5" y2="12.85" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="12.85" x2="2.5" y2="12.85" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-12.85" x2="-2.5" y2="-12.85" width="0.127" layer="21"/>
-<text x="0" y="14.125" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="12.954" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="SPST_DIP4_SMT">
 <wire x1="-5.57" y1="3.1" x2="5.57" y2="3.1" width="0.127" layer="21"/>
@@ -2485,6 +2529,8 @@
 <part name="R36" library="passive" deviceset="RESISTOR" device="" value=".8"/>
 <part name="J5" library="connectors" deviceset="FEMALE_HEADER_10X2" device=""/>
 <part name="S3" library="connectors" deviceset="SPST_DIP_4" device=""/>
+<part name="M1" library="power" deviceset="SISS23DN" device=""/>
+<part name="M2" library="power" deviceset="SISS23DN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3153,6 +3199,13 @@
 <label x="1" y="52" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
+<net name="FPGA_POWER" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PE3_OC3A/AIN1"/>
+<wire x1="13" y1="42" x2="13" y2="52" width="0.1524" layer="91"/>
+<label x="13" y="52" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -3215,6 +3268,8 @@
 <instance part="R14" gate="G$1" x="182" y="-41" rot="R270"/>
 <instance part="J5" gate="G$1" x="104" y="-157"/>
 <instance part="S3" gate="G$1" x="197" y="-109"/>
+<instance part="M1" gate="G$1" x="195" y="-140"/>
+<instance part="M2" gate="G$1" x="195" y="-154"/>
 </instances>
 <busses>
 </busses>
@@ -3414,6 +3469,11 @@
 <wire x1="96" y1="-72.5" x2="84" y2="-72.5" width="0.1524" layer="91"/>
 <label x="84" y="-72.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="D"/>
+<wire x1="187" y1="-137" x2="177" y2="-137" width="0.1524" layer="91"/>
+<label x="177" y="-137" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="FPGA_VCCAUX" class="1">
 <segment>
@@ -3563,6 +3623,11 @@
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="182" y1="-36.54" x2="182" y2="-34" width="0.1524" layer="91"/>
 <label x="182" y="-35" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M2" gate="G$1" pin="D"/>
+<wire x1="187" y1="-151" x2="177" y2="-151" width="0.1524" layer="91"/>
+<label x="177" y="-151" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="MODE0" class="0">
@@ -4298,6 +4363,32 @@
 <label x="168" y="-118" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
+<net name="FPGA_POWER" class="0">
+<segment>
+<pinref part="M1" gate="G$1" pin="G"/>
+<wire x1="187" y1="-140" x2="177" y2="-140" width="0.1524" layer="91"/>
+<label x="177" y="-140" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="M2" gate="G$1" pin="G"/>
+<wire x1="187" y1="-154" x2="177" y2="-154" width="0.1524" layer="91"/>
+<label x="177" y="-154" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="FPGA_VCCAUX_MON" class="0">
+<segment>
+<pinref part="M2" gate="G$1" pin="S"/>
+<wire x1="187" y1="-157" x2="177" y2="-157" width="0.1524" layer="91"/>
+<label x="177" y="-157" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="FPGA_VCCINT_MON" class="1">
+<segment>
+<pinref part="M1" gate="G$1" pin="S"/>
+<wire x1="187" y1="-143" x2="177" y2="-143" width="0.1524" layer="91"/>
+<label x="177" y="-143" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -4309,7 +4400,6 @@
 <text x="-60.75" y="1.25" size="1.778" layer="97">Imax=100mA</text>
 <text x="-51.75" y="10.25" size="1.778" layer="97">Imax=100mA</text>
 <text x="-38.75" y="-91.75" size="1.778" layer="97">Imax=100mA</text>
-<text x="138" y="-23.78" size="1.778" layer="97">currently interfacing at 5v io</text>
 </plain>
 <instances>
 <instance part="U7" gate="G$1" x="0" y="0"/>
@@ -4421,21 +4511,6 @@
 </net>
 <net name="3V3" class="1">
 <segment>
-<pinref part="U7" gate="G$1" pin="VDD"/>
-<wire x1="17" y1="6" x2="31" y2="6" width="0.1524" layer="91"/>
-<label x="31" y="6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U8" gate="G$1" pin="VDD"/>
-<wire x1="16" y1="-101" x2="30" y2="-101" width="0.1524" layer="91"/>
-<label x="30" y="-101" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="VDD"/>
-<wire x1="16" y1="-46" x2="30" y2="-46" width="0.1524" layer="91"/>
-<label x="30" y="-46" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U6" gate="G$1" pin="SENSE2+"/>
 <wire x1="-18" y1="-52" x2="-35" y2="-52" width="0.1524" layer="91"/>
 <wire x1="-35" y1="-52" x2="-35" y2="-44" width="0.1524" layer="91"/>
@@ -4490,15 +4565,6 @@
 <wire x1="21" y1="-117.54" x2="21" y2="-113" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="FPGA_VCCINT" class="1">
-<segment>
-<pinref part="U7" gate="G$1" pin="SENSE2-"/>
-<wire x1="-17" y1="-3" x2="-39" y2="-3" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="-39" y1="-3" x2="-39" y2="-2.46" width="0.1524" layer="91"/>
-<label x="-30" y="-3" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="ADDR_SEL"/>
@@ -4525,15 +4591,6 @@
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="-39" y1="8" x2="-39" y2="6.46" width="0.1524" layer="91"/>
 <label x="-27" y="0" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="FPGA_VCCAUX" class="1">
-<segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="U7" gate="G$1" pin="SENSE1-"/>
-<wire x1="-31" y1="6.54" x2="-31" y2="3" width="0.1524" layer="91"/>
-<wire x1="-31" y1="3" x2="-17" y2="3" width="0.1524" layer="91"/>
-<label x="-22" y="3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="5V" class="1">
@@ -4706,6 +4763,21 @@
 <wire x1="-40" y1="-55" x2="-40" y2="-54.46" width="0.1524" layer="91"/>
 <label x="-31" y="-55" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="VDD"/>
+<wire x1="17" y1="6" x2="31" y2="6" width="0.1524" layer="91"/>
+<label x="31" y="6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="VDD"/>
+<wire x1="16" y1="-46" x2="30" y2="-46" width="0.1524" layer="91"/>
+<label x="30" y="-46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="VDD"/>
+<wire x1="16" y1="-101" x2="30" y2="-101" width="0.1524" layer="91"/>
+<label x="30" y="-101" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MON_XTAL1" class="0">
 <segment>
@@ -4808,6 +4880,24 @@
 <pinref part="U11" gate="G$1" pin="PE6(INT6/AIN0)"/>
 <wire x1="168" y1="-139" x2="168" y2="-149" width="0.1524" layer="91"/>
 <label x="168" y="-149" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="FPGA_VCCINT_MON" class="1">
+<segment>
+<pinref part="U7" gate="G$1" pin="SENSE2-"/>
+<wire x1="-17" y1="-3" x2="-39" y2="-3" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="-39" y1="-3" x2="-39" y2="-2.46" width="0.1524" layer="91"/>
+<label x="-30" y="-3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FPGA_VCCAUX_MON" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="U7" gate="G$1" pin="SENSE1-"/>
+<wire x1="-31" y1="6.54" x2="-31" y2="3" width="0.1524" layer="91"/>
+<wire x1="-31" y1="3" x2="-17" y2="3" width="0.1524" layer="91"/>
+<label x="-22" y="3" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
