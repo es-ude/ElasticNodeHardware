@@ -1,0 +1,38 @@
+********************************
+* Copyright:                   *
+* Vishay Intertechnology, Inc. *
+********************************
+*Sep 01, 2014
+*ECN S14-1750, Rev. A
+*File Name: SiS413DN_PS.txt and SiS413DN_PS.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT SiS413DN D G S 
+M1 3 GX S S PMOS W= 7072500u L= 0.3u 
+M2 S GX S D NMOS W= 7072500u L= 0.25u
+R1 D 3 6.222e-03 TC=3.473e-03, 4.442e-06 
+CGS GX S 2.586e-09 
+CGD GX D 2.014e-10 
+RG G GY 1.6
+RTCV 100 S 1e6 TC=-9.632e-05, 0 
+ETCV GY GX 100 200 1 
+ITCV S 100 1u 
+VTCV 200 S 1 
+DBD D S DBD 7072500u 
+**************************************************************** 
+.MODEL PMOS PMOS ( LEVEL = 3 TOX = 5e-8 
++ RS = 0 KP = 3.241e-06 NSUB = 2.0122e+16 
++ KAPPA = 1.0308e-03 NFS = 9.103e+11 
++ LD = 0 IS = 0 TPG = -1 ) 
+*************************************************************** 
+.MODEL NMOS NMOS ( LEVEL = 3 TOX = 5e-8 
++NSUB = 2.091e+16 IS = 0 TPG = -1 ) 
+**************************************************************** 
+.MODEL DBD D ( 
++FC = 0.1 TT = 3.085e-08 T_MEASURED = 25 BV = 31 
++RS = 1.396e-02 N = 1.238e+00 IS = 3.956e-11 
++EG = 1.124e+00 XTI = 3.510e-01 TRS1 = 5.292e-03 
++CJO = 2.909e-11 VJ = 1.118e+00 M = 5.537e-01 ) 
+.ENDS 
