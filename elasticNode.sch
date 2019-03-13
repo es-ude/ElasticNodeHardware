@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="63" fill="0" visible="no" active="no"/>
@@ -1087,6 +1087,118 @@
 <circle x="-3.99" y="8.02" radius="0.494971875" width="0.0762" layer="21"/>
 <text x="0.59" y="-3.42" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="QFN44">
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.127" layer="39"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.127" layer="39"/>
+<wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="39"/>
+<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="39"/>
+<smd name="45" x="0" y="0" dx="5.12" dy="5.12" layer="1" roundness="20"/>
+<smd name="1" x="-3.4" y="2.5" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<circle x="-3.8" y="3.8" radius="0.1" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="3.5" x2="-3.5" y2="3.1" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.1" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.1" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="3.5" y1="3.1" x2="3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="3.5" x2="-3.1" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3.1" y1="3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
+<text x="0" y="4.5" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<smd name="2" x="-3.4" y="2" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="3" x="-3.4" y="1.5" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="4" x="-3.4" y="1" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="5" x="-3.4" y="0.5" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="6" x="-3.4" y="0" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="7" x="-3.4" y="-0.5" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="8" x="-3.4" y="-1" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="9" x="-3.4" y="-1.5" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="10" x="-3.4" y="-2" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="11" x="-3.4" y="-2.5" dx="0.25" dy="0.7" layer="1" rot="R270"/>
+<smd name="12" x="-2.5" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="13" x="-2" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="14" x="-1.5" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="15" x="-1" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="16" x="-0.5" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="17" x="0" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="18" x="0.5" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="19" x="1" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="20" x="1.5" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="21" x="2" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="22" x="2.5" y="-3.4" dx="0.25" dy="0.7" layer="1"/>
+<smd name="23" x="3.4" y="-2.5" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="24" x="3.4" y="-2" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="25" x="3.4" y="-1.5" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="26" x="3.4" y="-1" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="27" x="3.4" y="-0.5" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="28" x="3.4" y="0" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="29" x="3.4" y="0.5" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="30" x="3.4" y="1" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="31" x="3.4" y="1.5" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="32" x="3.4" y="2" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="33" x="3.4" y="2.5" dx="0.25" dy="0.7" layer="1" rot="R90"/>
+<smd name="34" x="2.5" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="35" x="2" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="36" x="1.5" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="37" x="1" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="38" x="0.5" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="39" x="0" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="40" x="-0.5" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="41" x="-1" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="42" x="-1.5" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="43" x="-2" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+<smd name="44" x="-2.5" y="3.4" dx="0.25" dy="0.7" layer="1" rot="R180"/>
+</package>
+<package name="TQFP44">
+<smd name="1" x="-5.7" y="4" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="2" x="-5.7" y="3.2" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="3" x="-5.7" y="2.4" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="4" x="-5.7" y="1.6" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="5" x="-5.7" y="0.8" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="6" x="-5.7" y="0" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="7" x="-5.7" y="-0.8" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="8" x="-5.7" y="-1.6" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="9" x="-5.7" y="-2.4" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="10" x="-5.7" y="-3.2" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="11" x="-5.7" y="-4" dx="1.5" dy="0.55" layer="1" rot="R180"/>
+<smd name="12" x="-4" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="13" x="-3.2" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="14" x="-2.4" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="15" x="-1.6" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="16" x="-0.8" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="17" x="0" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="18" x="0.8" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="19" x="1.6" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="20" x="2.4" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="21" x="3.2" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="22" x="4" y="-5.7" dx="1.5" dy="0.55" layer="1" rot="R270"/>
+<smd name="23" x="5.7" y="-4" dx="1.5" dy="0.55" layer="1"/>
+<smd name="24" x="5.7" y="-3.2" dx="1.5" dy="0.55" layer="1"/>
+<smd name="25" x="5.7" y="-2.4" dx="1.5" dy="0.55" layer="1"/>
+<smd name="26" x="5.7" y="-1.6" dx="1.5" dy="0.55" layer="1"/>
+<smd name="27" x="5.7" y="-0.8" dx="1.5" dy="0.55" layer="1"/>
+<smd name="28" x="5.7" y="0" dx="1.5" dy="0.55" layer="1"/>
+<smd name="29" x="5.7" y="0.8" dx="1.5" dy="0.55" layer="1"/>
+<smd name="30" x="5.7" y="1.6" dx="1.5" dy="0.55" layer="1"/>
+<smd name="31" x="5.7" y="2.4" dx="1.5" dy="0.55" layer="1"/>
+<smd name="32" x="5.7" y="3.2" dx="1.5" dy="0.55" layer="1"/>
+<smd name="33" x="5.7" y="4" dx="1.5" dy="0.55" layer="1"/>
+<smd name="34" x="4" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<smd name="35" x="3.2" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<smd name="36" x="2.4" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<smd name="37" x="1.6" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<smd name="38" x="0.8" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<smd name="39" x="0" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<smd name="40" x="-0.8" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<smd name="41" x="-1.6" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<smd name="42" x="-2.4" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<smd name="43" x="-3.2" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<smd name="44" x="-4" y="5.7" dx="1.5" dy="0.55" layer="1" rot="R90"/>
+<wire x1="-4.4" y1="4.4" x2="4.4" y2="4.4" width="0.127" layer="21"/>
+<wire x1="4.4" y1="4.4" x2="4.4" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="4.4" y1="-4.4" x2="-4.4" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="-4.4" x2="-4.4" y2="4.4" width="0.127" layer="21"/>
+<circle x="-5.6" y="5.6" radius="0.4" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FLASH_SPI">
@@ -1222,6 +1334,60 @@
 <wire x1="14.98" y1="-36.3" x2="-13.02" y2="-36.3" width="0.254" layer="94"/>
 <wire x1="-13.02" y1="-36.3" x2="-13.02" y2="31.7" width="0.254" layer="94"/>
 <text x="-3.02" y="32.7" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="ATMEGA32U4">
+<pin name="PB0(SS/PCINT0)" x="-46" y="12" length="middle"/>
+<pin name="PB1(PCINT1/SCL)" x="-46" y="9" length="middle"/>
+<pin name="PB2(PDI/PCINT2/MOSI)" x="-46" y="6" length="middle"/>
+<pin name="PB3(PDO/PCINT3/MISO)" x="-46" y="3" length="middle"/>
+<pin name="PB4(PCINT4/ADC11)" x="-46" y="0" length="middle"/>
+<pin name="PB5(PCINT5(OC1A/OC4B/ADC12)" x="-46" y="-3" length="middle"/>
+<pin name="PB6(PCINT6/OC1B/OC4B/ADC13)" x="-46" y="-6" length="middle"/>
+<pin name="PB7(PCINT7/OC0A/OC1C/RTS)" x="-46" y="-9" length="middle"/>
+<pin name="PC6(OC3A/OC4A)" x="-46" y="-12" length="middle"/>
+<pin name="PC7(ICP3/CLK0/OC4A)" x="-46" y="-15" length="middle"/>
+<pin name="PD0(OC0B/SCL/INT0)" x="-16" y="-45" length="middle" rot="R90"/>
+<pin name="PD1(SDA/INT1)" x="-13" y="-45" length="middle" rot="R90"/>
+<pin name="PD2(RXD1/INT2)" x="-10" y="-45" length="middle" rot="R90"/>
+<pin name="PD3(TXD1/INT3)" x="-7" y="-45" length="middle" rot="R90"/>
+<pin name="PD4(ICP1/ADC8)" x="-4" y="-45" length="middle" rot="R90"/>
+<pin name="PD5(XCK1/CTS)" x="-1" y="-45" length="middle" rot="R90"/>
+<pin name="PD6(T1/OC4D/ADC9)" x="2" y="-45" length="middle" rot="R90"/>
+<pin name="PD7(T0/OC4D/ADC10)" x="5" y="-45" length="middle" rot="R90"/>
+<pin name="PE2(HWB)" x="8" y="-45" length="middle" rot="R90"/>
+<pin name="PE6(INT6/AIN0)" x="11" y="-45" length="middle" rot="R90"/>
+<wire x1="-41" y1="-18" x2="-38" y2="-18" width="0.1524" layer="94"/>
+<wire x1="-41" y1="-18" x2="-41" y2="15" width="0.1524" layer="94"/>
+<wire x1="-41" y1="15" x2="-38" y2="15" width="0.1524" layer="94"/>
+<wire x1="-19" y1="-40" x2="-19" y2="-37" width="0.1524" layer="94"/>
+<wire x1="-19" y1="-40" x2="14" y2="-40" width="0.1524" layer="94"/>
+<wire x1="14" y1="-40" x2="14" y2="-37" width="0.1524" layer="94"/>
+<pin name="PF0(ADC0)" x="41" y="-9" length="middle" rot="R180"/>
+<pin name="PF1(ADC1)" x="41" y="-6" length="middle" rot="R180"/>
+<pin name="PF4(ADC4/TCK)" x="41" y="-3" length="middle" rot="R180"/>
+<pin name="PF5(ADC5/TMS)" x="41" y="0" length="middle" rot="R180"/>
+<pin name="PF6(ADC6/TDO)" x="41" y="3" length="middle" rot="R180"/>
+<pin name="PF7(ADC7/TDI)" x="41" y="6" length="middle" rot="R180"/>
+<wire x1="36" y1="9" x2="33" y2="9" width="0.1524" layer="94"/>
+<wire x1="36" y1="9" x2="36" y2="-12" width="0.1524" layer="94"/>
+<wire x1="36" y1="-12" x2="33" y2="-12" width="0.1524" layer="94"/>
+<pin name="UGND" x="-19" y="42" length="middle" rot="R270"/>
+<pin name="UCAP" x="-16" y="42" length="middle" rot="R270"/>
+<pin name="UVCC" x="-13" y="42" length="middle" rot="R270"/>
+<pin name="VBUS" x="-10" y="42" length="middle" rot="R270"/>
+<pin name="AVCC" x="-7" y="42" length="middle" rot="R270"/>
+<pin name="AREF" x="-4" y="42" length="middle" rot="R270"/>
+<pin name="GND" x="-1" y="42" length="middle" rot="R270"/>
+<pin name="VCC" x="2" y="42" length="middle" rot="R270"/>
+<pin name="XTAL1" x="5" y="42" length="middle" rot="R270"/>
+<pin name="XTAL2" x="8" y="42" length="middle" rot="R270"/>
+<wire x1="-22" y1="37" x2="-22" y2="34" width="0.1524" layer="94"/>
+<wire x1="-22" y1="37" x2="20" y2="37" width="0.1524" layer="94"/>
+<wire x1="20" y1="37" x2="20" y2="34" width="0.1524" layer="94"/>
+<pin name="D-" x="11" y="42" length="middle" rot="R270"/>
+<pin name="D+" x="14" y="42" length="middle" rot="R270"/>
+<pin name="_RESET" x="17" y="42" length="middle" rot="R270"/>
+<text x="-38.1" y="27.94" size="6.4516" layer="95" align="bottom-center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1388,6 +1554,105 @@
 <connect gate="G$1" pin="VDD@1" pad="11"/>
 <connect gate="G$1" pin="VDD@2" pad="33"/>
 <connect gate="G$1" pin="WE#" pad="17"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATMEGA32U4" prefix="U">
+<gates>
+<gate name="G$1" symbol="ATMEGA32U4" x="2" y="1"/>
+</gates>
+<devices>
+<device name="QFN" package="QFN44">
+<connects>
+<connect gate="G$1" pin="AREF" pad="42"/>
+<connect gate="G$1" pin="AVCC" pad="24 44"/>
+<connect gate="G$1" pin="D+" pad="4"/>
+<connect gate="G$1" pin="D-" pad="3"/>
+<connect gate="G$1" pin="GND" pad="15 23 35 43 45"/>
+<connect gate="G$1" pin="PB0(SS/PCINT0)" pad="8"/>
+<connect gate="G$1" pin="PB1(PCINT1/SCL)" pad="9"/>
+<connect gate="G$1" pin="PB2(PDI/PCINT2/MOSI)" pad="10"/>
+<connect gate="G$1" pin="PB3(PDO/PCINT3/MISO)" pad="11"/>
+<connect gate="G$1" pin="PB4(PCINT4/ADC11)" pad="28"/>
+<connect gate="G$1" pin="PB5(PCINT5(OC1A/OC4B/ADC12)" pad="29"/>
+<connect gate="G$1" pin="PB6(PCINT6/OC1B/OC4B/ADC13)" pad="30"/>
+<connect gate="G$1" pin="PB7(PCINT7/OC0A/OC1C/RTS)" pad="12"/>
+<connect gate="G$1" pin="PC6(OC3A/OC4A)" pad="31"/>
+<connect gate="G$1" pin="PC7(ICP3/CLK0/OC4A)" pad="32"/>
+<connect gate="G$1" pin="PD0(OC0B/SCL/INT0)" pad="18"/>
+<connect gate="G$1" pin="PD1(SDA/INT1)" pad="19"/>
+<connect gate="G$1" pin="PD2(RXD1/INT2)" pad="20"/>
+<connect gate="G$1" pin="PD3(TXD1/INT3)" pad="21"/>
+<connect gate="G$1" pin="PD4(ICP1/ADC8)" pad="25"/>
+<connect gate="G$1" pin="PD5(XCK1/CTS)" pad="22"/>
+<connect gate="G$1" pin="PD6(T1/OC4D/ADC9)" pad="26"/>
+<connect gate="G$1" pin="PD7(T0/OC4D/ADC10)" pad="27"/>
+<connect gate="G$1" pin="PE2(HWB)" pad="33"/>
+<connect gate="G$1" pin="PE6(INT6/AIN0)" pad="1"/>
+<connect gate="G$1" pin="PF0(ADC0)" pad="41"/>
+<connect gate="G$1" pin="PF1(ADC1)" pad="40"/>
+<connect gate="G$1" pin="PF4(ADC4/TCK)" pad="39"/>
+<connect gate="G$1" pin="PF5(ADC5/TMS)" pad="38"/>
+<connect gate="G$1" pin="PF6(ADC6/TDO)" pad="37"/>
+<connect gate="G$1" pin="PF7(ADC7/TDI)" pad="36"/>
+<connect gate="G$1" pin="UCAP" pad="6"/>
+<connect gate="G$1" pin="UGND" pad="5"/>
+<connect gate="G$1" pin="UVCC" pad="2"/>
+<connect gate="G$1" pin="VBUS" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="14 34"/>
+<connect gate="G$1" pin="XTAL1" pad="17"/>
+<connect gate="G$1" pin="XTAL2" pad="16"/>
+<connect gate="G$1" pin="_RESET" pad="13"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TQFP" package="TQFP44">
+<connects>
+<connect gate="G$1" pin="AREF" pad="42"/>
+<connect gate="G$1" pin="AVCC" pad="24 44"/>
+<connect gate="G$1" pin="D+" pad="4"/>
+<connect gate="G$1" pin="D-" pad="3"/>
+<connect gate="G$1" pin="GND" pad="15 23 35 43"/>
+<connect gate="G$1" pin="PB0(SS/PCINT0)" pad="8"/>
+<connect gate="G$1" pin="PB1(PCINT1/SCL)" pad="9"/>
+<connect gate="G$1" pin="PB2(PDI/PCINT2/MOSI)" pad="10"/>
+<connect gate="G$1" pin="PB3(PDO/PCINT3/MISO)" pad="11"/>
+<connect gate="G$1" pin="PB4(PCINT4/ADC11)" pad="28"/>
+<connect gate="G$1" pin="PB5(PCINT5(OC1A/OC4B/ADC12)" pad="29"/>
+<connect gate="G$1" pin="PB6(PCINT6/OC1B/OC4B/ADC13)" pad="30"/>
+<connect gate="G$1" pin="PB7(PCINT7/OC0A/OC1C/RTS)" pad="12"/>
+<connect gate="G$1" pin="PC6(OC3A/OC4A)" pad="31"/>
+<connect gate="G$1" pin="PC7(ICP3/CLK0/OC4A)" pad="32"/>
+<connect gate="G$1" pin="PD0(OC0B/SCL/INT0)" pad="18"/>
+<connect gate="G$1" pin="PD1(SDA/INT1)" pad="19"/>
+<connect gate="G$1" pin="PD2(RXD1/INT2)" pad="20"/>
+<connect gate="G$1" pin="PD3(TXD1/INT3)" pad="21"/>
+<connect gate="G$1" pin="PD4(ICP1/ADC8)" pad="25"/>
+<connect gate="G$1" pin="PD5(XCK1/CTS)" pad="22"/>
+<connect gate="G$1" pin="PD6(T1/OC4D/ADC9)" pad="26"/>
+<connect gate="G$1" pin="PD7(T0/OC4D/ADC10)" pad="27"/>
+<connect gate="G$1" pin="PE2(HWB)" pad="33"/>
+<connect gate="G$1" pin="PE6(INT6/AIN0)" pad="1"/>
+<connect gate="G$1" pin="PF0(ADC0)" pad="41"/>
+<connect gate="G$1" pin="PF1(ADC1)" pad="40"/>
+<connect gate="G$1" pin="PF4(ADC4/TCK)" pad="39"/>
+<connect gate="G$1" pin="PF5(ADC5/TMS)" pad="38"/>
+<connect gate="G$1" pin="PF6(ADC6/TDO)" pad="37"/>
+<connect gate="G$1" pin="PF7(ADC7/TDI)" pad="36"/>
+<connect gate="G$1" pin="UCAP" pad="6"/>
+<connect gate="G$1" pin="UGND" pad="5"/>
+<connect gate="G$1" pin="UVCC" pad="2"/>
+<connect gate="G$1" pin="VBUS" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="14 34"/>
+<connect gate="G$1" pin="XTAL1" pad="17"/>
+<connect gate="G$1" pin="XTAL2" pad="16"/>
+<connect gate="G$1" pin="_RESET" pad="13"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2404,7 +2669,7 @@
 <part name="R21" library="passive" deviceset="RESISTOR" device="" value=".8"/>
 <part name="S1" library="connectors" deviceset="SPST_BUTTON" device="2PIN_SMT"/>
 <part name="R9" library="passive" deviceset="RESISTOR" device="" value="15k"/>
-<part name="J3" library="connectors" deviceset="ISP_CONN_6PIN" device="">
+<part name="MCU_PROGRAM" library="connectors" deviceset="ISP_CONN_6PIN" device="">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="R18" library="passive" deviceset="RESISTOR" device="" value="2.4k"/>
@@ -2454,21 +2719,13 @@
 <part name="M3" library="power" deviceset="SISS23DN" device=""/>
 <part name="TP1" library="connectors" deviceset="TEST_POINT" device="THT"/>
 <part name="TP2" library="connectors" deviceset="TEST_POINT" device="THT"/>
-<part name="TP3" library="connectors" deviceset="TEST_POINT" device="THT"/>
-<part name="TP4" library="connectors" deviceset="TEST_POINT" device="THT"/>
-<part name="TP5" library="connectors" deviceset="TEST_POINT" device="THT"/>
 <part name="R16" library="passive" deviceset="RESISTOR" device="" value="2.4k"/>
 <part name="C16" library="passive" deviceset="CAPACITOR" device="0805" value="0.47u"/>
 <part name="J1" library="connectors" deviceset="FEMALE_HEADER_2X1" device=""/>
-<part name="TP6" library="connectors" deviceset="TEST_POINT" device="THT"/>
 <part name="U14" library="power" deviceset="LTC3419" device="DFN"/>
-<part name="R37" library="passive" deviceset="RESISTOR" device="" value="1k5"/>
-<part name="R38" library="passive" deviceset="RESISTOR" device="" value="1k5"/>
 <part name="R39" library="passive" deviceset="RESISTOR" device="" value="6k8"/>
-<part name="C26" library="passive" deviceset="CAPACITOR" device="0805" value="22u"/>
 <part name="C27" library="passive" deviceset="CAPACITOR" device="0805" value="22u"/>
 <part name="C28" library="passive" deviceset="CAPACITOR" device="0805" value="10u"/>
-<part name="L5" library="passive" deviceset="INDUCTOR" device="" value="3.3uH"/>
 <part name="L6" library="passive" deviceset="INDUCTOR" device="" value="3.3uH"/>
 <part name="R40" library="passive" deviceset="RESISTOR" device="" value="270"/>
 <part name="D10" library="opto" deviceset="LED" device="" value="RED"/>
@@ -2491,12 +2748,6 @@
 <part name="R15" library="passive" deviceset="RESISTOR" device="" value="15k"/>
 <part name="R41" library="passive" deviceset="RESISTOR" device="" value="1.5k"/>
 <part name="R42" library="passive" deviceset="RESISTOR" device="" value="1.5k"/>
-<part name="R29" library="passive" deviceset="RESISTOR" device="" value="1.5k"/>
-<part name="R30" library="passive" deviceset="RESISTOR" device="" value="1.5k"/>
-<part name="R44" library="passive" deviceset="RESISTOR" device="" value="1.5k"/>
-<part name="R45" library="passive" deviceset="RESISTOR" device="" value="1.5k"/>
-<part name="R48" library="passive" deviceset="RESISTOR" device="" value="1.5k"/>
-<part name="R49" library="passive" deviceset="RESISTOR" device="" value="1.5k"/>
 <part name="U2" library="ic" deviceset="IS66WV51216EALL" device="" value="IS66WV51216EALL"/>
 <part name="C30" library="passive" deviceset="CAPACITOR" device="0805" value="4.7u"/>
 <part name="C34" library="passive" deviceset="CAPACITOR" device="1210" value="100u"/>
@@ -2507,15 +2758,27 @@
 <part name="C39" library="passive" deviceset="CAPACITOR" device="0805" value="0.47u"/>
 <part name="C40" library="passive" deviceset="CAPACITOR" device="0805" value="4.7u"/>
 <part name="C32" library="passive" deviceset="CAPACITOR" device="0805" value="0.47u"/>
+<part name="D11" library="opto" deviceset="LED" device="" value="GREEN 2.2V"/>
+<part name="D12" library="opto" deviceset="LED" device="" value="GREEN 2.2V"/>
+<part name="R50" library="passive" deviceset="RESISTOR" device="" value="550"/>
+<part name="R51" library="passive" deviceset="RESISTOR" device="" value="550"/>
+<part name="X5" library="passive" deviceset="QUARTZ" device="" value="8MHz"/>
+<part name="C6" library="passive" deviceset="CAPACITOR" device="0805" value="20p"/>
+<part name="C9" library="passive" deviceset="CAPACITOR" device="0805" value="20p"/>
+<part name="U5" library="ic" deviceset="ATMEGA32U4" device="QFN"/>
+<part name="TP7" library="connectors" deviceset="TEST_POINT" device="THT"/>
+<part name="TP8" library="connectors" deviceset="TEST_POINT" device="THT"/>
+<part name="TP3" library="connectors" deviceset="TEST_POINT" device="THT"/>
+<part name="MON_PROGRAM" library="connectors" deviceset="ISP_CONN_6PIN" device=""/>
+<part name="J7" library="connectors" deviceset="USB_CONN" device="MICRO_SMT"/>
+<part name="R52" library="passive" deviceset="RESISTOR" device="" value="22"/>
+<part name="R53" library="passive" deviceset="RESISTOR" device="" value="22"/>
+<part name="R54" library="passive" deviceset="RESISTOR" device="" value="15k"/>
+<part name="M4" library="power" deviceset="SISS23DN" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="207" y="20" size="1.778" layer="94">Interface to Sensor board:
-I2C intetrface, checked.
-Q1: Out1-Pin9 must be ALE/HWB?
-Q2: Can we share these FPGA I/O with sensor board?
-Q3: Do we need to measure the power consumption of the sensor board?</text>
 <wire x1="42" y1="109" x2="42" y2="61" width="0.6096" layer="94" style="shortdash"/>
 <wire x1="42" y1="61" x2="42" y2="0" width="0.6096" layer="94" style="shortdash"/>
 <wire x1="42" y1="0" x2="42" y2="-72" width="0.6096" layer="94" style="shortdash"/>
@@ -2534,10 +2797,26 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <wire x1="42" y1="61" x2="198" y2="61" width="0.6096" layer="94" style="shortdash"/>
 <text x="104" y="55" size="2.5" layer="94">Mother board Interface</text>
 <wire x1="42" y1="0" x2="198" y2="0" width="0.6096" layer="94" style="shortdash"/>
-<text x="107" y="-7" size="2.5" layer="94">Download interface</text>
+<text x="107" y="-7" size="2.5" layer="94">MCU PROGRAM</text>
 <text x="107" y="-35" size="2.5" layer="94">Wireless module</text>
 <wire x1="42" y1="-72" x2="198" y2="-72" width="0.6096" layer="94" style="shortdash"/>
 <wire x1="120" y1="-73" x2="120" y2="-108" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="198" y1="-234" x2="42" y2="-234" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="42" y1="-234" x2="-201" y2="-234" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="198" y1="-234" x2="198" y2="-180" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="198" y1="-180" x2="198" y2="-144" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="198" y1="-144" x2="198" y2="-108" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="-202" y1="-108" x2="-202" y2="-234" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="-202" y1="-234" x2="-201.2096" y2="-234" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="42" y1="-108" x2="42" y2="-144" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="42" y1="-144" x2="42" y2="-180" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="42" y1="-180" x2="42" y2="-234" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="42" y1="-144" x2="198" y2="-144" width="0.6096" layer="94" style="shortdash"/>
+<wire x1="42" y1="-180" x2="198" y2="-180" width="0.6096" layer="94" style="shortdash"/>
+<text x="112" y="-114" size="2.5" layer="94">MON LEDs</text>
+<text x="97" y="-151" size="2.5" layer="94">MON_MCU PROGRAM</text>
+<text x="113" y="-186" size="2.5" layer="94">MON USB</text>
+<text x="-69" y="-153" size="2.5" layer="94">According to the datasheet UVCC pin should be kept not connected.</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="122.58" y="-48.22" smashed="yes">
@@ -2550,7 +2829,7 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <attribute name="NAME" x="171.06" y="-89.92" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="175.06" y="-89.92" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="J3" gate="G$1" x="122" y="-19" smashed="yes"/>
+<instance part="MCU_PROGRAM" gate="G$1" x="122" y="-19" smashed="yes"/>
 <instance part="D1" gate="G$1" x="132.22" y="96.4" smashed="yes">
 <attribute name="NAME" x="129.22" y="98.4" size="1.778" layer="96"/>
 <attribute name="VALUE" x="129.22" y="92.4" size="1.778" layer="96"/>
@@ -2630,6 +2909,53 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <instance part="OUT2" gate="G$1" x="122" y="15" smashed="yes">
 <attribute name="NAME" x="122" y="25" size="1.4224" layer="95" align="bottom-center"/>
 </instance>
+<instance part="D11" gate="G$1" x="133.46" y="-125.12" smashed="yes">
+<attribute name="NAME" x="130.46" y="-123.12" size="1.778" layer="96"/>
+<attribute name="VALUE" x="130.46" y="-129.12" size="1.778" layer="96"/>
+</instance>
+<instance part="D12" gate="G$1" x="133.46" y="-133.12" smashed="yes">
+<attribute name="NAME" x="130.46" y="-131.12" size="1.778" layer="96"/>
+<attribute name="VALUE" x="130.46" y="-138.12" size="1.778" layer="96"/>
+</instance>
+<instance part="R50" gate="G$1" x="121.46" y="-125.12" smashed="yes">
+<attribute name="NAME" x="121.46" y="-123.12" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="121.46" y="-127.12" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R51" gate="G$1" x="121.46" y="-133.12" smashed="yes">
+<attribute name="NAME" x="121.46" y="-131.12" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="121.46" y="-135.12" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="X5" gate="G$1" x="-14" y="-193" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-7" y="-193" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
+<attribute name="VALUE" x="-21" y="-193" size="1.27" layer="95" rot="MR270" align="bottom-center"/>
+</instance>
+<instance part="C6" gate="G$1" x="-7" y="-203" smashed="yes">
+<attribute name="NAME" x="-7" y="-199" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="-7" y="-207" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="C9" gate="G$1" x="-7" y="-183" smashed="yes">
+<attribute name="NAME" x="-7" y="-179" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="-7" y="-187" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="U5" gate="G$1" x="-92" y="-186" smashed="yes" rot="R270">
+<attribute name="NAME" x="-124.06" y="-151.9" size="6.4516" layer="95" align="bottom-center"/>
+</instance>
+<instance part="MON_PROGRAM" gate="G$1" x="122" y="-163" smashed="yes"/>
+<instance part="J7" gate="G$1" x="144" y="-204" smashed="yes">
+<attribute name="NAME" x="143" y="-191" size="1.778" layer="95" align="bottom-center"/>
+</instance>
+<instance part="R52" gate="G$1" x="104" y="-198" smashed="yes">
+<attribute name="NAME" x="104" y="-196" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="104" y="-200" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R53" gate="G$1" x="118" y="-201" smashed="yes">
+<attribute name="NAME" x="118" y="-199" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="118" y="-203" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R54" gate="G$1" x="-45" y="-210" smashed="yes" rot="R90">
+<attribute name="NAME" x="-47" y="-210" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-43" y="-210" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2646,7 +2972,7 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="135.06" y="-97.92" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="GND"/>
+<pinref part="MCU_PROGRAM" gate="G$1" pin="GND"/>
 <wire x1="135" y1="-22" x2="146" y2="-22" width="0.1524" layer="91"/>
 <label x="146" y="-22" size="1.778" layer="95"/>
 </segment>
@@ -2695,6 +3021,42 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <pinref part="OUT2" gate="G$1" pin="8"/>
 <wire x1="137" y1="15" x2="132" y2="15" width="0.1524" layer="91"/>
 <label x="137" y="15" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="P$2"/>
+<wire x1="-84" y1="-98.08" x2="-84" y2="-99.62" width="0.1524" layer="91"/>
+<wire x1="-84" y1="-99.62" x2="-66" y2="-99.62" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="P$2"/>
+<wire x1="-66" y1="-99.62" x2="-66" y2="-98.08" width="0.1524" layer="91"/>
+<label x="-74" y="-100" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="P$2"/>
+<wire x1="-3.54" y1="-183" x2="-1" y2="-183" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="P$2"/>
+<wire x1="-1" y1="-183" x2="-1" y2="-203" width="0.1524" layer="91"/>
+<wire x1="-1" y1="-203" x2="-3.54" y2="-203" width="0.1524" layer="91"/>
+<label x="-1" y="-194" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="GND"/>
+<wire x1="-50" y1="-185" x2="-42" y2="-185" width="0.1524" layer="91"/>
+<label x="-42" y="-185" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="UGND"/>
+<wire x1="-50" y1="-167" x2="-42" y2="-167" width="0.1524" layer="91"/>
+<label x="-42" y="-167" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MON_PROGRAM" gate="G$1" pin="GND"/>
+<wire x1="135" y1="-166" x2="143" y2="-166" width="0.1524" layer="91"/>
+<label x="143" y="-166" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="GND"/>
+<wire x1="134" y1="-204" x2="126" y2="-204" width="0.1524" layer="91"/>
+<label x="126" y="-204" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="MCU_VCC" class="0">
@@ -2747,7 +3109,7 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="-13" y="17" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="MOSI"/>
+<pinref part="MCU_PROGRAM" gate="G$1" pin="MOSI"/>
 <wire x1="146" y1="-19" x2="135" y2="-19" width="0.1524" layer="91"/>
 <label x="146" y="-19" size="1.778" layer="95"/>
 </segment>
@@ -2798,14 +3160,14 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="137" y="9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RD" class="0">
+<net name="XMEM_RD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE1(_RD)"/>
 <wire x1="-13" y1="-13" x2="-26" y2="-13" width="0.1524" layer="91"/>
 <label x="-13" y="-13" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="WR" class="0">
+<net name="XMEM_WR" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PE0(_WR)"/>
 <wire x1="-26" y1="-16" x2="-13" y2="-16" width="0.1524" layer="91"/>
@@ -2826,7 +3188,7 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="97.58" y="-46.22" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="MISO"/>
+<pinref part="MCU_PROGRAM" gate="G$1" pin="MISO"/>
 <wire x1="109" y1="-16" x2="98" y2="-16" width="0.1524" layer="91"/>
 <label x="98" y="-16" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -2841,91 +3203,7 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="-13" y="20" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="A8" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC0(A8)"/>
-<wire x1="-26" y1="-10" x2="-13" y2="-10" width="0.1524" layer="91"/>
-<label x="-13" y="-10" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OUT1" gate="G$1" pin="3"/>
-<wire x1="112" y1="40" x2="107" y2="40" width="0.1524" layer="91"/>
-<label x="107" y="40" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="A9" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC1(A9)"/>
-<wire x1="-13" y1="-7" x2="-26" y2="-7" width="0.1524" layer="91"/>
-<label x="-13" y="-7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OUT1" gate="G$1" pin="4"/>
-<wire x1="112" y1="37" x2="107" y2="37" width="0.1524" layer="91"/>
-<label x="107" y="37" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="A10" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC2(A10)"/>
-<wire x1="-26" y1="-4" x2="-13" y2="-4" width="0.1524" layer="91"/>
-<label x="-13" y="-4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OUT1" gate="G$1" pin="5"/>
-<wire x1="112" y1="34" x2="107" y2="34" width="0.1524" layer="91"/>
-<label x="107" y="34" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="A11" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC3(A11/T.3)"/>
-<wire x1="-26" y1="-1" x2="-13" y2="-1" width="0.1524" layer="91"/>
-<label x="-13" y="-1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OUT1" gate="G$1" pin="6"/>
-<wire x1="132" y1="34" x2="137" y2="34" width="0.1524" layer="91"/>
-<label x="137" y="34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A12" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC4(A12/OC.3C)"/>
-<wire x1="-26" y1="2" x2="-13" y2="2" width="0.1524" layer="91"/>
-<label x="-13" y="2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OUT1" gate="G$1" pin="7"/>
-<wire x1="132" y1="37" x2="137" y2="37" width="0.1524" layer="91"/>
-<label x="137" y="37" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A13" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC5(A13/OC.3B)"/>
-<wire x1="-26" y1="5" x2="-13" y2="5" width="0.1524" layer="91"/>
-<label x="-13" y="5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OUT1" gate="G$1" pin="8"/>
-<wire x1="132" y1="40" x2="137" y2="40" width="0.1524" layer="91"/>
-<label x="137" y="40" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A14" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC6(A14/OC.3A)"/>
-<wire x1="-26" y1="8" x2="-13" y2="8" width="0.1524" layer="91"/>
-<label x="-13" y="8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="OUT1" gate="G$1" pin="10"/>
-<wire x1="132" y1="46" x2="137" y2="46" width="0.1524" layer="91"/>
-<label x="137" y="46" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A15" class="0">
+<net name="XMEM_A15" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PC7(A15/IC.3/CLKO)"/>
 <wire x1="-13" y1="11" x2="-26" y2="11" width="0.1524" layer="91"/>
@@ -3002,7 +3280,7 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <junction x="173.06" y="-97.92"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="RST"/>
+<pinref part="MCU_PROGRAM" gate="G$1" pin="RST"/>
 <wire x1="109" y1="-22" x2="98" y2="-22" width="0.1524" layer="91"/>
 <label x="98" y="-22" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -3026,14 +3304,39 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 </net>
 <net name="3V3" class="1">
 <segment>
-<pinref part="J3" gate="G$1" pin="VCC"/>
+<pinref part="MCU_PROGRAM" gate="G$1" pin="VCC"/>
 <wire x1="135" y1="-16" x2="146" y2="-16" width="0.1524" layer="91"/>
 <label x="146" y="-16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OUT2" gate="G$1" pin="10"/>
-<wire x1="137" y1="21" x2="132" y2="21" width="0.1524" layer="91"/>
-<label x="137" y="21" size="1.778" layer="95"/>
+<pinref part="R54" gate="G$1" pin="1"/>
+<wire x1="-45" y1="-214.46" x2="-45" y2="-218" width="0.1524" layer="91"/>
+<label x="-45" y="-218" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="UCAP"/>
+<wire x1="-50" y1="-170" x2="-42" y2="-170" width="0.1524" layer="91"/>
+<label x="-42" y="-170" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="UVCC"/>
+<wire x1="-50" y1="-173" x2="-42" y2="-173" width="0.1524" layer="91"/>
+<label x="-42" y="-173" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="AVCC"/>
+<wire x1="-50" y1="-179" x2="-42" y2="-179" width="0.1524" layer="91"/>
+<label x="-42" y="-179" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="VCC"/>
+<wire x1="-50" y1="-188" x2="-42" y2="-188" width="0.1524" layer="91"/>
+<label x="-42" y="-188" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MON_PROGRAM" gate="G$1" pin="VCC"/>
+<wire x1="135" y1="-160" x2="143" y2="-160" width="0.1524" layer="91"/>
+<label x="143" y="-160" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INIT_B" class="0">
@@ -3050,7 +3353,7 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="97.58" y="-49.22" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="SCK"/>
+<pinref part="MCU_PROGRAM" gate="G$1" pin="SCK"/>
 <wire x1="98" y1="-19" x2="109" y2="-19" width="0.1524" layer="91"/>
 <label x="98" y="-19" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -3209,13 +3512,6 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="137" y="43" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ENABLE_LEDS" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="(PCINT7/OC.0A/OC.1C)PB7"/>
-<wire x1="-94" y1="-44.08" x2="-94" y2="-58" width="0.1524" layer="91"/>
-<label x="-94" y="-58" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
 <net name="FPGA_POWER" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="(SS/PCINT0)PB0"/>
@@ -3230,13 +3526,6 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="-151" y="-16" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="FPGA_SUSPEND" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="(INT.5/TOSC2)PE5"/>
-<wire x1="-88" y1="-44.08" x2="-88" y2="-58" width="0.1524" layer="91"/>
-<label x="-88" y="-58" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="XTAL2"/>
@@ -3248,15 +3537,6 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <wire x1="-84" y1="-82.62" x2="-84" y2="-91.16" width="0.1524" layer="91"/>
 <wire x1="-84" y1="-82.62" x2="-83" y2="-82.62" width="0.1524" layer="91"/>
 <junction x="-84" y="-82.62"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="C2" gate="G$1" pin="P$2"/>
-<wire x1="-84" y1="-98.08" x2="-84" y2="-99.62" width="0.1524" layer="91"/>
-<wire x1="-84" y1="-99.62" x2="-66" y2="-99.62" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="P$2"/>
-<wire x1="-66" y1="-99.62" x2="-66" y2="-98.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -3322,6 +3602,11 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <wire x1="112" y1="43" x2="107" y2="43" width="0.1524" layer="91"/>
 <label x="107" y="43" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PD1(SDA/INT1)"/>
+<wire x1="-137" y1="-173" x2="-145" y2="-173" width="0.1524" layer="91"/>
+<label x="-145" y="-173" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -3333,6 +3618,11 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <pinref part="OUT1" gate="G$1" pin="1"/>
 <wire x1="112" y1="46" x2="107" y2="46" width="0.1524" layer="91"/>
 <label x="107" y="46" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PD0(OC0B/SCL/INT0)"/>
+<wire x1="-137" y1="-170" x2="-145" y2="-170" width="0.1524" layer="91"/>
+<label x="-145" y="-170" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="UID" class="0">
@@ -3356,7 +3646,7 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <wire x1="-131" y1="17" x2="-175.54" y2="17" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="FPGA_RESES" class="0">
+<net name="FPGA_RESET" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PF2(ADC2)"/>
 <wire x1="-79" y1="51.16" x2="-79" y2="67" width="0.1524" layer="91"/>
@@ -3368,6 +3658,286 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <pinref part="OUT2" gate="G$1" pin="9"/>
 <wire x1="137" y1="18" x2="132" y2="18" width="0.1524" layer="91"/>
 <label x="137" y="18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND1" class="0">
+<segment>
+<pinref part="D12" gate="G$1" pin="2"/>
+<wire x1="136.92" y1="-133.12" x2="141.46" y2="-133.12" width="0.1524" layer="91"/>
+<pinref part="D11" gate="G$1" pin="2"/>
+<wire x1="136.92" y1="-125.12" x2="141.46" y2="-125.12" width="0.1524" layer="91"/>
+<wire x1="141.46" y1="-125.12" x2="141.46" y2="-133.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R51" gate="G$1" pin="2"/>
+<pinref part="D12" gate="G$1" pin="1"/>
+<wire x1="125.92" y1="-133.12" x2="130" y2="-133.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R50" gate="G$1" pin="2"/>
+<pinref part="D11" gate="G$1" pin="1"/>
+<wire x1="125.92" y1="-125.12" x2="130" y2="-125.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="X5" gate="G$1" pin="P$2"/>
+<pinref part="C9" gate="G$1" pin="P$1"/>
+<wire x1="-14" y1="-185" x2="-14" y2="-183" width="0.1524" layer="91"/>
+<wire x1="-14" y1="-183" x2="-10.46" y2="-183" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="XTAL1"/>
+<wire x1="-50" y1="-191" x2="-23" y2="-191" width="0.1524" layer="91"/>
+<wire x1="-23" y1="-191" x2="-23" y2="-183" width="0.1524" layer="91"/>
+<wire x1="-23" y1="-183" x2="-14" y2="-183" width="0.1524" layer="91"/>
+<junction x="-14" y="-183"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="C6" gate="G$1" pin="P$1"/>
+<pinref part="X5" gate="G$1" pin="P$1"/>
+<wire x1="-14" y1="-201" x2="-14" y2="-203" width="0.1524" layer="91"/>
+<wire x1="-14" y1="-203" x2="-10.46" y2="-203" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="XTAL2"/>
+<wire x1="-50" y1="-194" x2="-23" y2="-194" width="0.1524" layer="91"/>
+<wire x1="-23" y1="-194" x2="-23" y2="-203" width="0.1524" layer="91"/>
+<wire x1="-23" y1="-203" x2="-14" y2="-203" width="0.1524" layer="91"/>
+<junction x="-14" y="-203"/>
+</segment>
+</net>
+<net name="MON_RESET" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="_RESET"/>
+<wire x1="-50" y1="-203" x2="-45" y2="-203" width="0.1524" layer="91"/>
+<label x="-42" y="-203" size="1.778" layer="95"/>
+<pinref part="R54" gate="G$1" pin="2"/>
+<wire x1="-45" y1="-203" x2="-42" y2="-203" width="0.1524" layer="91"/>
+<wire x1="-45" y1="-205.54" x2="-45" y2="-203" width="0.1524" layer="91"/>
+<junction x="-45" y="-203"/>
+</segment>
+<segment>
+<pinref part="MON_PROGRAM" gate="G$1" pin="RST"/>
+<wire x1="109" y1="-166" x2="101" y2="-166" width="0.1524" layer="91"/>
+<label x="101" y="-166" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="MON_USB_D+" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="D+"/>
+<wire x1="-50" y1="-200" x2="-42" y2="-200" width="0.1524" layer="91"/>
+<label x="-42" y="-200" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R53" gate="G$1" pin="1"/>
+<wire x1="113.54" y1="-201" x2="96" y2="-201" width="0.1524" layer="91"/>
+<label x="96" y="-201" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="MON_USB_D-" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="D-"/>
+<wire x1="-50" y1="-197" x2="-42" y2="-197" width="0.1524" layer="91"/>
+<label x="-42" y="-197" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R52" gate="G$1" pin="1"/>
+<wire x1="99.54" y1="-198" x2="96" y2="-198" width="0.1524" layer="91"/>
+<label x="96" y="-198" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="MONITORING" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PE6(INT6/AIN0)"/>
+<wire x1="-137" y1="-197" x2="-145" y2="-197" width="0.1524" layer="91"/>
+<label x="-145" y="-197" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="MON_MOSI" class="0">
+<segment>
+<pinref part="MON_PROGRAM" gate="G$1" pin="MOSI"/>
+<wire x1="135" y1="-163" x2="143" y2="-163" width="0.1524" layer="91"/>
+<label x="143" y="-163" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PB2(PDI/PCINT2/MOSI)"/>
+<wire x1="-86" y1="-140" x2="-86" y2="-132" width="0.1524" layer="91"/>
+<label x="-86" y="-132" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="MON_MISO" class="0">
+<segment>
+<pinref part="MON_PROGRAM" gate="G$1" pin="MISO"/>
+<wire x1="109" y1="-160" x2="101" y2="-160" width="0.1524" layer="91"/>
+<label x="101" y="-160" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PB3(PDO/PCINT3/MISO)"/>
+<wire x1="-89" y1="-140" x2="-89" y2="-132" width="0.1524" layer="91"/>
+<label x="-89" y="-132" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="MON_SCK" class="0">
+<segment>
+<pinref part="MON_PROGRAM" gate="G$1" pin="SCK"/>
+<wire x1="109" y1="-163" x2="101" y2="-163" width="0.1524" layer="91"/>
+<label x="101" y="-163" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="PB1(PCINT1/SCL)"/>
+<wire x1="-83" y1="-140" x2="-83" y2="-132" width="0.1524" layer="91"/>
+<label x="-83" y="-132" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="MON_USB_VCC" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="VBUS"/>
+<wire x1="-50" y1="-176" x2="-42" y2="-176" width="0.1524" layer="91"/>
+<label x="-42" y="-176" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="VCC"/>
+<wire x1="134" y1="-195" x2="126" y2="-195" width="0.1524" layer="91"/>
+<label x="126" y="-195" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="D+"/>
+<pinref part="R53" gate="G$1" pin="2"/>
+<wire x1="134" y1="-201" x2="122.46" y2="-201" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="D-"/>
+<pinref part="R52" gate="G$1" pin="2"/>
+<wire x1="134" y1="-198" x2="108.46" y2="-198" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MON_LED0" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PD2(RXD1/INT2)"/>
+<wire x1="-137" y1="-176" x2="-145" y2="-176" width="0.1524" layer="91"/>
+<label x="-145" y="-176" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R50" gate="G$1" pin="1"/>
+<wire x1="117" y1="-125.12" x2="107.46" y2="-125.12" width="0.1524" layer="91"/>
+<label x="107.46" y="-125.12" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="MON_LED1" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="PD3(TXD1/INT3)"/>
+<wire x1="-137" y1="-179" x2="-145" y2="-179" width="0.1524" layer="91"/>
+<label x="-145" y="-179" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R51" gate="G$1" pin="1"/>
+<wire x1="117" y1="-133.12" x2="107.46" y2="-133.12" width="0.1524" layer="91"/>
+<label x="107.46" y="-133.12" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_A8" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC0(A8)"/>
+<wire x1="-26" y1="-10" x2="-13" y2="-10" width="0.1524" layer="91"/>
+<label x="-13" y="-10" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OUT1" gate="G$1" pin="3"/>
+<wire x1="112" y1="40" x2="107" y2="40" width="0.1524" layer="91"/>
+<label x="107" y="40" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_A14" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC6(A14/OC.3A)"/>
+<wire x1="-26" y1="8" x2="-13" y2="8" width="0.1524" layer="91"/>
+<label x="-13" y="8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OUT1" gate="G$1" pin="10"/>
+<wire x1="132" y1="46" x2="137" y2="46" width="0.1524" layer="91"/>
+<label x="137" y="46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="XMEM_A13" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC5(A13/OC.3B)"/>
+<wire x1="-26" y1="5" x2="-13" y2="5" width="0.1524" layer="91"/>
+<label x="-13" y="5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OUT1" gate="G$1" pin="8"/>
+<wire x1="132" y1="40" x2="137" y2="40" width="0.1524" layer="91"/>
+<label x="137" y="40" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="XMEM_A12" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC4(A12/OC.3C)"/>
+<wire x1="-26" y1="2" x2="-13" y2="2" width="0.1524" layer="91"/>
+<label x="-13" y="2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OUT1" gate="G$1" pin="7"/>
+<wire x1="132" y1="37" x2="137" y2="37" width="0.1524" layer="91"/>
+<label x="137" y="37" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="XMEM_A11" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC3(A11/T.3)"/>
+<wire x1="-26" y1="-1" x2="-13" y2="-1" width="0.1524" layer="91"/>
+<label x="-13" y="-1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OUT1" gate="G$1" pin="6"/>
+<wire x1="132" y1="34" x2="137" y2="34" width="0.1524" layer="91"/>
+<label x="137" y="34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="XMEM_A10" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC2(A10)"/>
+<wire x1="-26" y1="-4" x2="-13" y2="-4" width="0.1524" layer="91"/>
+<label x="-13" y="-4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OUT1" gate="G$1" pin="5"/>
+<wire x1="112" y1="34" x2="107" y2="34" width="0.1524" layer="91"/>
+<label x="107" y="34" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_A9" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC1(A9)"/>
+<wire x1="-13" y1="-7" x2="-26" y2="-7" width="0.1524" layer="91"/>
+<label x="-13" y="-7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OUT1" gate="G$1" pin="4"/>
+<wire x1="112" y1="37" x2="107" y2="37" width="0.1524" layer="91"/>
+<label x="107" y="37" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="DAUGHTER_VCC" class="0">
+<segment>
+<pinref part="OUT2" gate="G$1" pin="10"/>
+<wire x1="137" y1="21" x2="132" y2="21" width="0.1524" layer="91"/>
+<label x="137" y="21" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SRAM_POWER" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="(INT.7/AIN.1/UVCON)PE7"/>
+<wire x1="-131" y1="26" x2="-151" y2="26" width="0.1524" layer="91"/>
+<label x="-151" y="26" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
@@ -3384,17 +3954,17 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <wire x1="87" y1="70" x2="87" y2="-18" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="87" y1="-18" x2="87" y2="-86" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="87" y1="-86" x2="87" y2="-133" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-119" y1="-133" x2="-119" y2="-81" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-119" y1="-81" x2="-119" y2="-2" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-119" y1="-2" x2="-119" y2="57" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-119" y1="57" x2="-119" y2="116" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-119" y1="-133" x2="-120" y2="-85.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-120" y1="-85.08" x2="-119" y2="-13.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-119" y1="-13.24" x2="-119" y2="43.22" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-119" y1="43.22" x2="-119" y2="116" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-119" y1="116" x2="-119" y2="172" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-118.3476" y1="172" x2="-263" y2="172" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-263" y1="172" x2="-263" y2="116" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-263" y1="116" x2="-263" y2="57" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-263" y1="57" x2="-263" y2="-2" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-263" y1="-2" x2="-263" y2="-81" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="-263" y1="-81" x2="-263" y2="-133" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-263" y1="116" x2="-263" y2="43.22" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-263" y1="43.22" x2="-263" y2="-13.24" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-263" y1="-13.24" x2="-264" y2="-85.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-264" y1="-85.08" x2="-263" y2="-133" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="-263" y1="-133" x2="206" y2="-133" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="206" y1="172" x2="206" y2="70" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="206" y1="70" x2="206" y2="-18" width="0.1524" layer="94" style="shortdash"/>
@@ -3409,13 +3979,12 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <text x="-194.82" y="164.12" size="2.54" layer="94">FPGA LEDs</text>
 <wire x1="-263" y1="116" x2="-119" y2="116" width="0.1524" layer="94" style="shortdash"/>
 <text x="-202.82" y="108.12" size="2.54" layer="94">FPGA power control</text>
-<wire x1="-263" y1="57" x2="-119" y2="57" width="0.1524" layer="94" style="shortdash"/>
-<text x="-196.82" y="47.12" size="2.54" layer="94">FPGA GPIO</text>
-<wire x1="-263" y1="-2" x2="-119" y2="-2" width="0.1524" layer="94" style="shortdash"/>
-<text x="-197.82" y="-11.88" size="2.54" layer="94">FPGA Mode Switch</text>
-<wire x1="-263" y1="-81" x2="-119" y2="-81" width="0.1524" layer="94" style="shortdash"/>
-<text x="-202.82" y="-88.88" size="2.54" layer="94">SPI Flash</text>
-<text x="-316" y="110" size="2.54" layer="94">Do we need a MOS for SRAM?</text>
+<wire x1="-263" y1="43.22" x2="-119" y2="43.22" width="0.1524" layer="94" style="shortdash"/>
+<text x="-196.82" y="35.34" size="2.54" layer="94">FPGA GPIO</text>
+<wire x1="-263" y1="-13.24" x2="-119" y2="-13.24" width="0.1524" layer="94" style="shortdash"/>
+<text x="-198.82" y="-20.58" size="2.54" layer="94">FPGA Mode Switch</text>
+<wire x1="-264" y1="-85.08" x2="-120" y2="-85.08" width="0.1524" layer="94" style="shortdash"/>
+<text x="-202.82" y="-93.96" size="2.54" layer="94">SPI Flash</text>
 </plain>
 <instances>
 <instance part="C4" gate="G$1" x="115.18" y="149.12" smashed="yes" rot="R270">
@@ -3453,13 +4022,13 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <instance part="U6" gate="G$1" x="-186.8" y="-119.32" smashed="yes">
 <attribute name="NAME" x="-186.8" y="-110.32" size="1.778" layer="95" align="bottom-center"/>
 </instance>
-<instance part="R18" gate="G$1" x="-204.64" y="-44.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="-202.64" y="-44.18" size="1.778" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="-206.64" y="-44.18" size="1.778" layer="96" rot="R270" align="top-center"/>
+<instance part="R18" gate="G$1" x="-205.64" y="-50.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="-203.64" y="-50.34" size="1.778" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="-207.64" y="-50.34" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="R17" gate="G$1" x="-217.64" y="-49.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="-215.64" y="-49.18" size="1.778" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="-219.64" y="-49.18" size="1.778" layer="96" rot="R270" align="top-center"/>
+<instance part="R17" gate="G$1" x="-218.64" y="-55.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="-216.64" y="-55.34" size="1.778" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="-220.64" y="-55.34" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
 <instance part="X2" gate="G$1" x="147.3" y="-55.48" smashed="yes">
 <attribute name="NAME" x="147.3" y="-50.48" size="1.6764" layer="95" align="bottom-center"/>
@@ -3505,17 +4074,17 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <attribute name="NAME" x="-199.8" y="-106.32" size="1.778" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-203.8" y="-106.32" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="J5" gate="G$1" x="-190.36" y="23.44" smashed="yes">
-<attribute name="NAME" x="-190.36" y="40.44" size="1.4224" layer="95" align="bottom-center"/>
+<instance part="J5" gate="G$1" x="-190.36" y="11.66" smashed="yes">
+<attribute name="NAME" x="-190.36" y="28.66" size="1.4224" layer="95" align="bottom-center"/>
 </instance>
-<instance part="S3" gate="G$1" x="-175.64" y="-60.18" smashed="yes">
-<attribute name="NAME" x="-175.64" y="-47.48" size="1.778" layer="95" align="bottom-center"/>
+<instance part="S3" gate="G$1" x="-176.64" y="-66.34" smashed="yes">
+<attribute name="NAME" x="-176.64" y="-53.64" size="1.778" layer="95" align="bottom-center"/>
 </instance>
-<instance part="M1" gate="G$1" x="-172.62" y="97.94" smashed="yes">
-<attribute name="NAME" x="-172.62" y="103.94" size="1.27" layer="95" align="bottom-center"/>
+<instance part="M1" gate="G$1" x="-173" y="98" smashed="yes">
+<attribute name="NAME" x="-173" y="104" size="1.27" layer="95" align="bottom-center"/>
 </instance>
-<instance part="M2" gate="G$1" x="-172.62" y="83.94" smashed="yes">
-<attribute name="NAME" x="-172.62" y="89.94" size="1.27" layer="95" align="bottom-center"/>
+<instance part="M2" gate="G$1" x="-173" y="84" smashed="yes">
+<attribute name="NAME" x="-173" y="90" size="1.27" layer="95" align="bottom-center"/>
 </instance>
 <instance part="U4" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="NAME" x="0" y="0" size="3" layer="95" align="bottom-center"/>
@@ -3524,12 +4093,12 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <attribute name="NAME" x="-4" y="134" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="0" y="134" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="M3" gate="G$1" x="-172.62" y="69.94" smashed="yes">
-<attribute name="NAME" x="-172.62" y="75.94" size="1.27" layer="95" align="bottom-center"/>
+<instance part="M3" gate="G$1" x="-173" y="70" smashed="yes">
+<attribute name="NAME" x="-173" y="76" size="1.27" layer="95" align="bottom-center"/>
 </instance>
-<instance part="R16" gate="G$1" x="-228.64" y="-56.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="-226.64" y="-56.18" size="1.778" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="-230.64" y="-56.18" size="1.778" layer="96" rot="R270" align="top-center"/>
+<instance part="R16" gate="G$1" x="-229.64" y="-62.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="-227.64" y="-62.34" size="1.778" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="-231.64" y="-62.34" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
 <instance part="C16" gate="G$1" x="163.68" y="149.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="167.68" y="149.12" size="1.778" layer="95" rot="R270" align="bottom-center"/>
@@ -3609,6 +4178,9 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <attribute name="NAME" x="184" y="83" size="1.778" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="176" y="83" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
+<instance part="M4" gate="G$1" x="-173" y="56" smashed="yes">
+<attribute name="NAME" x="-173" y="62" size="1.27" layer="95" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3661,21 +4233,21 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 </segment>
 <segment>
 <pinref part="S3" gate="G$1" pin="2Y"/>
-<wire x1="-161.64" y1="-51.18" x2="-156.64" y2="-51.18" width="0.1524" layer="91"/>
-<label x="-149.64" y="-51.18" size="1.778" layer="95"/>
-<wire x1="-156.64" y1="-51.18" x2="-149.64" y2="-51.18" width="0.1524" layer="91"/>
+<wire x1="-162.64" y1="-57.34" x2="-157.64" y2="-57.34" width="0.1524" layer="91"/>
+<label x="-150.64" y="-57.34" size="1.778" layer="95"/>
+<wire x1="-157.64" y1="-57.34" x2="-150.64" y2="-57.34" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="1Y"/>
 <pinref part="S3" gate="G$1" pin="4Y"/>
 <pinref part="S3" gate="G$1" pin="3Y"/>
-<wire x1="-161.64" y1="-69.18" x2="-156.64" y2="-69.18" width="0.1524" layer="91"/>
-<wire x1="-156.64" y1="-69.18" x2="-156.64" y2="-63.18" width="0.1524" layer="91"/>
-<junction x="-156.64" y="-51.18"/>
-<wire x1="-156.64" y1="-63.18" x2="-156.64" y2="-57.18" width="0.1524" layer="91"/>
-<wire x1="-156.64" y1="-57.18" x2="-156.64" y2="-51.18" width="0.1524" layer="91"/>
-<wire x1="-161.64" y1="-63.18" x2="-156.64" y2="-63.18" width="0.1524" layer="91"/>
-<junction x="-156.64" y="-63.18"/>
-<wire x1="-161.64" y1="-57.18" x2="-156.64" y2="-57.18" width="0.1524" layer="91"/>
-<junction x="-156.64" y="-57.18"/>
+<wire x1="-162.64" y1="-75.34" x2="-157.64" y2="-75.34" width="0.1524" layer="91"/>
+<wire x1="-157.64" y1="-75.34" x2="-157.64" y2="-69.34" width="0.1524" layer="91"/>
+<junction x="-157.64" y="-57.34"/>
+<wire x1="-157.64" y1="-69.34" x2="-157.64" y2="-63.34" width="0.1524" layer="91"/>
+<wire x1="-157.64" y1="-63.34" x2="-157.64" y2="-57.34" width="0.1524" layer="91"/>
+<wire x1="-162.64" y1="-69.34" x2="-157.64" y2="-69.34" width="0.1524" layer="91"/>
+<junction x="-157.64" y="-69.34"/>
+<wire x1="-162.64" y1="-63.34" x2="-157.64" y2="-63.34" width="0.1524" layer="91"/>
+<junction x="-157.64" y="-63.34"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="GND"/>
@@ -3826,11 +4398,6 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <junction x="151.68" y="156.62"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="D"/>
-<wire x1="-180.62" y1="100.94" x2="-190.62" y2="100.94" width="0.1524" layer="91"/>
-<label x="-190.62" y="100.94" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="VCCINT"/>
 <wire x1="-10" y1="-94" x2="-10" y2="-106" width="0.1524" layer="91"/>
 <label x="-10" y="-106" size="1.778" layer="95" rot="R270"/>
@@ -3839,6 +4406,11 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <pinref part="U4" gate="G$1" pin="VCCBRAM"/>
 <wire x1="5" y1="-94" x2="5" y2="-106" width="0.1524" layer="91"/>
 <label x="5" y="-106" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="D"/>
+<wire x1="-181" y1="101" x2="-191" y2="101" width="0.1524" layer="91"/>
+<label x="-191" y="101" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="FPGA_VCCAUX" class="1">
@@ -3883,11 +4455,6 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="126.3" y="-72.48" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="M2" gate="G$1" pin="D"/>
-<wire x1="-180.62" y1="86.94" x2="-190.62" y2="86.94" width="0.1524" layer="91"/>
-<label x="-190.62" y="86.94" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="VCCAUX"/>
 <wire x1="-13" y1="-94" x2="-13" y2="-106" width="0.1524" layer="91"/>
 <label x="-13" y="-106" size="1.778" layer="95" rot="R270"/>
@@ -3904,21 +4471,26 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="-228.64" y1="-51.72" x2="-228.64" y2="-36.18" width="0.1524" layer="91"/>
-<label x="-228.64" y="-36.18" size="1.778" layer="95" rot="R90"/>
+<wire x1="-229.64" y1="-57.88" x2="-229.64" y2="-42.34" width="0.1524" layer="91"/>
+<label x="-229.64" y="-42.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="156.86" y1="-106.38" x2="156.86" y2="-101.84" width="0.1524" layer="91"/>
 <label x="156.86" y="-101.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="M2" gate="G$1" pin="D"/>
+<wire x1="-181" y1="87" x2="-191" y2="87" width="0.1524" layer="91"/>
+<label x="-191" y="87" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="MODE0" class="0">
 <segment>
-<wire x1="-189.64" y1="-51.18" x2="-204.64" y2="-51.18" width="0.1524" layer="91"/>
+<wire x1="-190.64" y1="-57.34" x2="-205.64" y2="-57.34" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="-204.64" y1="-51.18" x2="-204.64" y2="-48.64" width="0.1524" layer="91"/>
-<label x="-204.64" y="-51.18" size="1.778" layer="95" rot="R180"/>
+<wire x1="-205.64" y1="-57.34" x2="-205.64" y2="-54.8" width="0.1524" layer="91"/>
+<label x="-205.64" y="-57.34" size="1.778" layer="95" rot="R180"/>
 <pinref part="S3" gate="G$1" pin="1X"/>
 </segment>
 <segment>
@@ -3929,10 +4501,10 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 </net>
 <net name="MODE1" class="0">
 <segment>
-<wire x1="-189.64" y1="-57.18" x2="-217.64" y2="-57.18" width="0.1524" layer="91"/>
-<label x="-204.64" y="-57.18" size="1.778" layer="95" rot="R180"/>
+<wire x1="-190.64" y1="-63.34" x2="-218.64" y2="-63.34" width="0.1524" layer="91"/>
+<label x="-205.64" y="-63.34" size="1.778" layer="95" rot="R180"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="-217.64" y1="-53.64" x2="-217.64" y2="-57.18" width="0.1524" layer="91"/>
+<wire x1="-218.64" y1="-59.8" x2="-218.64" y2="-63.34" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="2X"/>
 </segment>
 <segment>
@@ -4007,46 +4579,11 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <junction x="156.86" y="-118.84"/>
 </segment>
 </net>
-<net name="A11" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L8N_T1_D12_14"/>
-<wire x1="-47" y1="23" x2="-63" y2="23" width="0.1524" layer="91"/>
-<label x="-63" y="23" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="A12" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L9P_T1_DQS_14"/>
-<wire x1="-63" y1="20" x2="-47" y2="20" width="0.1524" layer="91"/>
-<label x="-63" y="20" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="A13" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L9N_T1_DQS_D13_14"/>
-<wire x1="-47" y1="17" x2="-63" y2="17" width="0.1524" layer="91"/>
-<label x="-63" y="17" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="A14" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L10P_T1_D14_14"/>
-<wire x1="-47" y1="14" x2="-63" y2="14" width="0.1524" layer="91"/>
-<label x="-63" y="14" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="A15" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L7P_T1_D09_14"/>
-<wire x1="-63" y1="32" x2="-47" y2="32" width="0.1524" layer="91"/>
-<label x="-63" y="32" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="FPGA_GPIO_0" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="-210.36" y1="36.44" x2="-200.36" y2="36.44" width="0.1524" layer="91"/>
-<label x="-210.36" y="36.44" size="1.778" layer="95" rot="R180"/>
+<wire x1="-210.36" y1="24.66" x2="-200.36" y2="24.66" width="0.1524" layer="91"/>
+<label x="-210.36" y="24.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L22N_T3_D20_14"/>
@@ -4057,8 +4594,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_1" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="20"/>
-<wire x1="-171.36" y1="36.44" x2="-180.36" y2="36.44" width="0.1524" layer="91"/>
-<label x="-171.36" y="36.44" size="1.778" layer="95"/>
+<wire x1="-171.36" y1="24.66" x2="-180.36" y2="24.66" width="0.1524" layer="91"/>
+<label x="-171.36" y="24.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L22P_T3_D21_14"/>
@@ -4069,8 +4606,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_2" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="-210.36" y1="33.44" x2="-200.36" y2="33.44" width="0.1524" layer="91"/>
-<label x="-210.36" y="33.44" size="1.778" layer="95" rot="R180"/>
+<wire x1="-210.36" y1="21.66" x2="-200.36" y2="21.66" width="0.1524" layer="91"/>
+<label x="-210.36" y="21.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L24N_T3_D16_14"/>
@@ -4081,8 +4618,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_3" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="19"/>
-<wire x1="-171.36" y1="33.44" x2="-180.36" y2="33.44" width="0.1524" layer="91"/>
-<label x="-171.36" y="33.44" size="1.778" layer="95"/>
+<wire x1="-171.36" y1="21.66" x2="-180.36" y2="21.66" width="0.1524" layer="91"/>
+<label x="-171.36" y="21.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L24P_T3_D17_14"/>
@@ -4093,8 +4630,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_4" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="-210.36" y1="30.44" x2="-200.36" y2="30.44" width="0.1524" layer="91"/>
-<label x="-210.36" y="30.44" size="1.778" layer="95" rot="R180"/>
+<wire x1="-210.36" y1="18.66" x2="-200.36" y2="18.66" width="0.1524" layer="91"/>
+<label x="-210.36" y="18.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L21P_T3_DQS_14"/>
@@ -4105,8 +4642,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_5" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="18"/>
-<wire x1="-171.36" y1="30.44" x2="-180.36" y2="30.44" width="0.1524" layer="91"/>
-<label x="-171.36" y="30.44" size="1.778" layer="95"/>
+<wire x1="-171.36" y1="18.66" x2="-180.36" y2="18.66" width="0.1524" layer="91"/>
+<label x="-171.36" y="18.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L23N_T3_D18_14"/>
@@ -4117,8 +4654,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_6" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="4"/>
-<wire x1="-200.36" y1="27.44" x2="-210.36" y2="27.44" width="0.1524" layer="91"/>
-<label x="-210.36" y="27.44" size="1.778" layer="95" rot="R180"/>
+<wire x1="-200.36" y1="15.66" x2="-210.36" y2="15.66" width="0.1524" layer="91"/>
+<label x="-210.36" y="15.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L23P_T3_D19_14"/>
@@ -4129,8 +4666,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_7" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="17"/>
-<wire x1="-171.36" y1="27.44" x2="-180.36" y2="27.44" width="0.1524" layer="91"/>
-<label x="-171.36" y="27.44" size="1.778" layer="95"/>
+<wire x1="-171.36" y1="15.66" x2="-180.36" y2="15.66" width="0.1524" layer="91"/>
+<label x="-171.36" y="15.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L21N_T3_DQS_D22_14"/>
@@ -4141,8 +4678,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_8" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="5"/>
-<wire x1="-210.36" y1="24.44" x2="-200.36" y2="24.44" width="0.1524" layer="91"/>
-<label x="-210.36" y="24.44" size="1.778" layer="95" rot="R180"/>
+<wire x1="-210.36" y1="12.66" x2="-200.36" y2="12.66" width="0.1524" layer="91"/>
+<label x="-210.36" y="12.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L20N_T3_D23_14"/>
@@ -4181,8 +4718,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_9" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="16"/>
-<wire x1="-171.36" y1="24.44" x2="-180.36" y2="24.44" width="0.1524" layer="91"/>
-<label x="-171.36" y="24.44" size="1.778" layer="95"/>
+<wire x1="-171.36" y1="12.66" x2="-180.36" y2="12.66" width="0.1524" layer="91"/>
+<label x="-171.36" y="12.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L20P_T3_D24_14"/>
@@ -4217,8 +4754,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_10" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="15"/>
-<wire x1="-171.36" y1="21.44" x2="-180.36" y2="21.44" width="0.1524" layer="91"/>
-<label x="-171.36" y="21.44" size="1.778" layer="95"/>
+<wire x1="-171.36" y1="9.66" x2="-180.36" y2="9.66" width="0.1524" layer="91"/>
+<label x="-171.36" y="9.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_25_14"/>
@@ -4229,8 +4766,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_11" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="6"/>
-<wire x1="-210.36" y1="21.44" x2="-200.36" y2="21.44" width="0.1524" layer="91"/>
-<label x="-210.36" y="21.44" size="1.778" layer="95" rot="R180"/>
+<wire x1="-210.36" y1="9.66" x2="-200.36" y2="9.66" width="0.1524" layer="91"/>
+<label x="-210.36" y="9.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L16N_T2_D31_14"/>
@@ -4241,8 +4778,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_12" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="14"/>
-<wire x1="-171.36" y1="18.44" x2="-180.36" y2="18.44" width="0.1524" layer="91"/>
-<label x="-171.36" y="18.44" size="1.778" layer="95"/>
+<wire x1="-171.36" y1="6.66" x2="-180.36" y2="6.66" width="0.1524" layer="91"/>
+<label x="-171.36" y="6.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L19N_T3_D25_VREF_14"/>
@@ -4253,8 +4790,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_13" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="7"/>
-<wire x1="-210.36" y1="18.44" x2="-200.36" y2="18.44" width="0.1524" layer="91"/>
-<label x="-210.36" y="18.44" size="1.778" layer="95" rot="R180"/>
+<wire x1="-210.36" y1="6.66" x2="-200.36" y2="6.66" width="0.1524" layer="91"/>
+<label x="-210.36" y="6.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L19P_T3_D26_14"/>
@@ -4265,8 +4802,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_15" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="13"/>
-<wire x1="-171.36" y1="15.44" x2="-180.36" y2="15.44" width="0.1524" layer="91"/>
-<label x="-171.36" y="15.44" size="1.778" layer="95"/>
+<wire x1="-171.36" y1="3.66" x2="-180.36" y2="3.66" width="0.1524" layer="91"/>
+<label x="-171.36" y="3.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L18P_T2_D28_14"/>
@@ -4277,8 +4814,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_17" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="12"/>
-<wire x1="-171.36" y1="12.44" x2="-180.36" y2="12.44" width="0.1524" layer="91"/>
-<label x="-171.36" y="12.44" size="1.778" layer="95"/>
+<wire x1="-171.36" y1="0.66" x2="-180.36" y2="0.66" width="0.1524" layer="91"/>
+<label x="-171.36" y="0.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L17P_T2_D30_14"/>
@@ -4289,8 +4826,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_19" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="11"/>
-<wire x1="-171.36" y1="9.44" x2="-180.36" y2="9.44" width="0.1524" layer="91"/>
-<label x="-171.36" y="9.44" size="1.778" layer="95"/>
+<wire x1="-171.36" y1="-2.34" x2="-180.36" y2="-2.34" width="0.1524" layer="91"/>
+<label x="-171.36" y="-2.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L14P_T2_SRCC_14"/>
@@ -4300,9 +4837,9 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 </net>
 <net name="FPGA_GPIO_18" class="0">
 <segment>
-<wire x1="-210.36" y1="9.44" x2="-200.36" y2="9.44" width="0.1524" layer="91"/>
+<wire x1="-210.36" y1="-2.34" x2="-200.36" y2="-2.34" width="0.1524" layer="91"/>
 <pinref part="J5" gate="G$1" pin="10"/>
-<label x="-210.36" y="9.44" size="1.778" layer="95" rot="R180"/>
+<label x="-210.36" y="-2.34" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L14N_T2_SRCC_14"/>
@@ -4313,8 +4850,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_16" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="9"/>
-<wire x1="-210.36" y1="12.44" x2="-200.36" y2="12.44" width="0.1524" layer="91"/>
-<label x="-210.36" y="12.44" size="1.778" layer="95" rot="R180"/>
+<wire x1="-210.36" y1="0.66" x2="-200.36" y2="0.66" width="0.1524" layer="91"/>
+<label x="-210.36" y="0.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L17N_T2_D29_14"/>
@@ -4325,8 +4862,8 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <net name="FPGA_GPIO_14" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="8"/>
-<wire x1="-210.36" y1="15.44" x2="-200.36" y2="15.44" width="0.1524" layer="91"/>
-<label x="-210.36" y="15.44" size="1.778" layer="95" rot="R180"/>
+<wire x1="-210.36" y1="3.66" x2="-200.36" y2="3.66" width="0.1524" layer="91"/>
+<label x="-210.36" y="3.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L18N_T2_D27_14"/>
@@ -4436,77 +4973,30 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="-63" y="2" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="WR" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L11P_T1_SRCC_14"/>
-<wire x1="-47" y1="8" x2="-63" y2="8" width="0.1524" layer="91"/>
-<label x="-63" y="8" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="RD" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L11N_T1_SRCC_14"/>
-<wire x1="-47" y1="5" x2="-63" y2="5" width="0.1524" layer="91"/>
-<label x="-63" y="5" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="A10" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L10N_T1_D15_14"/>
-<wire x1="-47" y1="11" x2="-63" y2="11" width="0.1524" layer="91"/>
-<label x="-63" y="11" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="A9" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L8P_T1_D11_14"/>
-<wire x1="-63" y1="26" x2="-47" y2="26" width="0.1524" layer="91"/>
-<label x="-63" y="26" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="A8" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L7N_T1_D10_14"/>
-<wire x1="-47" y1="29" x2="-63" y2="29" width="0.1524" layer="91"/>
-<label x="-63" y="29" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
 <net name="MONITORING" class="0">
 <segment>
 <pinref part="S3" gate="G$1" pin="4X"/>
-<wire x1="-189.64" y1="-69.18" x2="-204.64" y2="-69.18" width="0.1524" layer="91"/>
-<label x="-204.64" y="-69.18" size="1.778" layer="95" rot="R180"/>
+<wire x1="-190.64" y1="-75.34" x2="-205.64" y2="-75.34" width="0.1524" layer="91"/>
+<label x="-205.64" y="-75.34" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="FPGA_POWER" class="0">
 <segment>
 <pinref part="M1" gate="G$1" pin="G"/>
-<wire x1="-180.62" y1="97.94" x2="-190.62" y2="97.94" width="0.1524" layer="91"/>
-<label x="-190.62" y="97.94" size="1.778" layer="95" rot="R180"/>
+<wire x1="-181" y1="98" x2="-189" y2="98" width="0.1524" layer="91"/>
+<wire x1="-190" y1="98" x2="-191" y2="98" width="0.1524" layer="91"/>
+<wire x1="-189" y1="98" x2="-190" y2="98" width="0.1524" layer="91"/>
+<label x="-191" y="98" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="M2" gate="G$1" pin="G"/>
-<wire x1="-180.62" y1="83.94" x2="-190.62" y2="83.94" width="0.1524" layer="91"/>
-<label x="-190.62" y="83.94" size="1.778" layer="95" rot="R180"/>
+<wire x1="-181" y1="84" x2="-191" y2="84" width="0.1524" layer="91"/>
+<label x="-191" y="84" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="M3" gate="G$1" pin="G"/>
-<wire x1="-180.62" y1="69.94" x2="-190.62" y2="69.94" width="0.1524" layer="91"/>
-<label x="-190.62" y="69.94" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="FPGA_VCCAUX_MON" class="0">
-<segment>
-<pinref part="M2" gate="G$1" pin="S"/>
-<wire x1="-180.62" y1="80.94" x2="-190.62" y2="80.94" width="0.1524" layer="91"/>
-<label x="-190.62" y="80.94" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="FPGA_VCCINT_MON" class="1">
-<segment>
-<pinref part="M1" gate="G$1" pin="S"/>
-<wire x1="-180.62" y1="94.94" x2="-190.62" y2="94.94" width="0.1524" layer="91"/>
-<label x="-190.62" y="94.94" size="1.778" layer="95" rot="R180"/>
+<wire x1="-181" y1="70" x2="-191" y2="70" width="0.1524" layer="91"/>
+<label x="-191" y="70" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="FPGA_VCCIO" class="0">
@@ -4519,19 +5009,14 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="-1" y="-106" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="M3" gate="G$1" pin="D"/>
-<wire x1="-180.62" y1="72.94" x2="-190.62" y2="72.94" width="0.1524" layer="91"/>
-<label x="-190.62" y="72.94" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="-204.64" y1="-39.72" x2="-204.64" y2="-36.18" width="0.1524" layer="91"/>
-<label x="-204.64" y="-36.18" size="1.778" layer="95" rot="R90"/>
+<wire x1="-205.64" y1="-45.88" x2="-205.64" y2="-42.34" width="0.1524" layer="91"/>
+<label x="-205.64" y="-42.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="-217.64" y1="-44.72" x2="-217.64" y2="-36.18" width="0.1524" layer="91"/>
-<label x="-217.64" y="-36.18" size="1.778" layer="95" rot="R90"/>
+<wire x1="-218.64" y1="-50.88" x2="-218.64" y2="-42.34" width="0.1524" layer="91"/>
+<label x="-218.64" y="-42.34" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="C34" gate="G$1" pin="P$1"/>
@@ -4561,6 +5046,11 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <junction x="128" y="112"/>
 <label x="115" y="112" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="M3" gate="G$1" pin="D"/>
+<wire x1="-181" y1="73" x2="-191" y2="73" width="0.1524" layer="91"/>
+<label x="-191" y="73" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="MODE2" class="0">
 <segment>
@@ -4570,17 +5060,10 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 </segment>
 <segment>
 <pinref part="S3" gate="G$1" pin="3X"/>
-<label x="-204.64" y="-63.18" size="1.778" layer="95" rot="R180"/>
+<label x="-205.64" y="-69.34" size="1.778" layer="95" rot="R180"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="-228.64" y1="-60.64" x2="-228.64" y2="-63.18" width="0.1524" layer="91"/>
-<wire x1="-228.64" y1="-63.18" x2="-189.64" y2="-63.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="FPGA_VCCIO_MON" class="1">
-<segment>
-<pinref part="M3" gate="G$1" pin="S"/>
-<wire x1="-180.62" y1="66.94" x2="-190.62" y2="66.94" width="0.1524" layer="91"/>
-<label x="-190.62" y="66.94" size="1.778" layer="95" rot="R180"/>
+<wire x1="-229.64" y1="-66.8" x2="-229.64" y2="-69.34" width="0.1524" layer="91"/>
+<wire x1="-229.64" y1="-69.34" x2="-190.64" y2="-69.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AD6/SELECTMAP_D1/SPI_MISO/MCU_PDO" class="0">
@@ -4648,12 +5131,6 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <wire x1="-162.8" y1="-117.32" x2="-173.8" y2="-117.32" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="HOLD"/>
 <label x="-162.8" y="-117.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L13N_T2_MRCC_14"/>
-<wire x1="-47" y1="-7" x2="-63" y2="-7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OSC_100" class="0">
@@ -5124,86 +5601,6 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <label x="65" y="-46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
-<segment>
-<wire x1="47" y1="-52" x2="65.1" y2="-52" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L21P_T3_DQS_34"/>
-<label x="65" y="-52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<wire x1="47" y1="-55" x2="65.1" y2="-55" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L21N_T3_DQS_34"/>
-<label x="65" y="-55" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<wire x1="47" y1="-58" x2="65.1" y2="-58" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L22P_T3_34"/>
-<label x="65" y="-58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<wire x1="47" y1="-61" x2="65.1" y2="-61" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L22N_T3_34"/>
-<label x="65" y="-61" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$33" class="0">
-<segment>
-<wire x1="47" y1="-64" x2="65.1" y2="-64" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L23P_T3_34"/>
-<label x="65" y="-64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<wire x1="47" y1="-67" x2="65.1" y2="-67" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L23N_T3_34"/>
-<label x="65" y="-67" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<wire x1="47" y1="-70" x2="65.1" y2="-70" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L24P_T3_34"/>
-<label x="65" y="-70" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<wire x1="47" y1="-73" x2="65.1" y2="-73" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L24N_T3_34"/>
-<label x="65" y="-73" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<wire x1="47" y1="-76" x2="65.1" y2="-76" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_25_34"/>
-<label x="65" y="-76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SRAM_VCC" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="VCCO_34"/>
-<wire x1="2" y1="-94" x2="2" y2="-106" width="0.1524" layer="91"/>
-<label x="2" y="-106" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
-<pinref part="X4" gate="G$1" pin="EN"/>
-<wire x1="131.3" y1="-34.48" x2="126.3" y2="-34.48" width="0.1524" layer="91"/>
-<label x="126.3" y="-34.48" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="X4" gate="G$1" pin="VS+"/>
-<wire x1="168.3" y1="-34.48" x2="163.3" y2="-34.48" width="0.1524" layer="91"/>
-<label x="168.3" y="-34.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SRAM_VDD" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="VDD@1"/>
@@ -5243,6 +5640,26 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <junction x="128" y="90"/>
 <label x="115" y="90" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="M4" gate="G$1" pin="D"/>
+<wire x1="-181" y1="59" x2="-191" y2="59" width="0.1524" layer="91"/>
+<label x="-191" y="59" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="VCCO_34"/>
+<wire x1="2" y1="-94" x2="2" y2="-106" width="0.1524" layer="91"/>
+<label x="2" y="-106" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="X4" gate="G$1" pin="VS+"/>
+<wire x1="168.3" y1="-34.48" x2="163.3" y2="-34.48" width="0.1524" layer="91"/>
+<label x="168.3" y="-34.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X4" gate="G$1" pin="EN"/>
+<wire x1="131.3" y1="-34.48" x2="126.3" y2="-34.48" width="0.1524" layer="91"/>
+<label x="126.3" y="-34.48" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="SRAM_LB" class="0">
 <segment>
@@ -5266,6 +5683,111 @@ Q3: Do we need to measure the power consumption of the sensor board?</text>
 <pinref part="U4" gate="G$1" pin="IO_L10P_T1_34"/>
 <wire x1="47" y1="14" x2="65.1" y2="14" width="0.1524" layer="91"/>
 <label x="65" y="14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="XMEM_A15" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L7P_T1_D09_14"/>
+<wire x1="-63" y1="32" x2="-47" y2="32" width="0.1524" layer="91"/>
+<label x="-63" y="32" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_A8" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L7N_T1_D10_14"/>
+<wire x1="-47" y1="29" x2="-63" y2="29" width="0.1524" layer="91"/>
+<label x="-63" y="29" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_A9" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L8P_T1_D11_14"/>
+<wire x1="-63" y1="26" x2="-47" y2="26" width="0.1524" layer="91"/>
+<label x="-63" y="26" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_A11" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L8N_T1_D12_14"/>
+<wire x1="-47" y1="23" x2="-63" y2="23" width="0.1524" layer="91"/>
+<label x="-63" y="23" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_A12" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L9P_T1_DQS_14"/>
+<wire x1="-63" y1="20" x2="-47" y2="20" width="0.1524" layer="91"/>
+<label x="-63" y="20" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_A13" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L9N_T1_DQS_D13_14"/>
+<wire x1="-47" y1="17" x2="-63" y2="17" width="0.1524" layer="91"/>
+<label x="-63" y="17" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_A14" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L10P_T1_D14_14"/>
+<wire x1="-47" y1="14" x2="-63" y2="14" width="0.1524" layer="91"/>
+<label x="-63" y="14" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_A10" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L10N_T1_D15_14"/>
+<wire x1="-47" y1="11" x2="-63" y2="11" width="0.1524" layer="91"/>
+<label x="-63" y="11" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_WR" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L11P_T1_SRCC_14"/>
+<wire x1="-47" y1="8" x2="-63" y2="8" width="0.1524" layer="91"/>
+<label x="-63" y="8" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="XMEM_RD" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L11N_T1_SRCC_14"/>
+<wire x1="-47" y1="5" x2="-63" y2="5" width="0.1524" layer="91"/>
+<label x="-63" y="5" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="FPGA_VCCINT_MON" class="1">
+<segment>
+<pinref part="M1" gate="G$1" pin="S"/>
+<wire x1="-181" y1="95" x2="-191" y2="95" width="0.1524" layer="91"/>
+<label x="-191" y="95" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="FPGA_VCCAUX_MON" class="0">
+<segment>
+<pinref part="M2" gate="G$1" pin="S"/>
+<wire x1="-181" y1="81" x2="-191" y2="81" width="0.1524" layer="91"/>
+<label x="-191" y="81" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="FPGA_VCCIO_MON" class="1">
+<segment>
+<pinref part="M3" gate="G$1" pin="S"/>
+<wire x1="-181" y1="67" x2="-191" y2="67" width="0.1524" layer="91"/>
+<label x="-191" y="67" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="SRAM_POWER" class="0">
+<segment>
+<pinref part="M4" gate="G$1" pin="G"/>
+<wire x1="-181" y1="56" x2="-191" y2="56" width="0.1524" layer="91"/>
+<label x="-191" y="56" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="SRAM_VDD_MON" class="0">
+<segment>
+<pinref part="M4" gate="G$1" pin="S"/>
+<wire x1="-181" y1="53" x2="-191" y2="53" width="0.1524" layer="91"/>
+<label x="-191" y="53" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
@@ -5298,9 +5820,7 @@ Imax_SENSE2=533mA</text>
 <text x="38" y="52" size="2.54" layer="94">Wirless module and MCU </text>
 <text x="-13" y="65" size="2.54" layer="94">Current measure</text>
 <text x="-75" y="-8" size="2.54" layer="94">FPGA_AUX and FPGA_Core</text>
-<text x="34" y="-8" size="2.54" layer="94">SRAM and USB_VCC_ROW</text>
-<text x="-107" y="-71" size="2.54" layer="94">Q1: Should I delete the one of the measure for SRAM_VCC's current?
-Q2: Chage the ADDR_SEL with 0,100, 180,300 ???</text>
+<text x="26" y="-8" size="2.54" layer="94">Daughter_Board and USB_VCC_ROW</text>
 </plain>
 <instances>
 <instance part="U9" gate="G$1" x="-44" y="-38" smashed="yes">
@@ -5370,30 +5890,6 @@ Q2: Chage the ADDR_SEL with 0,100, 180,300 ???</text>
 <instance part="R42" gate="G$1" x="-17" y="35.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="-19" y="35.5" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-15" y="35.5" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R29" gate="G$1" x="79" y="35.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="77" y="35.5" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="81" y="35.5" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R30" gate="G$1" x="88" y="35.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="86" y="35.5" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="90" y="35.5" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R44" gate="G$1" x="-25" y="-25.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="-27" y="-25.5" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-23" y="-25.5" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R45" gate="G$1" x="-16" y="-25.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="-18" y="-25.5" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-14" y="-25.5" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R48" gate="G$1" x="79" y="-25.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="77" y="-25.5" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="81" y="-25.5" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R49" gate="G$1" x="88" y="-25.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="86" y="-25.5" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="90" y="-25.5" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -5500,34 +5996,13 @@ Q2: Chage the ADDR_SEL with 0,100, 180,300 ???</text>
 <label x="-13" y="41" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="79" y1="39.96" x2="79" y2="41" width="0.1524" layer="91"/>
-<wire x1="79" y1="41" x2="88" y2="41" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="88" y1="41" x2="93" y2="41" width="0.1524" layer="91"/>
-<wire x1="88" y1="39.96" x2="88" y2="41" width="0.1524" layer="91"/>
-<junction x="88" y="41"/>
-<label x="93" y="41" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="-25" y1="-21.04" x2="-25" y2="-20" width="0.1524" layer="91"/>
-<wire x1="-25" y1="-20" x2="-16" y2="-20" width="0.1524" layer="91"/>
-<pinref part="R45" gate="G$1" pin="2"/>
-<wire x1="-16" y1="-20" x2="-11" y2="-20" width="0.1524" layer="91"/>
-<wire x1="-16" y1="-21.04" x2="-16" y2="-20" width="0.1524" layer="91"/>
-<junction x="-16" y="-20"/>
-<label x="-11" y="-20" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R48" gate="G$1" pin="2"/>
-<wire x1="79" y1="-21.04" x2="79" y2="-20" width="0.1524" layer="91"/>
-<wire x1="79" y1="-20" x2="88" y2="-20" width="0.1524" layer="91"/>
-<pinref part="R49" gate="G$1" pin="2"/>
-<wire x1="88" y1="-20" x2="93" y2="-20" width="0.1524" layer="91"/>
-<wire x1="88" y1="-21.04" x2="88" y2="-20" width="0.1524" layer="91"/>
-<junction x="88" y="-20"/>
-<label x="93" y="-20" size="1.778" layer="95"/>
+<wire x1="23" y1="-32" x2="23" y2="-21" width="0.1524" layer="91"/>
+<wire x1="23" y1="-21" x2="18" y2="-21" width="0.1524" layer="91"/>
+<label x="38" y="-32" size="1.778" layer="95"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<wire x1="18" y1="-22.54" x2="18" y2="-21" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="SENSE1+"/>
+<wire x1="23" y1="-32" x2="43" y2="-32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCU_VCC" class="0">
@@ -5553,21 +6028,13 @@ Q2: Chage the ADDR_SEL with 0,100, 180,300 ???</text>
 <net name="SCL" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="SMCLK"/>
-<wire x1="77" y1="26" x2="79" y2="26" width="0.1524" layer="91"/>
 <label x="91" y="26" size="1.778" layer="95"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="79" y1="26" x2="91" y2="26" width="0.1524" layer="91"/>
-<wire x1="79" y1="31.04" x2="79" y2="26" width="0.1524" layer="91"/>
-<junction x="79" y="26"/>
+<wire x1="77" y1="26" x2="91" y2="26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="SMCLK"/>
-<wire x1="-27" y1="-35" x2="-25" y2="-35" width="0.1524" layer="91"/>
 <label x="-13" y="-35" size="1.778" layer="95"/>
-<pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="-25" y1="-35" x2="-13" y2="-35" width="0.1524" layer="91"/>
-<wire x1="-25" y1="-29.96" x2="-25" y2="-35" width="0.1524" layer="91"/>
-<junction x="-25" y="-35"/>
+<wire x1="-27" y1="-35" x2="-13" y2="-35" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="SMCLK"/>
@@ -5580,32 +6047,20 @@ Q2: Chage the ADDR_SEL with 0,100, 180,300 ???</text>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="SMCLK"/>
-<wire x1="77" y1="-35" x2="79" y2="-35" width="0.1524" layer="91"/>
 <label x="91" y="-35" size="1.778" layer="95"/>
-<pinref part="R48" gate="G$1" pin="1"/>
-<wire x1="79" y1="-35" x2="91" y2="-35" width="0.1524" layer="91"/>
-<wire x1="79" y1="-29.96" x2="79" y2="-35" width="0.1524" layer="91"/>
-<junction x="79" y="-35"/>
+<wire x1="77" y1="-35" x2="91" y2="-35" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="SMDATA"/>
-<wire x1="77" y1="23" x2="88" y2="23" width="0.1524" layer="91"/>
+<wire x1="77" y1="23" x2="91" y2="23" width="0.1524" layer="91"/>
 <label x="91" y="23" size="1.778" layer="95"/>
-<pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="88" y1="23" x2="91" y2="23" width="0.1524" layer="91"/>
-<wire x1="88" y1="31.04" x2="88" y2="23" width="0.1524" layer="91"/>
-<junction x="88" y="23"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="SMDATA"/>
-<wire x1="-27" y1="-38" x2="-16" y2="-38" width="0.1524" layer="91"/>
+<wire x1="-27" y1="-38" x2="-13" y2="-38" width="0.1524" layer="91"/>
 <label x="-13" y="-38" size="1.778" layer="95"/>
-<pinref part="R45" gate="G$1" pin="1"/>
-<wire x1="-16" y1="-38" x2="-13" y2="-38" width="0.1524" layer="91"/>
-<wire x1="-16" y1="-29.96" x2="-16" y2="-38" width="0.1524" layer="91"/>
-<junction x="-16" y="-38"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="SMDATA"/>
@@ -5618,12 +6073,8 @@ Q2: Chage the ADDR_SEL with 0,100, 180,300 ???</text>
 </segment>
 <segment>
 <pinref part="U11" gate="G$1" pin="SMDATA"/>
-<wire x1="77" y1="-38" x2="88" y2="-38" width="0.1524" layer="91"/>
+<wire x1="77" y1="-38" x2="91" y2="-38" width="0.1524" layer="91"/>
 <label x="91" y="-38" size="1.778" layer="95"/>
-<pinref part="R49" gate="G$1" pin="1"/>
-<wire x1="88" y1="-38" x2="91" y2="-38" width="0.1524" layer="91"/>
-<wire x1="88" y1="-29.96" x2="88" y2="-38" width="0.1524" layer="91"/>
-<junction x="88" y="-38"/>
 </segment>
 </net>
 <net name="WIRELESS_VCC" class="1">
@@ -5681,24 +6132,8 @@ Q2: Chage the ADDR_SEL with 0,100, 180,300 ???</text>
 <wire x1="-87" y1="-21" x2="-87" y2="-22.54" width="0.1524" layer="91"/>
 <label x="-66" y="-32" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="23" y1="-32" x2="23" y2="-21" width="0.1524" layer="91"/>
-<wire x1="23" y1="-21" x2="18" y2="-21" width="0.1524" layer="91"/>
-<label x="38" y="-32" size="1.778" layer="95"/>
-<pinref part="R43" gate="G$1" pin="1"/>
-<wire x1="18" y1="-22.54" x2="18" y2="-21" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="SENSE1+"/>
-<wire x1="23" y1="-32" x2="43" y2="-32" width="0.1524" layer="91"/>
-</segment>
 </net>
-<net name="SRAM_VCC" class="0">
-<segment>
-<label x="-88" y="26" size="1.778" layer="95"/>
-<pinref part="U7" gate="G$1" pin="SENSE1-"/>
-<wire x1="-89" y1="26" x2="-63" y2="26" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="-89" y1="29.54" x2="-89" y2="26" width="0.1524" layer="91"/>
-</segment>
+<net name="DAUGHTER_VCC" class="0">
 <segment>
 <label x="19" y="-35" size="1.778" layer="95"/>
 <pinref part="R43" gate="G$1" pin="2"/>
@@ -5746,6 +6181,15 @@ Q2: Chage the ADDR_SEL with 0,100, 180,300 ???</text>
 <label x="39" y="-38" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="SRAM_VDD_MON" class="0">
+<segment>
+<label x="-88" y="26" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$1" pin="SENSE1-"/>
+<wire x1="-89" y1="26" x2="-63" y2="26" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="-89" y1="29.54" x2="-89" y2="26" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="FPGA_VCCIO_MON" class="1">
 <segment>
 <pinref part="U7" gate="G$1" pin="SENSE2-"/>
@@ -5759,7 +6203,6 @@ Q2: Chage the ADDR_SEL with 0,100, 180,300 ???</text>
 </sheet>
 <sheet>
 <plain>
-<text x="-78" y="47" size="1.778" layer="97" align="bottom-center">1v 1.2v</text>
 <text x="90" y="-14" size="1.778" layer="94">R1/R2 = (Vo/Vref) - 1
 = (1.8/0.6) - 1 = 2
 
@@ -5775,20 +6218,16 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+20000/10000)=1.8V</text>
 <wire x1="-157" y1="69" x2="0.131140625" y2="69" width="0.6096" layer="94" style="shortdash"/>
 <wire x1="1.350340625" y1="69" x2="157" y2="69" width="0.6096" layer="94" style="shortdash"/>
 <wire x1="0" y1="-69" x2="0" y2="68.3904" width="0.6096" layer="94" style="shortdash"/>
-<text x="-97" y="61" size="2.5" layer="94">Vreg 1.0V and 1.5V</text>
+<text x="-97" y="61" size="2.5" layer="94">Vreg 1.0V</text>
 <text x="65" y="63" size="2.5" layer="94">Vreg 3.3V and 1.8V</text>
-<text x="-62" y="73" size="1.778" layer="94">Q1: Delete the 1.2V power source?
-Q2: Why Pin_RUN2 connect to 3V3?</text>
 <text x="9" y="-14" size="1.778" layer="94">R1/R2 = (Vo/Vref) - 1
 = (1/0.6) - 1 = 0.67
 
 Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
-<text x="57" y="72" size="1.778" layer="94">Q: Why Pin_RUN2 connect to 3V3?</text>
 <text x="-152" y="-14" size="1.778" layer="94">R1/R2 = (Vo/Vref) - 1
 = (1/0.6) - 1 = 0.67
 
 Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
-<text x="65" y="-75" size="1.778" layer="94">Q1: Delete the test point of 1.2V ?</text>
 </plain>
 <instances>
 <instance part="U10" gate="G$1" x="75" y="29" smashed="yes">
@@ -5839,28 +6278,12 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 </instance>
 <instance part="TP1" gate="G$1" x="71" y="-37" smashed="yes" rot="R180"/>
 <instance part="TP2" gate="G$1" x="71" y="-40" smashed="yes" rot="R180"/>
-<instance part="TP3" gate="G$1" x="71" y="-46" smashed="yes" rot="R180"/>
-<instance part="TP4" gate="G$1" x="71" y="-49" smashed="yes" rot="R180"/>
-<instance part="TP5" gate="G$1" x="71" y="-52" smashed="yes" rot="R180"/>
-<instance part="TP6" gate="G$1" x="71" y="-43" smashed="yes" rot="R180"/>
 <instance part="U14" gate="G$1" x="-76" y="29" smashed="yes">
 <attribute name="NAME" x="-76" y="38" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="R37" gate="G$1" x="-37" y="29" smashed="yes">
-<attribute name="NAME" x="-37" y="31" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="-37" y="27" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="R38" gate="G$1" x="-43" y="19" smashed="yes" rot="R90">
-<attribute name="NAME" x="-45" y="19" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-41" y="19" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="R39" gate="G$1" x="-106" y="19" smashed="yes" rot="R270">
 <attribute name="NAME" x="-104" y="19" size="1.778" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-108" y="19" size="1.778" layer="96" rot="R270" align="top-center"/>
-</instance>
-<instance part="C26" gate="G$1" x="-30" y="19" smashed="yes" rot="R90">
-<attribute name="NAME" x="-34" y="19" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="-26" y="19" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="C27" gate="G$1" x="-118" y="19" smashed="yes" rot="R270">
 <attribute name="NAME" x="-114" y="19" size="1.778" layer="95" rot="R270" align="bottom-center"/>
@@ -5869,10 +6292,6 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 <instance part="C28" gate="G$1" x="-56" y="43" smashed="yes" rot="R90">
 <attribute name="NAME" x="-60" y="43" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-52" y="43" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="L5" gate="G$1" x="-45" y="32" smashed="yes">
-<attribute name="NAME" x="-45" y="33" size="1.4224" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="-45" y="31.5" size="1.4224" layer="96" align="top-center"/>
 </instance>
 <instance part="L6" gate="G$1" x="-105" y="35" smashed="yes">
 <attribute name="NAME" x="-105" y="36" size="1.4224" layer="95" align="bottom-center"/>
@@ -5894,6 +6313,9 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 <attribute name="NAME" x="114" y="31" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="114" y="27" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="TP7" gate="G$1" x="71" y="-43" smashed="yes" rot="R180"/>
+<instance part="TP8" gate="G$1" x="71" y="-46" smashed="yes" rot="R180"/>
+<instance part="TP3" gate="G$1" x="71" y="-49" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5947,22 +6369,9 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 <label x="55" y="-4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TP5" gate="G$1" pin="&gt;NAME"/>
-<wire x1="76.08" y1="-52" x2="82" y2="-52" width="0.1524" layer="91"/>
-<label x="82" y="-52" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U14" gate="G$1" pin="GND"/>
 <wire x1="-91" y1="23" x2="-91" y2="17" width="0.1524" layer="91"/>
 <label x="-91" y="17" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="-30" y1="13" x2="-43" y2="13" width="0.1524" layer="91"/>
-<wire x1="-43" y1="13" x2="-43" y2="14.54" width="0.1524" layer="91"/>
-<label x="-43" y="13" size="1.778" layer="95" rot="R180"/>
-<pinref part="C26" gate="G$1" pin="P$1"/>
-<wire x1="-30" y1="15.54" x2="-30" y2="13" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="P$2"/>
@@ -5981,6 +6390,11 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 <pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="-96" y1="-1.46" x2="-96" y2="-4" width="0.1524" layer="91"/>
 <label x="-96" y="-4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP3" gate="G$1" pin="&gt;NAME"/>
+<wire x1="82" y1="-49" x2="76.08" y2="-49" width="0.1524" layer="91"/>
+<label x="82" y="-49" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -6049,11 +6463,6 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 </net>
 <net name="1V" class="1">
 <segment>
-<pinref part="TP4" gate="G$1" pin="&gt;NAME"/>
-<wire x1="76.08" y1="-49" x2="82" y2="-49" width="0.1524" layer="91"/>
-<label x="82" y="-49" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C27" gate="G$1" pin="P$1"/>
 <wire x1="-118" y1="22.46" x2="-118" y2="31" width="0.1524" layer="91"/>
 <wire x1="-118" y1="31" x2="-116.46" y2="31" width="0.1524" layer="91"/>
@@ -6063,6 +6472,11 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 <wire x1="-118" y1="35" x2="-118" y2="31" width="0.1524" layer="91"/>
 <junction x="-118" y="31"/>
 <pinref part="R46" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="TP8" gate="G$1" pin="&gt;NAME"/>
+<wire x1="82" y1="-46" x2="76.08" y2="-46" width="0.1524" layer="91"/>
+<label x="82" y="-46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3V3" class="1">
@@ -6083,9 +6497,9 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 <label x="99" y="26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U14" gate="G$1" pin="RUN2"/>
-<wire x1="-61" y1="26" x2="-52" y2="26" width="0.1524" layer="91"/>
-<label x="-52" y="26" size="1.778" layer="95"/>
+<pinref part="TP2" gate="G$1" pin="&gt;NAME"/>
+<wire x1="82" y1="-40" x2="76.08" y2="-40" width="0.1524" layer="91"/>
+<label x="82" y="-40" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USBD+" class="0">
@@ -6137,31 +6551,6 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 <label x="-65" y="-44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="1V2" class="1">
-<segment>
-<pinref part="TP3" gate="G$1" pin="&gt;NAME"/>
-<wire x1="76.08" y1="-46" x2="82" y2="-46" width="0.1524" layer="91"/>
-<label x="82" y="-46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="-32.54" y1="29" x2="-30" y2="29" width="0.1524" layer="91"/>
-<label x="-30" y="32" size="1.778" layer="95" rot="R90"/>
-<pinref part="L5" gate="G$1" pin="P$2"/>
-<wire x1="-41.04" y1="32" x2="-30" y2="32" width="0.1524" layer="91"/>
-<wire x1="-30" y1="32" x2="-30" y2="29" width="0.1524" layer="91"/>
-<pinref part="C26" gate="G$1" pin="P$2"/>
-<wire x1="-30" y1="22.46" x2="-30" y2="29" width="0.1524" layer="91"/>
-<junction x="-30" y="29"/>
-</segment>
-</net>
-<net name="1V5" class="1">
-<segment>
-<pinref part="TP6" gate="G$1" pin="&gt;NAME"/>
-<wire x1="76.08" y1="-43" x2="82" y2="-43" width="0.1524" layer="91"/>
-<label x="82" y="-43" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$53" class="0">
 <segment>
 <pinref part="U14" gate="G$1" pin="VFB1"/>
@@ -6173,29 +6562,11 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 <pinref part="R46" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$54" class="0">
-<segment>
-<pinref part="U14" gate="G$1" pin="VFB2"/>
-<wire x1="-41.46" y1="29" x2="-43" y2="29" width="0.1524" layer="91"/>
-<pinref part="R37" gate="G$1" pin="1"/>
-<pinref part="R38" gate="G$1" pin="2"/>
-<wire x1="-43" y1="29" x2="-61" y2="29" width="0.1524" layer="91"/>
-<wire x1="-43" y1="23.46" x2="-43" y2="29" width="0.1524" layer="91"/>
-<junction x="-43" y="29"/>
-</segment>
-</net>
 <net name="N$55" class="0">
 <segment>
 <pinref part="L6" gate="G$1" pin="P$2"/>
 <pinref part="U14" gate="G$1" pin="SW1"/>
 <wire x1="-101.04" y1="35" x2="-91" y2="35" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$56" class="0">
-<segment>
-<pinref part="U14" gate="G$1" pin="SW2"/>
-<pinref part="L5" gate="G$1" pin="P$1"/>
-<wire x1="-61" y1="32" x2="-48.96" y2="32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -6218,9 +6589,9 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
 <junction x="121" y="29"/>
 </segment>
 <segment>
-<pinref part="TP2" gate="G$1" pin="&gt;NAME"/>
-<wire x1="82" y1="-40" x2="76.08" y2="-40" width="0.1524" layer="91"/>
-<label x="82" y="-40" size="1.778" layer="95"/>
+<pinref part="TP7" gate="G$1" pin="&gt;NAME"/>
+<wire x1="82" y1="-43" x2="76.08" y2="-43" width="0.1524" layer="91"/>
+<label x="82" y="-43" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
