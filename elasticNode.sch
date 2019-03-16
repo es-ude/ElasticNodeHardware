@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="63" fill="0" visible="no" active="no"/>
@@ -5199,458 +5199,511 @@
 </net>
 <net name="OSC_100" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="IO_L12P_T1_MRCC_34"/>
-<wire x1="47" y1="2" x2="65" y2="2" width="0.1524" layer="91"/>
-<label x="65" y="2" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="X4" gate="G$1" pin="OUTPUT"/>
 <wire x1="163.3" y1="-38.48" x2="168.3" y2="-38.48" width="0.1524" layer="91"/>
 <label x="168.3" y="-38.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="21" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="21" x2="232" y2="21" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L12P_T1_MRCC_34"/>
+<wire x1="47" y1="2" x2="62" y2="2" width="0.1524" layer="91"/>
+<label x="62" y="2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_A5" class="0">
-<segment>
-<wire x1="47" y1="53" x2="65.1" y2="53" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L3N_T0_DQS_34"/>
-<label x="65" y="53" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A5"/>
 <wire x1="167.58" y1="53.5" x2="178.1" y2="53.5" width="0.1524" layer="91"/>
 <label x="178.1" y="53.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="72" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="72" x2="232.1" y2="72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L2P_T0_34"/>
+<wire x1="47" y1="62" x2="62" y2="62" width="0.1524" layer="91"/>
+<label x="62" y="62" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_A6" class="0">
-<segment>
-<wire x1="47" y1="50" x2="65.1" y2="50" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L4P_T0_34"/>
-<label x="65" y="50" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A6"/>
 <wire x1="167.58" y1="50.5" x2="178.1" y2="50.5" width="0.1524" layer="91"/>
 <label x="178.1" y="50.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="69" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="69" x2="232.1" y2="69" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L2N_T0_34"/>
+<wire x1="47" y1="59" x2="62" y2="59" width="0.1524" layer="91"/>
+<label x="62" y="59" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_A7" class="0">
-<segment>
-<wire x1="47" y1="47" x2="65.1" y2="47" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L4N_T0_34"/>
-<label x="65" y="47" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A7"/>
 <wire x1="167.58" y1="47.5" x2="178.1" y2="47.5" width="0.1524" layer="91"/>
 <label x="178.1" y="47.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="66" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="66" x2="232.1" y2="66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L3N_T0_DQS_34"/>
+<wire x1="47" y1="53" x2="62" y2="53" width="0.1524" layer="91"/>
+<label x="62" y="53" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_OE" class="0">
-<segment>
-<wire x1="47" y1="-43" x2="65.1" y2="-43" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L19N_T3_VREF_34"/>
-<label x="65" y="-43" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="OE#"/>
 <wire x1="167.58" y1="44.5" x2="178.1" y2="44.5" width="0.1524" layer="91"/>
 <label x="178.1" y="44.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="-24" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="-24" x2="232.1" y2="-24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L5N_T0_34"/>
+<wire x1="47" y1="41" x2="62" y2="41" width="0.1524" layer="91"/>
+<label x="62" y="41" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_D15" class="0">
-<segment>
-<wire x1="47" y1="-40" x2="65.1" y2="-40" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L19P_T3_34"/>
-<label x="65" y="-40" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O15"/>
 <wire x1="167.58" y1="35.5" x2="178.1" y2="35.5" width="0.1524" layer="91"/>
 <label x="178.1" y="35.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="-21" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="-21" x2="232.1" y2="-21" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L9N_T1_DQS_34"/>
+<wire x1="47" y1="17" x2="62" y2="17" width="0.1524" layer="91"/>
+<label x="62" y="17" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_D14" class="0">
-<segment>
-<wire x1="47" y1="-37" x2="65.1" y2="-37" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L18N_T2_34"/>
-<label x="65" y="-37" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O14"/>
 <wire x1="167.58" y1="32.5" x2="178.1" y2="32.5" width="0.1524" layer="91"/>
 <label x="178.1" y="32.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="-18" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="-18" x2="232.1" y2="-18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L9P_T1_DQS_34"/>
+<wire x1="47" y1="20" x2="62" y2="20" width="0.1524" layer="91"/>
+<label x="62" y="20" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_D13" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L18P_T2_34"/>
-<wire x1="47" y1="-34" x2="65.1" y2="-34" width="0.1524" layer="91"/>
-<label x="65" y="-34" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O13"/>
 <wire x1="167.58" y1="29.5" x2="178.1" y2="29.5" width="0.1524" layer="91"/>
 <label x="178.1" y="29.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="-15" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="-15" x2="232.1" y2="-15" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L14N_T2_SRCC_34"/>
+<wire x1="47" y1="-13" x2="61" y2="-13" width="0.1524" layer="91"/>
+<label x="61" y="-13" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_D12" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L17N_T2_34"/>
-<wire x1="47" y1="-31" x2="65" y2="-31" width="0.1524" layer="91"/>
-<label x="65" y="-31" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O12"/>
 <wire x1="167.58" y1="26.5" x2="178.1" y2="26.5" width="0.1524" layer="91"/>
 <label x="178.1" y="26.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="-12" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="-12" x2="232" y2="-12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L15N_T2_DQS_34"/>
+<wire x1="47" y1="-19" x2="61" y2="-19" width="0.1524" layer="91"/>
+<label x="61" y="-19" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_D11" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L17P_T2_34"/>
-<wire x1="65" y1="-28" x2="47" y2="-28" width="0.1524" layer="91"/>
-<label x="65" y="-28" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O11"/>
 <wire x1="167.58" y1="17.5" x2="178.1" y2="17.5" width="0.1524" layer="91"/>
 <label x="178.1" y="17.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="-9" size="1.778" layer="95"/>
+<wire x1="232" y1="-9" x2="223.0324" y2="-9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L22N_T3_34"/>
+<wire x1="47" y1="-61" x2="61" y2="-61" width="0.1524" layer="91"/>
+<label x="61" y="-61" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_D10" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L16N_T2_34"/>
-<wire x1="47" y1="-25" x2="65" y2="-25" width="0.1524" layer="91"/>
-<label x="65" y="-25" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O10"/>
 <wire x1="167.58" y1="14.5" x2="178.1" y2="14.5" width="0.1524" layer="91"/>
 <label x="178.1" y="14.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="-6" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="-6" x2="232" y2="-6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L18N_T2_34"/>
+<wire x1="47" y1="-37" x2="61" y2="-37" width="0.1524" layer="91"/>
+<label x="61" y="-37" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_D9" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L16P_T2_34"/>
-<wire x1="65" y1="-22" x2="47" y2="-22" width="0.1524" layer="91"/>
-<label x="65" y="-22" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O9"/>
 <wire x1="167.58" y1="11.5" x2="178.1" y2="11.5" width="0.1524" layer="91"/>
 <label x="178.1" y="11.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="-3" size="1.778" layer="95"/>
+<wire x1="232" y1="-3" x2="223.0324" y2="-3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L22P_T3_34"/>
+<wire x1="47" y1="-58" x2="61" y2="-58" width="0.1524" layer="91"/>
+<label x="61" y="-58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_D8" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L15N_T2_DQS_34"/>
-<wire x1="47" y1="-19" x2="65" y2="-19" width="0.1524" layer="91"/>
-<label x="65" y="-19" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O8"/>
 <wire x1="167.58" y1="8.5" x2="178.1" y2="8.5" width="0.1524" layer="91"/>
 <label x="178.2" y="7.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="0" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="0" x2="232" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L18P_T2_34"/>
+<wire x1="47" y1="-34" x2="61" y2="-34" width="0.1524" layer="91"/>
+<label x="61" y="-34" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_A8" class="0">
-<segment>
-<wire x1="47" y1="44" x2="65.1" y2="44" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L5P_T0_34"/>
-<label x="65" y="44" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A8"/>
 <wire x1="167.58" y1="2.5" x2="178.1" y2="2.5" width="0.1524" layer="91"/>
 <label x="178.1" y="2.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="63" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="63" x2="232.1" y2="63" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L19P_T3_34"/>
+<wire x1="47" y1="-40" x2="61" y2="-40" width="0.1524" layer="91"/>
+<label x="61" y="-40" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_A9" class="0">
-<segment>
-<wire x1="47" y1="41" x2="65.1" y2="41" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L5N_T0_34"/>
-<label x="65" y="41" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A9"/>
 <wire x1="167.58" y1="-0.5" x2="178.1" y2="-0.5" width="0.1524" layer="91"/>
 <label x="178.1" y="-0.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="60" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="60" x2="232.1" y2="60" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L23N_T3_34"/>
+<wire x1="47" y1="-67" x2="61" y2="-67" width="0.1524" layer="91"/>
+<label x="61" y="-67" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_A10" class="0">
-<segment>
-<wire x1="47" y1="38" x2="65.1" y2="38" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L6P_T0_34"/>
-<label x="65" y="38" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A10"/>
 <wire x1="167.58" y1="-3.5" x2="178.1" y2="-3.5" width="0.1524" layer="91"/>
 <label x="178.1" y="-3.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="57" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="57" x2="232.1" y2="57" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L23P_T3_34"/>
+<wire x1="47" y1="-64" x2="61" y2="-64" width="0.1524" layer="91"/>
+<label x="61" y="-64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_A11" class="0">
-<segment>
-<wire x1="47" y1="35" x2="65.1" y2="35" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L6N_T0_VREF_34"/>
-<label x="65" y="35" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A11"/>
 <wire x1="167.58" y1="-6.5" x2="178.1" y2="-6.5" width="0.1524" layer="91"/>
 <label x="178.1" y="-6.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="232" y="54" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="54" x2="232.1" y2="54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L20N_T3_34"/>
+<wire x1="47" y1="-49" x2="61" y2="-49" width="0.1524" layer="91"/>
+<label x="61" y="-49" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_A17" class="0">
-<segment>
-<wire x1="47" y1="17" x2="65.1" y2="17" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L9N_T1_DQS_34"/>
-<label x="65" y="17" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A17"/>
 <wire x1="167.58" y1="-9.5" x2="178.1" y2="-9.5" width="0.1524" layer="91"/>
 <label x="178.1" y="-9.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L24N_T3_34"/>
+<wire x1="47" y1="-73" x2="61" y2="-73" width="0.1524" layer="91"/>
+<label x="61" y="-73" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_A12" class="0">
-<segment>
-<wire x1="47" y1="32" x2="65.1" y2="32" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L7P_T1_34"/>
-<label x="65" y="32" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A12"/>
 <wire x1="129.58" y1="-9.5" x2="119.1" y2="-9.5" width="0.1524" layer="91"/>
 <label x="119.1" y="-9.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="51" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="51" x2="232.1" y2="51" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_A13" class="0">
-<segment>
-<wire x1="47" y1="29" x2="65.1" y2="29" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L7N_T1_34"/>
-<label x="65" y="29" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A13"/>
 <wire x1="129.58" y1="-6.5" x2="119.1" y2="-6.5" width="0.1524" layer="91"/>
 <label x="119.1" y="-6.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="48" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="48" x2="232.1" y2="48" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_A14" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L8P_T1_34"/>
-<wire x1="47" y1="26" x2="65" y2="26" width="0.1524" layer="91"/>
-<label x="65" y="26" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A14"/>
 <wire x1="129.58" y1="-3.5" x2="119.1" y2="-3.5" width="0.1524" layer="91"/>
 <label x="119.1" y="-3.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="45" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="45" x2="232" y2="45" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_A15" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L8N_T1_34"/>
-<wire x1="47" y1="23" x2="65" y2="23" width="0.1524" layer="91"/>
-<label x="65" y="23" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A15"/>
 <wire x1="129.58" y1="-0.5" x2="119.1" y2="-0.5" width="0.1524" layer="91"/>
 <label x="119.1" y="-0.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="42" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="42" x2="232" y2="42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_A16" class="0">
-<segment>
-<wire x1="47" y1="20" x2="65.1" y2="20" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L9P_T1_DQS_34"/>
-<label x="65" y="20" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A16"/>
 <wire x1="129.58" y1="2.5" x2="119.1" y2="2.5" width="0.1524" layer="91"/>
 <label x="119.1" y="2.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="39" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="39" x2="232.1" y2="39" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_WE" class="0">
-<segment>
-<wire x1="47" y1="-1" x2="65.1" y2="-1" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L12N_T1_MRCC_34"/>
-<label x="65" y="-1" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="WE#"/>
 <wire x1="129.58" y1="5.5" x2="119.1" y2="5.5" width="0.1524" layer="91"/>
 <label x="119.1" y="5.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="18" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="18" x2="232.1" y2="18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_D7" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L15P_T2_DQS_34"/>
-<wire x1="65" y1="-16" x2="47" y2="-16" width="0.1524" layer="91"/>
-<label x="65" y="-16" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O7"/>
 <wire x1="129.58" y1="8.5" x2="119.1" y2="8.5" width="0.1524" layer="91"/>
 <label x="119.1" y="8.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="3" size="1.778" layer="95"/>
+<wire x1="232" y1="3" x2="223.0324" y2="3" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_D6" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L14N_T2_SRCC_34"/>
-<wire x1="65" y1="-13" x2="47" y2="-13" width="0.1524" layer="91"/>
-<label x="65" y="-13" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O6"/>
 <wire x1="129.58" y1="11.5" x2="119.1" y2="11.5" width="0.1524" layer="91"/>
 <label x="119.1" y="11.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="6" size="1.778" layer="95"/>
+<wire x1="232" y1="6" x2="223.0324" y2="6" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_D5" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L14P_T2_SRCC_34"/>
-<wire x1="47" y1="-10" x2="65" y2="-10" width="0.1524" layer="91"/>
-<label x="65" y="-10" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O5"/>
 <wire x1="129.58" y1="14.5" x2="119.1" y2="14.5" width="0.1524" layer="91"/>
 <label x="119.1" y="14.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="9" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="9" x2="232" y2="9" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_D1" class="0">
-<segment>
-<wire x1="47" y1="8" x2="65.1" y2="8" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L11P_T1_SRCC_34"/>
-<label x="65" y="8" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O1"/>
 <wire x1="119.1" y1="32.5" x2="129.58" y2="32.5" width="0.1524" layer="91"/>
 <label x="119.1" y="32.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="27" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="27" x2="232.1" y2="27" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_D0" class="0">
-<segment>
-<wire x1="47" y1="11" x2="65.1" y2="11" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L10N_T1_34"/>
-<label x="65" y="11" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O0"/>
 <wire x1="129.58" y1="35.5" x2="119.1" y2="35.5" width="0.1524" layer="91"/>
 <label x="119.1" y="35.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="30" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="30" x2="232.1" y2="30" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_CS" class="0">
-<segment>
-<wire x1="47" y1="71" x2="65.1" y2="71" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_0_34"/>
-<label x="65" y="71" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="CS1#"/>
 <wire x1="129.58" y1="38.5" x2="119.1" y2="38.5" width="0.1524" layer="91"/>
 <label x="119.1" y="38.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="90" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="90" x2="232.1" y2="90" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_A0" class="0">
-<segment>
-<wire x1="47" y1="68" x2="65.1" y2="68" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L1P_T0_34"/>
-<label x="65" y="68" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A0"/>
 <wire x1="119.1" y1="41.5" x2="129.58" y2="41.5" width="0.1524" layer="91"/>
 <label x="119.1" y="41.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="87" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="87" x2="232.1" y2="87" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_A1" class="0">
-<segment>
-<wire x1="47" y1="65" x2="65.1" y2="65" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L1N_T0_34"/>
-<label x="65" y="65" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A1"/>
 <wire x1="129.58" y1="44.5" x2="119.1" y2="44.5" width="0.1524" layer="91"/>
 <label x="119.1" y="44.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="84" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="84" x2="232.1" y2="84" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_A4" class="0">
-<segment>
-<wire x1="47" y1="56" x2="65.1" y2="56" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L3P_T0_DQS_34"/>
-<label x="65" y="56" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A4"/>
 <wire x1="129.58" y1="53.5" x2="119.1" y2="53.5" width="0.1524" layer="91"/>
 <label x="119.1" y="53.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="75" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="75" x2="232.1" y2="75" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L4N_T0_34"/>
+<wire x1="47" y1="47" x2="62" y2="47" width="0.1524" layer="91"/>
+<label x="39" y="47" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SRAM_A3" class="0">
-<segment>
-<wire x1="47" y1="59" x2="65.1" y2="59" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L2N_T0_34"/>
-<label x="65" y="59" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A3"/>
 <wire x1="129.58" y1="50.5" x2="119.1" y2="50.5" width="0.1524" layer="91"/>
 <label x="119.1" y="50.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="78" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="78" x2="232.1" y2="78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_A2" class="0">
-<segment>
-<wire x1="47" y1="62" x2="65.1" y2="62" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L2P_T0_34"/>
-<label x="65" y="62" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="A2"/>
 <wire x1="129.58" y1="47.5" x2="119.1" y2="47.5" width="0.1524" layer="91"/>
 <label x="119.1" y="47.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="81" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="81" x2="232.1" y2="81" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_D2" class="0">
-<segment>
-<wire x1="47" y1="5" x2="65.1" y2="5" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L11N_T1_SRCC_34"/>
-<label x="65" y="5" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O2"/>
 <wire x1="129.58" y1="29.5" x2="119.1" y2="29.5" width="0.1524" layer="91"/>
 <label x="119.1" y="29.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="24" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="24" x2="232.1" y2="24" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_D3" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L13P_T2_MRCC_34"/>
-<wire x1="47" y1="-4" x2="65" y2="-4" width="0.1524" layer="91"/>
-<label x="65" y="-4" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O3"/>
 <wire x1="129.58" y1="26.5" x2="119.1" y2="26.5" width="0.1524" layer="91"/>
 <label x="119.1" y="26.5" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<label x="232" y="15" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="15" x2="232" y2="15" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SRAM_D4" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L13N_T2_MRCC_34"/>
-<wire x1="65" y1="-7" x2="47" y2="-7" width="0.1524" layer="91"/>
-<label x="65" y="-7" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="I/O4"/>
 <wire x1="129.58" y1="17.5" x2="119.1" y2="17.5" width="0.1524" layer="91"/>
 <label x="119.1" y="17.5" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<label x="232" y="12" size="1.778" layer="95"/>
+<wire x1="232" y1="12" x2="223.0324" y2="12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SRAM_UB" class="0">
@@ -5660,9 +5713,13 @@
 <label x="178.1" y="41.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="47" y1="-46" x2="65.1" y2="-46" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L20P_T3_34"/>
-<label x="65" y="-46" size="1.778" layer="95"/>
+<label x="232" y="-27" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="-27" x2="232.1" y2="-27" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L11N_T1_SRCC_34"/>
+<wire x1="47" y1="5" x2="62" y2="5" width="0.1524" layer="91"/>
+<label x="62" y="5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SRAM_VDD" class="0">
@@ -5732,9 +5789,13 @@
 <label x="178.1" y="38.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="IO_L20N_T3_34"/>
-<wire x1="47" y1="-49" x2="65.1" y2="-49" width="0.1524" layer="91"/>
-<label x="65" y="-49" size="1.778" layer="95"/>
+<label x="232" y="-30" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="-30" x2="232.1" y2="-30" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L11P_T1_SRCC_34"/>
+<wire x1="47" y1="8" x2="62" y2="8" width="0.1524" layer="91"/>
+<label x="62" y="8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SRAM_A18" class="0">
@@ -5744,9 +5805,13 @@
 <label x="178.1" y="5.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="IO_L10P_T1_34"/>
-<wire x1="47" y1="14" x2="65.1" y2="14" width="0.1524" layer="91"/>
-<label x="65" y="14" size="1.778" layer="95"/>
+<label x="232" y="33" size="1.778" layer="95"/>
+<wire x1="223.0324" y1="33" x2="232.1" y2="33" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L19N_T3_VREF_34"/>
+<wire x1="47" y1="-43" x2="61" y2="-43" width="0.1524" layer="91"/>
+<label x="61" y="-43" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XMEM_A15" class="0">
