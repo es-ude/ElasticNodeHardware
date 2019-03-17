@@ -4594,32 +4594,32 @@
 </net>
 <net name="AD1/SELECTMAP_D6" class="0">
 <segment>
-<label x="-108" y="49" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="49" x2="-108" y2="49" width="0.1524" layer="91"/>
+<label x="-95" y="45" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="45" x2="-95" y2="45" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AD2/SELECTMAP_D5/MCU_RX1" class="0">
 <segment>
-<label x="-108" y="52" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="52" x2="-108" y2="52" width="0.1524" layer="91"/>
+<label x="-95" y="48" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="48" x2="-95" y2="48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AD3/SELECTMAP_D4/MCU_TX1" class="0">
 <segment>
-<label x="-108" y="55" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="55" x2="-108" y2="55" width="0.1524" layer="91"/>
+<label x="-95" y="51" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="51" x2="-95" y2="51" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AD4/SELECTMAP_D3/FPGA_HOLD" class="0">
 <segment>
-<label x="-108" y="64" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="64" x2="-108" y2="64" width="0.1524" layer="91"/>
+<label x="-95" y="60" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="60" x2="-95" y2="60" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AD0/SELECTMAP_D7" class="0">
 <segment>
-<label x="-108" y="46" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.48573125" y1="46" x2="-108" y2="46" width="0.1524" layer="91"/>
+<label x="-95" y="42" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.48573125" y1="42" x2="-95" y2="42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FPGA_RESET" class="0">
@@ -4937,8 +4937,13 @@
 <label x="-199.34" y="155.98" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<label x="-108" y="76" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="76" x2="-108" y2="76" width="0.1524" layer="91"/>
+<label x="-95" y="72" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="72" x2="-95" y2="72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L2P_T0_D02_14"/>
+<wire x1="-47" y1="62" x2="-63" y2="62" width="0.1524" layer="91"/>
+<label x="-63" y="62" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="FPGA_LED1" class="0">
@@ -4948,8 +4953,13 @@
 <label x="-199.34" y="145.98" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<label x="-108" y="61" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="61" x2="-108" y2="61" width="0.1524" layer="91"/>
+<label x="-95" y="57" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="57" x2="-95" y2="57" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L2N_T0_D03_14"/>
+<wire x1="-47" y1="59" x2="-63" y2="59" width="0.1524" layer="91"/>
+<label x="-63" y="59" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="FPGA_LED2" class="0">
@@ -4959,8 +4969,13 @@
 <label x="-199.34" y="136.98" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<label x="-108" y="58" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="58" x2="-108" y2="58" width="0.1524" layer="91"/>
+<label x="-95" y="54" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="54" x2="-95" y2="54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L3P_T0_DQS_PUDC_B_14"/>
+<wire x1="-47" y1="56" x2="-63" y2="56" width="0.1524" layer="91"/>
+<label x="-63" y="56" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="FPGA_LED3" class="0">
@@ -4970,8 +4985,13 @@
 <label x="-199.34" y="126.98" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<label x="-108" y="40" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="40" x2="-108" y2="40" width="0.1524" layer="91"/>
+<label x="-95" y="36" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="36" x2="-95" y2="36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L3N_T0_DQS_EMCCLK_14"/>
+<wire x1="-47" y1="53" x2="-63" y2="53" width="0.1524" layer="91"/>
+<label x="-63" y="53" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -5004,25 +5024,26 @@
 </net>
 <net name="AD5/SELECTMAP_D2/FPGA_WP" class="0">
 <segment>
-<label x="-108" y="67" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="67" x2="-108" y2="67" width="0.1524" layer="91"/>
+<label x="-95" y="63" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="63" x2="-95" y2="63" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AD7/SELECTMAP_D0/SPI_MOSI/PDI" class="0">
-<segment>
-<label x="-108" y="73" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="73" x2="-108" y2="73" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="SI"/>
 <wire x1="-162.8" y1="-123.32" x2="-173.8" y2="-123.32" width="0.1524" layer="91"/>
 <label x="-162.8" y="-123.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L1P_T0_D00_MOSI_14"/>
+<wire x1="-47" y1="68" x2="-63" y2="68" width="0.1524" layer="91"/>
+<label x="-63" y="68" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="ALE/HWB" class="0">
 <segment>
-<label x="-108" y="7" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="7" x2="-108" y2="7" width="0.1524" layer="91"/>
+<label x="-95" y="3" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="3" x2="-95" y2="3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MONITORING" class="0">
@@ -5120,19 +5141,24 @@
 </net>
 <net name="AD6/SELECTMAP_D1/SPI_MISO/MCU_PDO" class="0">
 <segment>
-<label x="-108" y="70" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="70" x2="-108" y2="70" width="0.1524" layer="91"/>
+<label x="-93" y="87" size="1.778" layer="95" rot="R180"/>
+<wire x1="-78.1524" y1="84" x2="-92" y2="84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="SO"/>
 <wire x1="-199.8" y1="-117.32" x2="-209.8" y2="-117.32" width="0.1524" layer="91"/>
 <label x="-209.8" y="-117.32" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IO_L1N_T0_D01_DIN_14"/>
+<wire x1="-47" y1="65" x2="-63" y2="65" width="0.1524" layer="91"/>
+<label x="-63" y="65" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="SPI_CS" class="0">
 <segment>
-<label x="-108" y="43" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="43" x2="-108" y2="43" width="0.1524" layer="91"/>
+<label x="-95" y="39" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="39" x2="-95" y2="39" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="CE"/>
@@ -5146,6 +5172,10 @@
 <segment>
 <label x="-107" y="-14" size="1.778" layer="95" rot="R180"/>
 <wire x1="-94.1524" y1="-14" x2="-107" y2="-14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="-50" y1="-19" x2="-63" y2="-19" width="0.1524" layer="91"/>
+<label x="-63" y="-19" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SPI_SCK/CCLK" class="0">
@@ -5736,85 +5766,56 @@
 </net>
 <net name="XMEM_A15" class="0">
 <segment>
-<label x="-108" y="37" size="1.778" layer="95" rot="R180"/>
-<wire x1="-108" y1="37" x2="-94.1524" y2="37" width="0.1524" layer="91"/>
+<label x="-95" y="33" size="1.778" layer="95" rot="R180"/>
+<wire x1="-95" y1="33" x2="-81.1524" y2="33" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XMEM_A8" class="0">
 <segment>
-<label x="-108" y="34" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="34" x2="-108" y2="34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L1N_T0_D01_DIN_14"/>
-<wire x1="-47" y1="65" x2="-63" y2="65" width="0.1524" layer="91"/>
-<label x="-63" y="65" size="1.778" layer="95" rot="R180"/>
+<label x="-95" y="30" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="30" x2="-95" y2="30" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XMEM_A9" class="0">
 <segment>
-<label x="-108" y="31" size="1.778" layer="95" rot="R180"/>
-<wire x1="-108" y1="31" x2="-94.1524" y2="31" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L5N_T0_D07_14"/>
-<wire x1="-47" y1="41" x2="-63" y2="41" width="0.1524" layer="91"/>
-<label x="-63" y="41" size="1.778" layer="95" rot="R180"/>
+<label x="-95" y="27" size="1.778" layer="95" rot="R180"/>
+<wire x1="-95" y1="27" x2="-81.1524" y2="27" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XMEM_A11" class="0">
 <segment>
-<label x="-108" y="28" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="28" x2="-108" y2="28" width="0.1524" layer="91"/>
+<label x="-95" y="24" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="24" x2="-95" y2="24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XMEM_A12" class="0">
 <segment>
-<label x="-108" y="25" size="1.778" layer="95" rot="R180"/>
-<wire x1="-108" y1="25" x2="-94.1524" y2="25" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L11N_T1_SRCC_14"/>
-<wire x1="-47" y1="5" x2="-63" y2="5" width="0.1524" layer="91"/>
-<label x="-63" y="5" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<wire x1="-47" y1="35" x2="-63" y2="35" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="IO_L6N_T0_D08_VREF_14"/>
+<label x="-95" y="21" size="1.778" layer="95" rot="R180"/>
+<wire x1="-95" y1="21" x2="-81.1524" y2="21" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XMEM_A13" class="0">
 <segment>
-<label x="-108" y="22" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="22" x2="-108" y2="22" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L8P_T1_D11_14"/>
-<wire x1="-47" y1="26" x2="-63" y2="26" width="0.1524" layer="91"/>
-<label x="-63" y="26" size="1.778" layer="95" rot="R180"/>
+<label x="-95" y="18" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="18" x2="-95" y2="18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XMEM_A14" class="0">
 <segment>
-<label x="-108" y="19" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="19" x2="-108" y2="19" width="0.1524" layer="91"/>
+<label x="-95" y="15" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="15" x2="-95" y2="15" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XMEM_A10" class="0">
 <segment>
-<label x="-108" y="16" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="16" x2="-108" y2="16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="IO_L5P_T0_D06_14"/>
-<wire x1="-47" y1="44" x2="-63" y2="44" width="0.1524" layer="91"/>
-<label x="-63" y="44" size="1.778" layer="95" rot="R180"/>
+<label x="-95" y="12" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="12" x2="-95" y2="12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XMEM_RD" class="0">
 <segment>
-<label x="-108" y="13" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="13" x2="-108" y2="13" width="0.1524" layer="91"/>
+<label x="-95" y="9" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="9" x2="-95" y2="9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L4N_T0_D05_14"/>
@@ -5859,8 +5860,8 @@
 </net>
 <net name="XMEM_WR" class="0">
 <segment>
-<label x="-108" y="10" size="1.778" layer="95" rot="R180"/>
-<wire x1="-94.1524" y1="10" x2="-108" y2="10" width="0.1524" layer="91"/>
+<label x="-95" y="6" size="1.778" layer="95" rot="R180"/>
+<wire x1="-81.1524" y1="6" x2="-95" y2="6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="IO_L4P_T0_D04_14"/>
