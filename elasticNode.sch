@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="63" fill="0" visible="no" active="no"/>
@@ -3147,11 +3147,6 @@
 <wire x1="-52" y1="51.16" x2="-52" y2="67" width="0.1524" layer="91"/>
 <label x="-52" y="67" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="OUT1" gate="G$1" pin="9"/>
-<wire x1="132" y1="43" x2="137" y2="43" width="0.1524" layer="91"/>
-<label x="137" y="43" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="AD3/SELECTMAP_D4/MCU_TX1" class="0">
 <segment>
@@ -3205,9 +3200,9 @@
 <label x="-13" y="11" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OUT2" gate="G$1" pin="2"/>
-<wire x1="112" y1="18" x2="107" y2="18" width="0.1524" layer="91"/>
-<label x="107" y="18" size="1.778" layer="95" rot="R180"/>
+<pinref part="OUT2" gate="G$1" pin="1"/>
+<wire x1="112" y1="21" x2="107" y2="21" width="0.1524" layer="91"/>
+<label x="107" y="21" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="WIRELESS_CS" class="0">
@@ -3497,11 +3492,6 @@
 <pinref part="U1" gate="G$1" pin="PA0(AD0)"/>
 <wire x1="-55" y1="51.16" x2="-55" y2="67" width="0.1524" layer="91"/>
 <label x="-55" y="67" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="OUT1" gate="G$1" pin="10"/>
-<wire x1="132" y1="46" x2="137" y2="46" width="0.1524" layer="91"/>
-<label x="137" y="46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ALE/HWB" class="0">
@@ -3851,6 +3841,11 @@
 <wire x1="-26" y1="-10" x2="-13" y2="-10" width="0.1524" layer="91"/>
 <label x="-13" y="-10" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="OUT1" gate="G$1" pin="10"/>
+<wire x1="132" y1="46" x2="137" y2="46" width="0.1524" layer="91"/>
+<label x="137" y="46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="XMEM_A14" class="0">
 <segment>
@@ -3859,9 +3854,9 @@
 <label x="-13" y="8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OUT2" gate="G$1" pin="3"/>
-<wire x1="112" y1="15" x2="107" y2="15" width="0.1524" layer="91"/>
-<label x="107" y="15" size="1.778" layer="95" rot="R180"/>
+<pinref part="OUT2" gate="G$1" pin="2"/>
+<wire x1="112" y1="18" x2="107" y2="18" width="0.1524" layer="91"/>
+<label x="107" y="18" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="XMEM_A13" class="0">
@@ -3871,9 +3866,9 @@
 <label x="-13" y="5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OUT2" gate="G$1" pin="4"/>
-<wire x1="112" y1="12" x2="107" y2="12" width="0.1524" layer="91"/>
-<label x="107" y="12" size="1.778" layer="95" rot="R180"/>
+<pinref part="OUT2" gate="G$1" pin="3"/>
+<wire x1="112" y1="15" x2="107" y2="15" width="0.1524" layer="91"/>
+<label x="107" y="15" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="XMEM_A12" class="0">
@@ -3883,9 +3878,9 @@
 <label x="-13" y="2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OUT2" gate="G$1" pin="5"/>
-<wire x1="112" y1="9" x2="107" y2="9" width="0.1524" layer="91"/>
-<label x="107" y="9" size="1.778" layer="95" rot="R180"/>
+<pinref part="OUT2" gate="G$1" pin="4"/>
+<wire x1="112" y1="12" x2="107" y2="12" width="0.1524" layer="91"/>
+<label x="107" y="12" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="XMEM_A11" class="0">
@@ -3895,9 +3890,9 @@
 <label x="-13" y="-1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OUT2" gate="G$1" pin="6"/>
-<wire x1="132" y1="9" x2="137" y2="9" width="0.1524" layer="91"/>
-<label x="137" y="9" size="1.778" layer="95"/>
+<pinref part="OUT2" gate="G$1" pin="5"/>
+<wire x1="112" y1="9" x2="107" y2="9" width="0.1524" layer="91"/>
+<label x="107" y="9" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="XMEM_A10" class="0">
@@ -3907,9 +3902,9 @@
 <label x="-13" y="-4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OUT2" gate="G$1" pin="1"/>
-<wire x1="112" y1="21" x2="107" y2="21" width="0.1524" layer="91"/>
-<label x="107" y="21" size="1.778" layer="95" rot="R180"/>
+<pinref part="OUT2" gate="G$1" pin="6"/>
+<wire x1="132" y1="9" x2="137" y2="9" width="0.1524" layer="91"/>
+<label x="137" y="9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XMEM_A9" class="0">
@@ -3917,6 +3912,11 @@
 <pinref part="U1" gate="G$1" pin="PC1(A9)"/>
 <wire x1="-13" y1="-7" x2="-26" y2="-7" width="0.1524" layer="91"/>
 <label x="-13" y="-7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="OUT1" gate="G$1" pin="9"/>
+<wire x1="132" y1="43" x2="137" y2="43" width="0.1524" layer="91"/>
+<label x="137" y="43" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DAUGHTER_VCC" class="1">
