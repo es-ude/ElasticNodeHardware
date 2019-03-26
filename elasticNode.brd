@@ -7,10 +7,10 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GroundPlane" color="63" fill="0" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="12" fill="1" visible="no" active="yes"/>
+<layer number="2" name="GroundPlane" color="63" fill="0" visible="no" active="yes"/>
 <layer number="3" name="PowerPlane" color="26" fill="14" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -29,11 +29,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="57" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="57" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="25" fill="4" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="25" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="25" fill="7" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="14" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -3315,14 +3315,11 @@ Your Multi-CB Team
 <element name="C7" library="passive" package="1210" value="100u" x="19.7" y="42.9" smashed="yes" rot="MR0">
 <attribute name="NAME" x="16.825" y="42.9" size="0.8128" layer="22" font="vector" rot="MR0" align="center"/>
 </element>
-<element name="C8" library="passive" package="1210" value="4.7u" x="19.7" y="39.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="16.7" y="39.8" size="0.8128" layer="22" font="vector" rot="MR0" align="center"/>
+<element name="C9" library="passive" package="0805" value="4.7u" x="20.4" y="37.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="20.4" y="38.25" size="0.6096" layer="22" font="vector" rot="MR0" align="bottom-center"/>
 </element>
-<element name="C9" library="passive" package="0805" value="4.7u" x="20.4" y="37" smashed="yes" rot="MR0">
-<attribute name="NAME" x="20.4" y="37.75" size="0.6096" layer="22" font="vector" rot="MR0" align="bottom-center"/>
-</element>
-<element name="C10" library="passive" package="0805" value="0.47u" x="20.4" y="34.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="20.4" y="35.55" size="0.6096" layer="22" font="vector" rot="MR0" align="bottom-center"/>
+<element name="C10" library="passive" package="0805" value="0.47u" x="20.4" y="35" smashed="yes" rot="MR0">
+<attribute name="NAME" x="20.4" y="35.75" size="0.6096" layer="22" font="vector" rot="MR0" align="bottom-center"/>
 </element>
 <element name="C11" library="passive" package="0805" value="0.47u" x="20.4" y="32.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="20.4" y="33.35" size="0.6096" layer="22" font="vector" rot="MR0" align="bottom-center"/>
@@ -3330,8 +3327,8 @@ Your Multi-CB Team
 <element name="C12" library="passive" package="1210" value="47u" x="24.725" y="42.9" smashed="yes" rot="MR0">
 <attribute name="NAME" x="27.895" y="42.94" size="0.8128" layer="22" font="vector" rot="MR0" align="center"/>
 </element>
-<element name="C13" library="passive" package="0805" value="4.7" x="25.3" y="40.225" smashed="yes" rot="MR0">
-<attribute name="NAME" x="23.3" y="39.975" size="0.6096" layer="22" font="vector" rot="MR0" align="bottom-center"/>
+<element name="C13" library="passive" package="0805" value="4.7u" x="25.3" y="40.225" smashed="yes" rot="MR0">
+<attribute name="NAME" x="23" y="39.975" size="0.6096" layer="22" font="vector" rot="MR0" align="bottom-center"/>
 </element>
 <element name="C14" library="passive" package="0805" value="0.47u" x="25.3" y="38.15" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.05" y="37.9" size="0.6096" layer="22" font="vector" rot="MR0" align="bottom-center"/>
@@ -3389,6 +3386,9 @@ Your Multi-CB Team
 </element>
 <element name="J9" library="connectors" package="6X1_JTAG" value="JTAG_CONN_6PINSMT" x="37.4" y="8.12" smashed="yes">
 <attribute name="NAME" x="28.79" y="8.45" size="0.8128" layer="25" font="fixed" rot="R180" align="bottom-center"/>
+</element>
+<element name="C8" library="passive" package="0805" value="4.7u" x="20.4" y="39.82" smashed="yes" rot="MR0">
+<attribute name="NAME" x="20.33" y="40.62" size="0.6096" layer="22" font="vector" rot="MR0" align="bottom-center"/>
 </element>
 </elements>
 <signals>
@@ -3769,7 +3769,6 @@ Your Multi-CB Team
 <contactref element="U10" pad="P$4"/>
 <contactref element="U10" pad="P$2"/>
 <contactref element="C7" pad="2"/>
-<contactref element="C8" pad="2"/>
 <contactref element="C10" pad="2"/>
 <contactref element="C9" pad="2"/>
 <contactref element="C11" pad="2"/>
@@ -4010,6 +4009,7 @@ Your Multi-CB Team
 <via x="43.1" y="38.1" extent="1-16" drill="0.2"/>
 <contactref element="J9" pad="2"/>
 <via x="41.12" y="15" extent="1-16" drill="0.2"/>
+<contactref element="C8" pad="2"/>
 </signal>
 <signal name="FPGA_VCCINT" class="1" airwireshidden="yes">
 <contactref element="U5" pad="F6"/>
@@ -4032,13 +4032,9 @@ Your Multi-CB Team
 <contactref element="C7" pad="1"/>
 <contactref element="C10" pad="1"/>
 <contactref element="C9" pad="1"/>
-<contactref element="C8" pad="1"/>
 <contactref element="C11" pad="1"/>
 <wire x1="21.89" y1="31.63" x2="21.35" y2="32.17" width="0.4064" layer="16"/>
 <wire x1="21.35" y1="32.6" x2="21.35" y2="32.17" width="0.4064" layer="16"/>
-<wire x1="21.2" y1="39.8" x2="21.2" y2="42.9" width="0.3048" layer="16"/>
-<wire x1="21.2" y1="39.8" x2="21.2" y2="37.15" width="0.3048" layer="16"/>
-<wire x1="21.2" y1="37.15" x2="21.35" y2="37" width="0.3048" layer="16"/>
 <wire x1="18.965" y1="45.51" x2="21.2" y2="43.275" width="0.4064" layer="16"/>
 <wire x1="21.2" y1="43.275" x2="21.2" y2="42.9" width="0.4064" layer="16"/>
 <wire x1="20.775" y1="26.8" x2="21.145" y2="27.17" width="0.125" layer="1"/>
@@ -4107,9 +4103,13 @@ Your Multi-CB Team
 <wire x1="18.965" y1="46.17" x2="18.965" y2="45.51" width="0.3048" layer="16"/>
 <wire x1="18.965" y1="46.83" x2="18.965" y2="46.17" width="0.3048" layer="16"/>
 <wire x1="18.965" y1="47.49" x2="18.965" y2="46.83" width="0.3048" layer="16"/>
-<wire x1="21.35" y1="37" x2="21.35" y2="34.8" width="0.3048" layer="16"/>
-<wire x1="21.35" y1="34.8" x2="21.35" y2="32.6" width="0.3048" layer="16"/>
+<wire x1="21.35" y1="37.5" x2="21.35" y2="35" width="0.3048" layer="16"/>
+<wire x1="21.35" y1="35" x2="21.35" y2="32.6" width="0.3048" layer="16"/>
 <wire x1="21.89" y1="31.63" x2="21.89" y2="28.93" width="0.2" layer="3"/>
+<contactref element="C8" pad="1"/>
+<wire x1="21.35" y1="39.82" x2="21.35" y2="37.5" width="0.3048" layer="16"/>
+<wire x1="21.2" y1="42.9" x2="21.2" y2="39.97" width="0.3048" layer="16"/>
+<wire x1="21.2" y1="39.97" x2="21.35" y2="39.82" width="0.3048" layer="16"/>
 </signal>
 <signal name="FPGA_VCCAUX" class="1" airwireshidden="yes">
 <contactref element="X4" pad="1"/>

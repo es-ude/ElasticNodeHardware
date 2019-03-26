@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="63" fill="0" visible="no" active="no"/>
@@ -2832,12 +2832,11 @@
 <part name="R31" library="passive" deviceset="RESISTOR" device="" value=".8"/>
 <part name="R36" library="passive" deviceset="RESISTOR" device="" value=".8"/>
 <part name="C7" library="passive" deviceset="CAPACITOR" device="1210" value="100u"/>
-<part name="C8" library="passive" deviceset="CAPACITOR" device="1210" value="4.7u"/>
 <part name="C9" library="passive" deviceset="CAPACITOR" device="0805" value="4.7u"/>
 <part name="C10" library="passive" deviceset="CAPACITOR" device="0805" value="0.47u"/>
 <part name="C11" library="passive" deviceset="CAPACITOR" device="0805" value="0.47u"/>
 <part name="C12" library="passive" deviceset="CAPACITOR" device="1210" value="47u"/>
-<part name="C13" library="passive" deviceset="CAPACITOR" device="0805" value="4.7"/>
+<part name="C13" library="passive" deviceset="CAPACITOR" device="0805" value="4.7u"/>
 <part name="C14" library="passive" deviceset="CAPACITOR" device="0805" value="0.47u"/>
 <part name="C15" library="passive" deviceset="CAPACITOR" device="0805" value="0.47u"/>
 <part name="C16" library="passive" deviceset="CAPACITOR" device="0805" value="0.47u"/>
@@ -2857,6 +2856,7 @@
 <part name="C29" library="passive" deviceset="CAPACITOR" device="0805" value="0.47u"/>
 <part name="R16" library="passive" deviceset="RESISTOR" device="" value="2.4k"/>
 <part name="J9" library="connectors" deviceset="JTAG_CONN_6PIN" device="SMT"/>
+<part name="C8" library="passive" deviceset="CAPACITOR" device="0805" value="4.7u"/>
 </parts>
 <sheets>
 <sheet>
@@ -4240,10 +4240,6 @@
 <attribute name="NAME" x="119.18" y="149.12" size="1.778" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="111.18" y="149.12" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="C8" gate="G$1" x="127.68" y="149.12" smashed="yes" rot="R270">
-<attribute name="NAME" x="131.68" y="149.12" size="1.778" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="123.68" y="149.12" size="1.778" layer="96" rot="R270" align="top-center"/>
-</instance>
 <instance part="C9" gate="G$1" x="139.68" y="149.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="143.68" y="149.12" size="1.778" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="135.68" y="149.12" size="1.778" layer="96" rot="R270" align="top-center"/>
@@ -4334,6 +4330,10 @@
 </instance>
 <instance part="J9" gate="G$1" x="-138" y="142" smashed="yes">
 <attribute name="NAME" x="-141" y="154" size="1.27" layer="95" align="bottom-center"/>
+</instance>
+<instance part="C8" gate="G$1" x="127.68" y="149.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="131.68" y="149.12" size="1.778" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="123.68" y="149.12" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -4437,7 +4437,6 @@
 <pinref part="C7" gate="G$1" pin="P$2"/>
 <wire x1="115.18" y1="145.66" x2="115.18" y2="141.62" width="0.1524" layer="91"/>
 <wire x1="115.18" y1="141.62" x2="127.68" y2="141.62" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="P$2"/>
 <wire x1="127.68" y1="141.62" x2="127.68" y2="145.66" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="P$2"/>
 <wire x1="127.68" y1="141.62" x2="139.68" y2="141.62" width="0.1524" layer="91"/>
@@ -4453,6 +4452,7 @@
 <wire x1="163.68" y1="141.62" x2="151.68" y2="141.62" width="0.1524" layer="91"/>
 <junction x="151.68" y="141.62"/>
 <label x="115.18" y="141.62" size="1.778" layer="95" rot="R180"/>
+<pinref part="C8" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="P$2"/>
@@ -4564,7 +4564,6 @@
 <pinref part="C9" gate="G$1" pin="P$1"/>
 <wire x1="139.68" y1="152.58" x2="139.68" y2="156.62" width="0.1524" layer="91"/>
 <junction x="139.68" y="156.62"/>
-<pinref part="C8" gate="G$1" pin="P$1"/>
 <wire x1="127.68" y1="152.58" x2="127.68" y2="156.62" width="0.1524" layer="91"/>
 <junction x="127.68" y="156.62"/>
 <label x="115.18" y="156.62" size="1.778" layer="95" rot="R180"/>
@@ -4572,6 +4571,7 @@
 <wire x1="163.68" y1="152.58" x2="163.68" y2="156.62" width="0.1524" layer="91"/>
 <wire x1="163.68" y1="156.62" x2="151.68" y2="156.62" width="0.1524" layer="91"/>
 <junction x="151.68" y="156.62"/>
+<pinref part="C8" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="FPGA_VCCAUX" class="1">
