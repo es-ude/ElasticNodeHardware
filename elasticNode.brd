@@ -3,15 +3,15 @@
 <eagle version="9.3.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="12" fill="1" visible="no" active="yes"/>
-<layer number="2" name="GroundPlane" color="63" fill="0" visible="no" active="yes"/>
-<layer number="3" name="PowerPlane" color="26" fill="14" visible="no" active="yes"/>
+<layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="GroundPlane" color="63" fill="0" visible="yes" active="yes"/>
+<layer number="3" name="PowerPlane" color="26" fill="14" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
@@ -26,7 +26,7 @@
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="57" fill="1" visible="yes" active="yes"/>
@@ -3966,7 +3966,6 @@ Your Multi-CB Team
 <via x="21.42" y="26.44" extent="1-16" drill="0.2"/>
 <via x="55.6" y="4.1" extent="1-16" drill="0.2"/>
 <via x="57" y="4.1" extent="1-16" drill="0.2"/>
-<wire x1="43.35" y1="39.85" x2="43.1" y2="39.6" width="0.3048" layer="1"/>
 <via x="41.2" y="27.5" extent="1-16" drill="0.2"/>
 <via x="40.3" y="26.9" extent="1-16" drill="0.2"/>
 <wire x1="41.2" y1="34.96666875" x2="41.1" y2="35.06666875" width="0.125" layer="16"/>
@@ -5058,7 +5057,6 @@ Your Multi-CB Team
 </signal>
 <signal name="FPGA_GPIO_17">
 <contactref element="J10" pad="12"/>
-<wire x1="4.31" y1="7.825" x2="4.31" y2="7.9498125" width="0.125" layer="1"/>
 <contactref element="U5" pad="P11"/>
 <wire x1="26.8" y1="15.775" x2="26.8" y2="13.58" width="0.125" layer="1"/>
 <wire x1="26.8" y1="15.775" x2="26.775" y2="15.8" width="0.125" layer="1"/>
@@ -6479,13 +6477,12 @@ Your Multi-CB Team
 <contactref element="U3" pad="13"/>
 <contactref element="J6" pad="5"/>
 <contactref element="R17" pad="2"/>
-<wire x1="45.1" y1="43.34" x2="45.1" y2="43" width="0.125" layer="1"/>
 <wire x1="51.02" y1="44.26" x2="51.02" y2="42.53" width="0.125" layer="1"/>
 <wire x1="51.02" y1="42.53" x2="51.45" y2="42.1" width="0.125" layer="1"/>
-<wire x1="45.1" y1="43" x2="45.1" y2="43.38" width="0.127" layer="1"/>
-<wire x1="45.1" y1="43.38" x2="45.45" y2="43.73" width="0.127" layer="1"/>
 <wire x1="45.45" y1="43.73" x2="50.49" y2="43.73" width="0.127" layer="1"/>
 <wire x1="50.49" y1="43.73" x2="51.02" y2="44.26" width="0.127" layer="1"/>
+<wire x1="45.1" y1="43" x2="45.1" y2="43.38" width="0.125" layer="1"/>
+<wire x1="45.1" y1="43.38" x2="45.45" y2="43.73" width="0.125" layer="1"/>
 </signal>
 <signal name="MON_USB_D+">
 <contactref element="U3" pad="4"/>
