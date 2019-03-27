@@ -9,8 +9,8 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="12" fill="1" visible="no" active="yes"/>
-<layer number="2" name="GroundPlane" color="63" fill="0" visible="no" active="yes"/>
+<layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="GroundPlane" color="63" fill="0" visible="yes" active="yes"/>
 <layer number="3" name="PowerPlane" color="26" fill="14" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -3963,8 +3963,6 @@ Your Multi-CB Team
 <wire x1="21.775" y1="26.8" x2="21.42" y2="26.445" width="0.125" layer="1"/>
 <wire x1="21.42" y1="26.445" x2="21.42" y2="26.44" width="0.125" layer="1"/>
 <via x="21.42" y="26.44" extent="1-16" drill="0.2"/>
-<via x="55.6" y="4.1" extent="1-16" drill="0.2"/>
-<via x="57" y="4.1" extent="1-16" drill="0.2"/>
 <via x="41.2" y="27.5" extent="1-16" drill="0.2"/>
 <via x="40.3" y="26.9" extent="1-16" drill="0.2"/>
 <wire x1="41.2" y1="34.96666875" x2="41.1" y2="35.06666875" width="0.125" layer="16"/>
@@ -3994,8 +3992,6 @@ Your Multi-CB Team
 <wire x1="17.41" y1="28.435" x2="17.41" y2="28.43" width="0.125" layer="1"/>
 <via x="17.41" y="28.43" extent="1-16" drill="0.2"/>
 <via x="47.78" y="44.91" extent="1-16" drill="0.2"/>
-<via x="35.48" y="15" extent="1-16" drill="0.2"/>
-<via x="37.38" y="15" extent="1-16" drill="0.2"/>
 <via x="8.69" y="25.81" extent="1-16" drill="0.2"/>
 <via x="4.6" y="25.81" extent="1-16" drill="0.2"/>
 <via x="44.6" y="41.1" extent="1-16" drill="0.2"/>
@@ -4010,6 +4006,7 @@ Your Multi-CB Team
 <contactref element="J9" pad="2"/>
 <via x="41.12" y="15" extent="1-16" drill="0.2"/>
 <contactref element="C8" pad="2"/>
+<via x="56.85" y="2.11" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="FPGA_VCCINT" class="1" airwireshidden="yes">
 <contactref element="U5" pad="F6"/>
@@ -5494,7 +5491,7 @@ Your Multi-CB Team
 <wire x1="33.68134375" y1="20.2" x2="33.495" y2="20.01365625" width="0.125" layer="1"/>
 <wire x1="33.495" y1="20.01365625" x2="33.495" y2="20.665" width="0.125" layer="1"/>
 <wire x1="33.495" y1="20.01365625" x2="33.495" y2="15.09" width="0.127" layer="1"/>
-<wire x1="33.495" y1="15.09" x2="34.485" y2="14.1" width="0.127" layer="1"/>
+<wire x1="33.495" y1="15.09" x2="34.485" y2="14.1" width="0.1524" layer="1"/>
 </signal>
 <signal name="MONITORING">
 <contactref element="S2" pad="4"/>
