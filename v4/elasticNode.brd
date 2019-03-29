@@ -7,11 +7,11 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GroundPlane" color="63" fill="0" visible="yes" active="yes"/>
-<layer number="3" name="PowerPlane" color="26" fill="14" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="12" fill="1" visible="no" active="yes"/>
+<layer number="2" name="GroundPlane" color="63" fill="0" visible="no" active="yes"/>
+<layer number="3" name="PowerPlane" color="26" fill="14" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
@@ -24,19 +24,19 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="57" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="25" fill="4" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="57" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="25" fill="4" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="25" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="25" fill="7" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="25" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="25" fill="7" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="14" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -2021,15 +2021,22 @@ Elastic Node
 v4</text>
 <text x="62.75" y="55.5" size="1.778" layer="49">58,25 52,5</text>
 <text x="35" y="51.25" size="0.8128" layer="25" font="vector" align="bottom-center">MON LEDS</text>
-<wire x1="41" y1="27" x2="29" y2="27" width="0.2" layer="22"/>
-<wire x1="29" y1="27" x2="27" y2="25" width="0.2" layer="22"/>
-<wire x1="27" y1="25" x2="25" y2="27" width="0.2" layer="22"/>
-<wire x1="25" y1="27" x2="13" y2="27" width="0.2" layer="22"/>
 <text x="16.5" y="31.5" size="0.8128" layer="25">U5</text>
 <text x="51.95" y="32.4" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">MON_USB</text>
 <text x="47.95" y="46.7" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">MON_PROGRAM</text>
 <text x="53.3" y="14.25" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center">MCU_PROGRAM</text>
 <text x="51.95" y="20.7" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">MCU_USB</text>
+<dimension x1="0" y1="0" x2="29" y2="0" x3="14.5" y3="-6" textsize="1.778" layer="22"/>
+<wire x1="29" y1="33" x2="31" y2="35" width="0.1524" layer="22"/>
+<wire x1="45.1524" y1="35" x2="48.8476" y2="35" width="0.1524" layer="22"/>
+<wire x1="35.1524" y1="35" x2="36.8476" y2="35" width="0.1524" layer="22"/>
+<wire x1="31" y1="35" x2="31.8476" y2="35" width="0.1524" layer="22"/>
+<wire x1="54.1524" y1="35" x2="57" y2="35" width="0.1524" layer="22"/>
+<wire x1="27.1077625" y1="34.8922375" x2="29" y2="33" width="0.1524" layer="22"/>
+<wire x1="19.1524" y1="35" x2="24.8476" y2="35" width="0.1524" layer="22"/>
+<wire x1="13.1524" y1="35" x2="15.8476" y2="35" width="0.1524" layer="22"/>
+<wire x1="9.1524" y1="35" x2="10.8476" y2="35" width="0.1524" layer="22"/>
+<wire x1="1" y1="35" x2="5.8476" y2="35" width="0.1524" layer="22"/>
 </plain>
 <libraries>
 <library name="passive">
@@ -4177,8 +4184,6 @@ Your Multi-CB Team
 <contactref element="R24" pad="2"/>
 <contactref element="S2" pad="1"/>
 <contactref element="U5" pad="M7"/>
-<wire x1="6.35" y1="34.9" x2="6" y2="34.9" width="0.125" layer="16"/>
-<wire x1="6" y1="34.9" x2="5.5" y2="35.4" width="0.125" layer="16"/>
 <wire x1="5.5" y1="35.4" x2="5" y2="35.4" width="0.125" layer="16"/>
 <via x="5" y="35.4" extent="1-16" drill="0.2"/>
 <wire x1="5" y1="35.4" x2="3.655" y2="35.4" width="0.125" layer="1"/>
@@ -4196,6 +4201,10 @@ Your Multi-CB Team
 <wire x1="22.38" y1="17.3" x2="22.38" y2="18.41" width="0.125" layer="16"/>
 <wire x1="22.38" y1="18.41" x2="22.41" y2="18.44" width="0.125" layer="16"/>
 <wire x1="2.1" y1="34.9" x2="2.1" y2="14.8" width="0.125" layer="16"/>
+<wire x1="6.1387" y1="34.9" x2="6.35" y2="34.9" width="0.125" layer="16"/>
+<wire x1="5.5" y1="35.4" x2="5.901925" y2="34.998075" width="0.125" layer="16"/>
+<wire x1="5.901925" y1="34.998075" x2="6.040625" y2="34.998075" width="0.125" layer="16"/>
+<wire x1="6.040625" y1="34.998075" x2="6.1387" y2="34.9" width="0.125" layer="16"/>
 </signal>
 <signal name="MODE1">
 <contactref element="R25" pad="2"/>
@@ -4536,7 +4545,6 @@ Your Multi-CB Team
 </signal>
 <signal name="WIRELESS_WAKE">
 <contactref element="U2" pad="3"/>
-<wire x1="51.7" y1="2.18" x2="51.77" y2="2.11" width="0.125" layer="16"/>
 <contactref element="U1" pad="60"/>
 <wire x1="40.875" y1="16.95" x2="40.875" y2="16.14984375" width="0.125" layer="1"/>
 <wire x1="40.875" y1="16.14984375" x2="40.87609375" y2="16.14875" width="0.125" layer="1"/>
