@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -872,70 +872,70 @@
 <library name="ic">
 <packages>
 <package name="QFN64">
-<smd name="1" x="-4.9" y="3.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="2" x="-4.9" y="3.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="3" x="-4.9" y="2.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="4" x="-4.9" y="2.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="5" x="-4.9" y="1.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="6" x="-4.9" y="1.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="7" x="-4.9" y="0.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="8" x="-4.9" y="0.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="9" x="-4.9" y="-0.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="10" x="-4.9" y="-0.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="11" x="-4.9" y="-1.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="12" x="-4.9" y="-1.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="13" x="-4.9" y="-2.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="14" x="-4.9" y="-2.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="15" x="-4.9" y="-3.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="16" x="-4.9" y="-3.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="17" x="-3.75" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="18" x="-3.25" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="19" x="-2.75" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="20" x="-2.25" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="21" x="-1.75" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="22" x="-1.25" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="23" x="-0.75" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="24" x="-0.25" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="25" x="0.25" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="26" x="0.75" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="27" x="1.25" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="28" x="1.75" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="29" x="2.25" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="30" x="2.75" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="31" x="3.25" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="32" x="3.75" y="-4.9" dx="0.3" dy="0.95" layer="1" rot="R180"/>
-<smd name="33" x="4.9" y="-3.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="34" x="4.9" y="-3.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="35" x="4.9" y="-2.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="36" x="4.9" y="-2.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="37" x="4.9" y="-1.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="38" x="4.9" y="-1.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="39" x="4.9" y="-0.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="40" x="4.9" y="-0.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="41" x="4.9" y="0.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="42" x="4.9" y="0.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="43" x="4.9" y="1.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="44" x="4.9" y="1.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="45" x="4.9" y="2.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="46" x="4.9" y="2.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="47" x="4.9" y="3.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="48" x="4.9" y="3.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
-<smd name="49" x="3.75" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="50" x="3.25" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="51" x="2.75" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="52" x="2.25" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="53" x="1.75" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="54" x="1.25" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="55" x="0.75" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="56" x="0.25" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="57" x="-0.25" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="58" x="-0.75" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="59" x="-1.25" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="60" x="-1.75" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="61" x="-2.25" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="62" x="-2.75" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="63" x="-3.25" y="4.9" dx="0.3" dy="0.95" layer="1"/>
-<smd name="64" x="-3.75" y="4.9" dx="0.3" dy="0.95" layer="1"/>
+<smd name="1" x="-4.6" y="3.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="2" x="-4.6" y="3.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="3" x="-4.6" y="2.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="4" x="-4.6" y="2.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="5" x="-4.6" y="1.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="6" x="-4.6" y="1.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="7" x="-4.6" y="0.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="8" x="-4.6" y="0.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="9" x="-4.6" y="-0.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="10" x="-4.6" y="-0.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="11" x="-4.6" y="-1.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="12" x="-4.6" y="-1.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="13" x="-4.6" y="-2.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="14" x="-4.6" y="-2.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="15" x="-4.6" y="-3.25" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="16" x="-4.6" y="-3.75" dx="0.3" dy="0.95" layer="1" rot="R90"/>
+<smd name="17" x="-3.75" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="18" x="-3.25" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="19" x="-2.75" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="20" x="-2.25" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="21" x="-1.75" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="22" x="-1.25" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="23" x="-0.75" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="24" x="-0.25" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="25" x="0.25" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="26" x="0.75" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="27" x="1.25" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="28" x="1.75" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="29" x="2.25" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="30" x="2.75" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="31" x="3.25" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="32" x="3.75" y="-4.6" dx="0.3" dy="0.95" layer="1" rot="R180"/>
+<smd name="33" x="4.6" y="-3.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="34" x="4.6" y="-3.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="35" x="4.6" y="-2.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="36" x="4.6" y="-2.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="37" x="4.6" y="-1.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="38" x="4.6" y="-1.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="39" x="4.6" y="-0.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="40" x="4.6" y="-0.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="41" x="4.6" y="0.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="42" x="4.6" y="0.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="43" x="4.6" y="1.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="44" x="4.6" y="1.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="45" x="4.6" y="2.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="46" x="4.6" y="2.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="47" x="4.6" y="3.25" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="48" x="4.6" y="3.75" dx="0.3" dy="0.95" layer="1" rot="R270"/>
+<smd name="49" x="3.75" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="50" x="3.25" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="51" x="2.75" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="52" x="2.25" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="53" x="1.75" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="54" x="1.25" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="55" x="0.75" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="56" x="0.25" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="57" x="-0.25" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="58" x="-0.75" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="59" x="-1.25" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="60" x="-1.75" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="61" x="-2.25" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="62" x="-2.75" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="63" x="-3.25" y="4.6" dx="0.3" dy="0.95" layer="1"/>
+<smd name="64" x="-3.75" y="4.6" dx="0.3" dy="0.95" layer="1"/>
 <pad name="VIA2" x="0" y="2" drill="0.3"/>
 <pad name="VIA1" x="-2" y="2" drill="0.3"/>
 <pad name="VIA3" x="2" y="2" drill="0.3"/>
@@ -2783,7 +2783,7 @@
 <part name="C32" library="passive" deviceset="CAPACITOR" device="0805" value="10u"/>
 <part name="L2" library="passive" deviceset="INDUCTOR" device="" value="3.3uH"/>
 <part name="R43" library="passive" deviceset="RESISTOR" device="" value="6k8"/>
-<part name="R47" library="passive" deviceset="RESISTOR" device="" value="6k8"/>
+<part name="R47" library="passive" deviceset="RESISTOR" device="" value="15k"/>
 <part name="R44" library="passive" deviceset="RESISTOR" device="" value="10k"/>
 <part name="U9" library="sensors" deviceset="PAC1720" device=""/>
 <part name="R41" library="passive" deviceset="RESISTOR" device="" value="750"/>
@@ -6417,7 +6417,7 @@ Vo = 0.6V * (1 + R2/R1) = 0.6*(1+20000/10000)=1.8V</text>
 <text x="9" y="-14" size="1.778" layer="94">R1/R2 = (Vo/Vref) - 1
 = (1/0.6) - 1 = 0.67
 
-Vo = 0.6V * (1 + R2/R1) = 0.6*(1+6800/1500)=3.32V</text>
+Vo = 0.6V * (1 + R2/R1) = 0.6*(1+10000/15000)=1V</text>
 <text x="-152" y="-14" size="1.778" layer="94">R1/R2 = (Vo/Vref) - 1
 = (1/0.6) - 1 = 0.67
 
