@@ -1,127 +1,140 @@
-Partlist
+Partlist exported from /Users/superchange/Documents/gits/elasticnodehardware/elasticNode.sch at 2019/3/26 16:11
 
-Exported from elasticNode.sch at 07.12.17 14:15
-
-EAGLE Version 8.4.2 Copyright (c) 1988-2017 Autodesk, Inc.
-
-Assembly variant: 
-
-Part     Value               Device              Package         Library    Sheet
-
-C1       4.7uF               CAPACITOR0805       0805            passive    2
-C2       4.7uF               CAPACITOR0805       0805            passive    2
-C3       4.7uF               CAPACITOR0805       0805            passive    2
-C4       4.7uF               CAPACITOR0805       0805            passive    2
-C5       4.7uF               CAPACITOR0805       0805            passive    2
-C6       4.7uF               CAPACITOR0805       0805            passive    2
-C7       .47uF               CAPACITOR0402       0402            passive    2
-C8       .47uF               CAPACITOR0402       0402            passive    2
-C9       4.7uF               CAPACITOR0805       0805            passive    2
-C10      4.7uF               CAPACITOR0805       0805            passive    2
-C11      .47uF               CAPACITOR0402       0402            passive    2
-C12      .47uF               CAPACITOR0402       0402            passive    2
-C13      0.47uF              CAPACITOR0402       0402            passive    2
-C14      4.7uF               CAPACITOR0805       0805            passive    2
-C15      4.7uF               CAPACITOR0805       0805            passive    2
-C16      4.7uF               CAPACITOR0805       0805            passive    2
-C17      4.7uF               CAPACITOR0805       0805            passive    2
-C18      .47uF               CAPACITOR0402       0402            passive    2
-C19      .47uF               CAPACITOR0402       0402            passive    2
-C20      4.7uF               CAPACITOR0805       0805            passive    2
-C21      .47uF               CAPACITOR0402       0402            passive    2
-C22      .47uF               CAPACITOR0402       0402            passive    2
-C23      4.7uF               CAPACITOR0805       0805            passive    2
-C24      .47uF               CAPACITOR0805       0805            passive    2
-C25      10n                 CAPACITOR0805       0805            passive    4
-C26      100n                CAPACITOR0805       0805            passive    4
-C27      4.7u                CAPACITOR0805       0805            passive    4
-C28      100n                CAPACITOR0805       0805            passive    4
-C29      22u                 CAPACITOR0805       0805            passive    4
-C30      10u                 CAPACITOR0805       0805            passive    4
-C31      22u                 CAPACITOR0805       0805            passive    4
-C32      1u                  CAPACITOR0805       0805            passive    3
-C33      20pF                CAPACITOR0805       0805            passive    3
-C34      20pF                CAPACITOR0805       0805            passive    3
-C35      20p                 CAPACITOR0805       0805            passive    1
-C36      20p                 CAPACITOR0805       0805            passive    1
-J1       ISP_CONN_6PIN       ISP_CONN_6PIN       3X2_HEADER_SMT  connectors 1
-J2       FEMALE_HEADER_2X2   FEMALE_HEADER_2X2   2X2_HEADER      connectors 1
-J3       FEMALE_HEADER_2X1   FEMALE_HEADER_2X1   2X1_HEADER      connectors 2
-J4       FEMALE_HEADER_2X1   FEMALE_HEADER_2X1   2X1_HEADER      connectors 2
-J5       FEMALE_HEADER_10X2  FEMALE_HEADER_10X2  10X2_HEADER_SMT connectors 2
-J6       FEMALE_HEADER_2X1   FEMALE_HEADER_2X1   2X1_HEADER      connectors 3
-J8       USB_CONNSMT         USB_CONNSMT         USB_MICRO_B_SMT connectors 4
-J9       USB_CONNSMT         USB_CONNSMT         USB_MICRO_B_SMT connectors 3
-J10      ISP_CONN_6PIN       ISP_CONN_6PIN       3X2_HEADER_SMT  connectors 3
-L1       40Ohm 1.5A          FERRITE_BEAD        0805            passive    4
-L2       3.3uH               INDUCTOR            0805            passive    4
-L3       3.3uH               INDUCTOR            0805            passive    4
-LED0     GREEN 2.2V          LED                 0805            opto       1
-LED1     GREEN 2.2V          LED                 0805            opto       1
-LED2     GREEN 2.2V          LED                 0805            opto       1
-LED3     GREEN 2.2V          LED                 0805            opto       1
-LED4     RED 1.8V 2mA        LED                 0805            opto       2
-LED5     RED                 LED                 0805            opto       2
-LED6     RED                 LED                 0805            opto       2
-LED7     RED                 LED                 0805            opto       2
-M1       SISS23DN            SISS23DN            POWERPAK1212-8  power      2
-M2       SISS23DN            SISS23DN            POWERPAK1212-8  power      2
-PWR      RED                 LED                 0805            opto       4
-R1       2.4k                RESISTOR            0805            passive    1
-R2       2.4k                RESISTOR            0805            passive    1
-R3       550                 RESISTOR            0805            passive    1
-R4       550                 RESISTOR            0805            passive    1
-R5       550                 RESISTOR            0805            passive    1
-R6       550                 RESISTOR            0805            passive    1
-R7       15k                 RESISTOR            0805            passive    1
-R8       750                 RESISTOR            0805            passive    2
-R9       750                 RESISTOR            0805            passive    2
-R10      750                 RESISTOR            0805            passive    2
-R11      750                 RESISTOR            0805            passive    2
-R12      2.4k                RESISTOR            0805            passive    2
-R13      2.4k                RESISTOR            0805            passive    2
-R14      2.4k                RESISTOR            0805            passive    2
-R15      15k                 RESISTOR            0805            passive    2
-R16      0.8                 RESISTOR            0805            passive    3
-R17      .8                  RESISTOR            0805            passive    3
-R18      0.16                RESISTOR            0805            passive    3
-R19      .8                  RESISTOR            0805            passive    3
-R20      100                 RESISTOR            0805            passive    3
-R21      300                 RESISTOR            0805            passive    3
-R22      .8                  RESISTOR            0805            passive    3
-R23      2000                RESISTOR            0805            passive    3
-R24      1.5k                RESISTOR            0805            passive    3
-R25      1.5k                RESISTOR            0805            passive    3
-R26      1.5k                RESISTOR            0805            passive    4
-R27      1.5k                RESISTOR            0805            passive    4
-R28      6k8                 RESISTOR            0805            passive    4
-R29      1k5                 RESISTOR            0805            passive    4
-R30      1k5                 RESISTOR            0805            passive    4
-R31      1k5                 RESISTOR            0805            passive    4
-R32      270                 RESISTOR            0805            passive    4
-R33      22                  RESISTOR            0805            passive    3
-R34      22                  RESISTOR            0805            passive    3
-R35      15k                 RESISTOR            0805            passive    3
-R36      .8                  RESISTOR            0805            passive    3
-R37      10k                 RESISTOR            0805            passive    3
-RX       ORANGE              LED                 0805            opto       4
-S1       SPST_BUTTON2PIN_SMT SPST_BUTTON2PIN_SMT SPST_2PIN_SMT   connectors 1
-S2       SPST_BUTTON2PIN_SMT SPST_BUTTON2PIN_SMT SPST_2PIN_SMT   connectors 2
-S3       SPST_DIP_4          SPST_DIP_4          SPST_DIP4_SMT   connectors 2
-S4       SPST_BUTTON2PIN_SMT SPST_BUTTON2PIN_SMT SPST_2PIN_SMT   connectors 3
-TX       ORANGE 2V           LED                 0805            opto       4
-U1       ATMEGA64AQFN        ATMEGA64AQFN        QFN64           ic         1
-U2       SST26VF032B         SST26VF032B         SOIC8           ic         1
-U3       MRF24J40MA          MRF24J40MA          MRF24J40MA      wireless   1
-U4       SPARTAN6-LX9        SPARTAN6-LX9        TQG144          fpga       2
-U5       SST26VF032B         SST26VF032B         SOIC8           ic         2
-U6       PAC1720             PAC1720             VDFN10          sensors    3
-U7       PAC1720             PAC1720             VDFN10          sensors    3
-U8       PAC1720             PAC1720             VDFN10          sensors    3
-U9       FT232RSSOP28        FT232RSSOP28        SSOP28          ic         4
-U10      LTC3419DFN          LTC3419DFN          DFN8            power      4
-U11      ATMEGA32U4          ATMEGA32U4          QFN44           ic         3
-X1       12MHz               QUARTZ              3.2X2.5_OSC     passive    1
-X2       50MHz               OSCILLATOR3.2X2.5   3.2X2.5_OSC     passive    2
-X3       32MHz               OSCILLATOR3.2X2.5   3.2X2.5_OSC     passive    2
-X4       12MHz               QUARTZ              3.2X2.5_OSC     passive    3
+Part Value               Device              Package             Description SPICEPREFIX
+C1   10u                 CAPACITOR0805       0805                                       
+C2   20p                 CAPACITOR0805       0805                                       
+C3   20p                 CAPACITOR0805       0805                                       
+C4   10u                 CAPACITOR0805       0805                                       
+C5   20p                 CAPACITOR0805       0805                                       
+C6   20p                 CAPACITOR0805       0805                                       
+C7   100u                CAPACITOR1210       1210                                       
+C8   4.7u                CAPACITOR1210       1210                                       
+C9   4.7u                CAPACITOR0805       0805                                       
+C10  0.47u               CAPACITOR0805       0805                                       
+C11  0.47u               CAPACITOR0805       0805                                       
+C12  47u                 CAPACITOR1210       1210                                       
+C13  4.7                 CAPACITOR0805       0805                                       
+C14  0.47u               CAPACITOR0805       0805                                       
+C15  0.47u               CAPACITOR0805       0805                                       
+C16  0.47u               CAPACITOR0805       0805                                       
+C17  100u                CAPACITOR1210       1210                                       
+C18  4.7u                CAPACITOR0805       0805                                       
+C19  4.7u                CAPACITOR0805       0805                                       
+C20  4.7u                CAPACITOR0805       0805                                       
+C21  0.47u               CAPACITOR0805       0805                                       
+C22  0.47u               CAPACITOR0805       0805                                       
+C23  0.47u               CAPACITOR0805       0805                                       
+C24  100u                CAPACITOR1210       1210                                       
+C25  4.7u                CAPACITOR0805       0805                                       
+C26  4.7u                CAPACITOR0805       0805                                       
+C27  4.7u                CAPACITOR0805       0805                                       
+C28  0.47u               CAPACITOR0805       0805                                       
+C29  0.47u               CAPACITOR0805       0805                                       
+C30  0.47u               CAPACITOR0805       0805                                       
+C31  10u                 CAPACITOR0805       0805                                       
+C32  10u                 CAPACITOR0805       0805                                       
+C33  22u                 CAPACITOR0805       0805                                       
+C34  22u                 CAPACITOR0805       0805                                       
+C35  22u                 CAPACITOR0805       0805                                       
+D1   GREEN 2.2V          LED                 0805                                       
+D2   GREEN 2.2V          LED                 0805                                       
+D3   GREEN 2.2V          LED                 0805                                       
+D4   GREEN 2.2V          LED                 0805                                       
+D5   GREEN 2.2V          LED                 0805                                       
+D6   GREEN 2.2V          LED                 0805                                       
+D7   RED 1.8V 2mA        LED                 0805                                       
+D8   RED                 LED                 0805                                       
+D9   RED                 LED                 0805                                       
+D10  RED                 LED                 0805                                       
+D11  RED                 LED                 0805                                       
+J1   FEMALE_HEADER_5X2   FEMALE_HEADER_5X2   5X2_HEADER_SMT_1.27                        
+J2   FEMALE_HEADER_5X2   FEMALE_HEADER_5X2   5X2_HEADER_SMT_1.27                        
+J3   ISP_CONN_6PIN       ISP_CONN_6PIN       ICSP_SMT                        X          
+J4   FEMALE_HEADER_2X1   FEMALE_HEADER_2X1   2X1_HEADER                                 
+J5   JUMPER              JUMPER              JUMPER_SMT                                 
+J6   ISP_CONN_6PIN       ISP_CONN_6PIN       ICSP_SMT                                   
+J7   JUMPER              JUMPER              JUMPER_SMT                                 
+J8   USB_CONNMICRO_SMT   USB_CONNMICRO_SMT   USB_MICRO_B_SMT                            
+J9   JTAG_CONN_6PINSMT   JTAG_CONN_6PINSMT   6X1_JTAG                                   
+J10  FEMALE_HEADER_10X2  FEMALE_HEADER_10X2  10X2_HEADER_SMT                            
+J11  USB_CONNMICRO_SMT   USB_CONNMICRO_SMT   USB_MICRO_B_SMT                            
+L1   3.3uH               INDUCTOR            0805                                       
+L2   3.3uH               INDUCTOR            0805                                       
+L3   3.3uH               INDUCTOR            0805                                       
+M1   SISS23DN            SISS23DN            POWERPAK1212-8                             
+M2   SISS23DN            SISS23DN            POWERPAK1212-8                             
+M3   SISS23DN            SISS23DN            POWERPAK1212-8                             
+M4   SISS23DN            SISS23DN            POWERPAK1212-8                             
+R1   550                 RESISTOR            0805                                       
+R2   550                 RESISTOR            0805                                       
+R3   550                 RESISTOR            0805                                       
+R4   550                 RESISTOR            0805                                       
+R5   22                  RESISTOR            0805                                       
+R6   22                  RESISTOR            0805                                       
+R7   2.4k                RESISTOR            0805                                       
+R8   15k                 RESISTOR            0805                                       
+R9   10k                 RESISTOR            0805                                       
+R10  550                 RESISTOR            0805                                       
+R11  550                 RESISTOR            0805                                       
+R12  15k                 RESISTOR            0805                                       
+R13  0                   RESISTOR            0805                                       
+R14  22                  RESISTOR            0805                                       
+R15  22                  RESISTOR            0805                                       
+R16  2.4k                RESISTOR            0805                                       
+R17  15k                 RESISTOR            0805                                       
+R18  750                 RESISTOR            0805                                       
+R19  750                 RESISTOR            0805                                       
+R20  750                 RESISTOR            0805                                       
+R21  4.7k                RESISTOR            0805                                       
+R22  750                 RESISTOR            0805                                       
+R23  2.4k                RESISTOR            0805                                       
+R24  2.4k                RESISTOR            0805                                       
+R25  2.4k                RESISTOR            0805                                       
+R26  2.4k                RESISTOR            0805                                       
+R27  15k                 RESISTOR            0805                                       
+R28  1.5k                RESISTOR            0805                                       
+R29  1.5k                RESISTOR            0805                                       
+R30  0.8                 RESISTOR            0805                                       
+R31  .8                  RESISTOR            0805                                       
+R32  0.8                 RESISTOR            0805                                       
+R33  .8                  RESISTOR            0805                                       
+R34  100                 RESISTOR            0805                                       
+R35  2000                RESISTOR            0805                                       
+R36  .8                  RESISTOR            0805                                       
+R37  .8                  RESISTOR            0805                                       
+R38  0.15                RESISTOR            0805                                       
+R39  .8                  RESISTOR            0805                                       
+R40  750                 RESISTOR            0805                                       
+R41  300                 RESISTOR            0805                                       
+R42  6k8                 RESISTOR            0805                                       
+R43  10k                 RESISTOR            0805                                       
+R44  20k                 RESISTOR            0805                                       
+R45  1k5                 RESISTOR            0805                                       
+R46  6k8                 RESISTOR            0805                                       
+R47  10k                 RESISTOR            0805                                       
+R48  270                 RESISTOR            0805                                       
+S1   SPST_BUTTON2PIN_SMT SPST_BUTTON2PIN_SMT SPST_2PIN_SMT                              
+S2   SPST_DIP_4          SPST_DIP_4          SPST_DIP4_SMT                              
+S3   SPST_BUTTON2PIN_SMT SPST_BUTTON2PIN_SMT SPST_2PIN_SMT                              
+TP1  TEST_POINTTHT       TEST_POINTTHT       THT                                        
+TP2  TEST_POINTTHT       TEST_POINTTHT       THT                                        
+TP3  TEST_POINTTHT       TEST_POINTTHT       THT                                        
+TP4  TEST_POINTTHT       TEST_POINTTHT       THT                                        
+TP5  TEST_POINTTHT       TEST_POINTTHT       THT                                        
+U1   AT90USB128          AT90USB128          QFN64                                      
+U2   MRF24J40MA          MRF24J40MA          MRF24J40MA                                 
+U3   ATMEGA32U4QFN       ATMEGA32U4QFN       QFN44                                      
+U4   IS66WV51216EALL     IS66WV51216EALL     TSOP44                                     
+U5   SPARTAN7-LX15       SPARTAN7-LX15       FTGB196                                    
+U6   SST26VF032BWDFN     SST26VF032BWDFN     WDFN8                                      
+U7   PAC1720             PAC1720             VDFN10                                     
+U8   PAC1720             PAC1720             VDFN10                                     
+U9   PAC1720             PAC1720             VDFN10                                     
+U10  PAC1720             PAC1720             VDFN10                                     
+U11  LTC3419DFN          LTC3419DFN          DFN8                                       
+U12  LTC3419DFN          LTC3419DFN          DFN8                                       
+X1   8MHz                QUARTZ              3.2X2.5_OSC                                
+X2   8MHz                QUARTZ              3.2X2.5_OSC                                
+X3   100MHz              OSCILLATOR3.2X2.5   3.2X2.5_OSC                                
+X4   50MHz               OSCILLATOR3.2X2.5   3.2X2.5_OSC                                
+X5   32MHz               OSCILLATOR3.2X2.5   3.2X2.5_OSC                                
