@@ -7,4 +7,4 @@
   - The Cable close to the dot sign should be positive.
   - A thermal resistor should be attached to the battery to prevent the battery from overheating. If the resistor is not soldered, don't use the battery.
 - The pin mapping of Env5 is referred to the [schematic of env5-rev1](main_board/en_v5_schematic.pdf).
-- The pin mapping of the extension board is referred to the [schematic of env5-rev1](main_board/en_v5_schematic.pdf).
+- The pin mapping of the extension board is referred to the [schematic of extension board](extension_board/extension_board_schematic.pdf).
