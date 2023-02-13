@@ -1,6 +1,6 @@
 
 # ESP AT Firmware Build and debug guide
-> you can find my prebuild firmware [here](../prebuild-firmware).
+> you can find my prebuild firmware [here](https://github.com/es-ude/ElasticNodeHardware/tree/master/v5/revision_1/prebuilds-firmware).
 ## Commands example
 ```
 git clone git@github.com:espressif/esp-at.git
