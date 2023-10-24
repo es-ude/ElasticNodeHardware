@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -3246,7 +3246,7 @@ Source: &lt;a href="https://www.cypress.com/file/448601/download"&gt; Datasheet 
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="R4" library="passive" deviceset="RESISTOR" device="SMD_0402" package3d_urn="urn:adsk.eagle:package:27538107/2" value="10K">
+<part name="R4" library="passive" deviceset="RESISTOR" device="SMD_0402" package3d_urn="urn:adsk.eagle:package:27538107/2" value="0R">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
