@@ -415,17 +415,13 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="12.9" y1="0.9" x2="12.9" y2="-0.9" width="0.2" layer="51"/>
 <wire x1="12.9" y1="-0.9" x2="-12.9" y2="-0.9" width="0.2" layer="51"/>
 <wire x1="-12.9" y1="-0.9" x2="-12.9" y2="0.9" width="0.2" layer="51"/>
-<wire x1="-13.4" y1="2.7" x2="13.4" y2="2.7" width="0.1" layer="51"/>
-<wire x1="13.4" y1="2.7" x2="13.4" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="13.4" y1="-2.7" x2="-13.4" y2="-2.7" width="0.1" layer="51"/>
-<wire x1="-13.4" y1="-2.7" x2="-13.4" y2="2.7" width="0.1" layer="51"/>
 <wire x1="-12.9" y1="-0.9" x2="-12.9" y2="0.9" width="0.15" layer="21"/>
 <wire x1="12.9" y1="0.9" x2="12.9" y2="-0.9" width="0.15" layer="21"/>
 <wire x1="0.5" y1="-0.9" x2="1" y2="-0.9" width="0.1" layer="21"/>
 <wire x1="-1" y1="0.9" x2="-0.5" y2="0.9" width="0.1" layer="21"/>
 <wire x1="12.9" y1="0.9" x2="-12.9" y2="0.9" width="0.15" layer="21"/>
 <wire x1="-12.9" y1="-0.9" x2="12.9" y2="-0.9" width="0.15" layer="21"/>
-<circle x="-12.8" y="1.6" radius="0.2" width="0.127" layer="21"/>
+<circle x="-13.4" y="0" radius="0.2" width="0.127" layer="21"/>
 <pad name="1" x="-12.065" y="0" drill="0.5" diameter="0.6096" shape="square"/>
 <pad name="2" x="-10.795" y="0" drill="0.5" diameter="0.6096"/>
 <pad name="3" x="-9.525" y="0" drill="0.5" diameter="0.6096"/>
@@ -1309,11 +1305,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/M50-3142045.p
 <package name="SOD-123" urn="urn:adsk.eagle:footprint:27542634/1" locally_modified="yes">
 <description>SOD, 3.70 mm span, 2.70 X 1.60 X 1.25 mm body
 &lt;p&gt;SOD package with 3.70 mm span with body size 2.70 X 1.60 X 1.25 mm&lt;/p&gt;</description>
-<wire x1="1.4" y1="0.85" x2="-1.4" y2="0.85" width="0.12" layer="21"/>
-<wire x1="-1.4" y1="0.85" x2="-2.5991" y2="0.85" width="0.12" layer="21"/>
+<wire x1="1.4" y1="0.85" x2="-2.5991" y2="0.85" width="0.12" layer="21"/>
 <wire x1="-2.5991" y1="0.85" x2="-2.5991" y2="-0.85" width="0.12" layer="21"/>
-<wire x1="-2.5991" y1="-0.85" x2="-1.4" y2="-0.85" width="0.12" layer="21"/>
-<wire x1="-1.4" y1="-0.85" x2="1.4" y2="-0.85" width="0.12" layer="21"/>
+<wire x1="-2.5991" y1="-0.85" x2="1.4" y2="-0.85" width="0.12" layer="21"/>
 <wire x1="1.4" y1="-0.85" x2="-1.4" y2="-0.85" width="0.12" layer="51"/>
 <wire x1="-1.4" y1="-0.85" x2="-1.4" y2="0.85" width="0.12" layer="51"/>
 <wire x1="-1.4" y1="0.85" x2="1.4" y2="0.85" width="0.12" layer="51"/>
@@ -1321,11 +1315,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/M50-3142045.p
 <smd name="1" x="-1.7623" y="0" dx="1.0456" dy="0.7391" layer="1"/>
 <smd name="2" x="1.7623" y="0" dx="1.0456" dy="0.7391" layer="1"/>
 <text x="-0.508" y="0.977" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<wire x1="-1.4" y1="0.85" x2="-2.6" y2="0.85" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="0.85" x2="-2.6" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="-0.85" x2="-1.4" y2="-0.85" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-0.85" x2="-1.4" y2="0.85" width="0.127" layer="21"/>
-<wire x1="1.4" y1="0.85" x2="1.4" y2="-0.85" width="0.127" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -1603,8 +1592,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/M50-3142045.p
 <wire x1="1.3" y1="-1.6" x2="1.1" y2="-1.6" width="0.1524" layer="21"/>
 <wire x1="-1.3" y1="-1.6" x2="-1.1" y2="-1.6" width="0.1524" layer="21"/>
 <wire x1="-1.6" y1="-1.3" x2="-1.6" y2="-1.1" width="0.1524" layer="21"/>
-<circle x="-2.09" y="1.4" radius="0.064028125" width="0.127" layer="21"/>
-<circle x="-2.09" y="1.4" radius="0.164009375" width="0.127" layer="21"/>
+<circle x="-2.1" y="1.45" radius="0.14141875" width="0.127" layer="21"/>
+<circle x="-2.1" y="1.45" radius="0.05" width="0.127" layer="21"/>
 </package>
 </packages>
 <packages3d>
