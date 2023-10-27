@@ -3622,7 +3622,7 @@ Source: &lt;a href="https://www.cypress.com/file/448601/download"&gt; Datasheet 
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="C1" library="passive" deviceset="CAPACITOR" device="0805" package3d_urn="urn:adsk.eagle:package:27555303/2" value="10uF">
+<part name="C1" library="passive" deviceset="CAPACITOR" device="0805" package3d_urn="urn:adsk.eagle:package:27555303/2" value="0.1uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -3641,12 +3641,12 @@ Source: &lt;a href="https://www.cypress.com/file/448601/download"&gt; Datasheet 
 <part name="U9" library="ic" deviceset="S25FL256S" device="" package3d_urn="urn:adsk.eagle:package:27726630/1"/>
 <part name="TP1" library="connectors" deviceset="TEST_POINT" device="SMD" value="TEST_POINTSMD"/>
 <part name="U3" library="power" deviceset="LTC3569EUDPBF" device=""/>
-<part name="C5" library="passive" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:27555773/1" value="10uF">
+<part name="C5" library="passive" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:27555773/1" value="0.1uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="C6" library="passive" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:27555773/1" value="10uF">
+<part name="C6" library="passive" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:27555773/1" value="0.1uF">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -4550,7 +4550,6 @@ Source: &lt;a href="https://www.cypress.com/file/448601/download"&gt; Datasheet 
 <text x="99.06" y="93.98" size="1.778" layer="94">1.5uH</text>
 <text x="99.06" y="66.04" size="1.778" layer="94">3.3uH</text>
 <text x="99.06" y="38.1" size="1.778" layer="94">2.2uH</text>
-<text x="27.94" y="66.04" size="1.778" layer="94" rot="R90" align="center">No Load</text>
 <wire x1="3.81" y1="129.54" x2="62.23" y2="129.54" width="0.508" layer="94"/>
 <wire x1="62.23" y1="129.54" x2="161.29" y2="129.54" width="0.508" layer="94"/>
 <wire x1="161.29" y1="129.54" x2="161.29" y2="99.06" width="0.508" layer="94"/>
