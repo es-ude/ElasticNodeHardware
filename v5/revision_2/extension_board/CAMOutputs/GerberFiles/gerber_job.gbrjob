@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-10-27T21:16:36Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.586,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "extension_board"
+        },
+        "Owner": "chao qian <chao.qian.1119@stud.uni-due.de>",
+        "Size": {
+            "X": 57.8,
+            "Y": 34
+        }
+    }
+}
