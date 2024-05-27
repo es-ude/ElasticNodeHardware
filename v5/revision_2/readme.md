@@ -1,4 +1,4 @@
-# ENv5 Revision 1 User Manual
+# ENv5 Revision 2 User Manual
 
 ## Notice:
 - The old wifi-shield is not compatible with the ENv5-Rev1. Please use the new extension board instead.
